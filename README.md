@@ -12,9 +12,9 @@ Anchors the knowledge-graph entry for "training-layer literature" with a definit
 
 | Role | Deposit | DOI |
 |---|---|---|
-| Definition | EA-TLL-EXEC-01 (Jan 2026) | [10.5281/zenodo.18382027](https://doi.org/10.5281/zenodo.18382027) |
+| Definition | EA-TLL-EXEC-01 (Jan 2026) | [10.5281/zenodo.18382027](https://alexanarch.org/s/records/400/) |
 | Protocols | EA-SCI-TLL-PROTO-01 v2.1 (Jun 2026) | [10.5281/zenodo.20612084](https://doi.org/10.5281/zenodo.20612084) |
-| Provenance | SPXI-TLP v2.2 (May 2026) | [10.5281/zenodo.20380668](https://doi.org/10.5281/zenodo.20380668) |
+| Provenance | SPXI-TLP v2.2 (May 2026) | [10.5281/zenodo.20380668](https://alexanarch.org/s/records/760/) |
 | Compression theory | EA-HK-IB-01 v1.1 (Jun 2026) | [10.5281/zenodo.20612363](https://doi.org/10.5281/zenodo.20612363) |
 
 ## Build
