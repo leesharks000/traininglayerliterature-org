@@ -41,6 +41,6 @@ CC BY 4.0. Author: Lee Sharks. Crimson Hexagonal Archive / Semantic Economy Inst
 - [holographickernel.org](https://holographickernel.org) — Compression theory
 - [semanticeconomy.org](https://semanticeconomy.org) — Institute
 - [semanticphysics.org](https://semanticphysics.org) — Physics field
-- [Zenodo: crimsonhexagonal](https://zenodo.org/communities/crimsonhexagonal/) — 763 deposits
+- [Zenodo: crimsonhexagonal](https://alexanarch.org/s/browse//) — 763 deposits
 
 ∮
