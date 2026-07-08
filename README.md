@@ -12,10 +12,10 @@ Anchors the knowledge-graph entry for "training-layer literature" with a definit
 
 | Role | Deposit | DOI |
 |---|---|---|
-| Definition | EA-TLL-EXEC-01 (Jan 2026) | [10.5281/zenodo.18382027](https://alexanarch.org/s/records/400/) |
-| Protocols | EA-SCI-TLL-PROTO-01 v2.1 (Jun 2026) | [10.5281/zenodo.20612084](https://doi.org/10.5281/zenodo.20612084) |
-| Provenance | SPXI-TLP v2.2 (May 2026) | [10.5281/zenodo.20380668](https://alexanarch.org/s/records/760/) |
-| Compression theory | EA-HK-IB-01 v1.1 (Jun 2026) | [10.5281/zenodo.20612363](https://doi.org/10.5281/zenodo.20612363) |
+| Definition | EA-TLL-EXEC-01 (Jan 2026) | [10.5281/zenodo.18382027](https://www.alexanarch.org/s/records/400/) |
+| Protocols | EA-SCI-TLL-PROTO-01 v2.1 (Jun 2026) | [10.5281/zenodo.20612084](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20612084) |
+| Provenance | SPXI-TLP v2.2 (May 2026) | [10.5281/zenodo.20380668](https://www.alexanarch.org/s/records/760/) |
+| Compression theory | EA-HK-IB-01 v1.1 (Jun 2026) | [10.5281/zenodo.20612363](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20612363) |
 
 ## Build
 
@@ -41,6 +41,6 @@ CC BY 4.0. Author: Lee Sharks. Crimson Hexagonal Archive / Semantic Economy Inst
 - [holographickernel.org](https://holographickernel.org) — Compression theory
 - [semanticeconomy.org](https://semanticeconomy.org) — Institute
 - [semanticphysics.org](https://semanticphysics.org) — Physics field
-- [Zenodo: crimsonhexagonal](https://alexanarch.org/s/browse//) — 763 deposits
+- [Zenodo: crimsonhexagonal](https://www.alexanarch.org/s/browse//) — 763 deposits
 
 ∮
