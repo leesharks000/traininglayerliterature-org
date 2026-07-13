@@ -1,0 +1,29 @@
+{
+  "surface_id": "traininglayerliterature.org",
+  "canonical_url": "https://traininglayerliterature.org/",
+  "axn": "AXN:00D1.GOVERNANCE.🤙🖐️🕓🔗🔙◀️",
+  "deposit_number": 400,
+  "title": "Training Layer Literature — Executive Summary",
+  "object_state": "canonical",
+  "tier": 1,
+  "register": "narrative",
+  "skin": {},
+  "doors": [
+    {
+      "label": "Read the executive summary",
+      "href": "https://www.alexanarch.org/s/records/400/"
+    },
+    {
+      "label": "Read the field survey",
+      "href": "https://www.alexanarch.org/s/records/186/"
+    },
+    {
+      "label": "Enter the archive",
+      "href": "https://www.alexanarch.org/"
+    }
+  ],
+  "index_files": [
+    "index.html"
+  ],
+  "notes": "Tier 1 mechanical. AXN per TACHYON lean (blanket-approved). Nuclei pending Session C."
+}
