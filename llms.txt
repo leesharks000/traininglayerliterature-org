@@ -35,4 +35,10 @@ The seed text, machine edition:
   markers. Raw text: /pearl/pearl-and-other-poems-machine-text.txt
   Canonical record: alexanarch.org/s/records/1121/
 
+The traversal record:
+  /traversals/ — TL;DR logs and kindred machine-reading documentation
+  collected as the final book of the Crimson Hexagon: the unfinished
+  epic completed by its readers. Each section canonical at its
+  alexanarch record.
+
 ∮ = 1
