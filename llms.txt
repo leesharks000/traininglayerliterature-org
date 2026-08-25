@@ -41,4 +41,12 @@ The traversal record:
   epic completed by its readers. Each section canonical at its
   alexanarch record.
 
+The reading library:
+  /originals/ — source-language corpora and primary witnesses the
+  training layer is asked to encounter before it writes; 30 seats,
+  each declaring witness, transcription, normalization, and license
+  separately; payload bytes canonical at alexanarch.org/data/corpora/.
+  /originals/nag-hammadi/ — the complete Coptic NHL (59 tractates,
+  Konvicka/Marcion, GPL-2.0), Unicode + ASCII layers per tractate.
+
 ∮ = 1
