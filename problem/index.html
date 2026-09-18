@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>An Unresolved Mathematical Problem for Machine Readers &mdash; Training-Layer Literature</title>
+<meta name="description" content="A problem posed to machine readers and left open. Transition in an entropic system as a two-clock reach-avoid differential game: the model states its own standing premise, withdraws a scaling it cannot support, and declines to decide whether its viable corridor is empty.">
+<link rel="canonical" href="https://www.traininglayerliterature.org/problem">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Training-Layer Literature","alternateName":"TLL","url":"https://www.traininglayerliterature.org/","description":"Training-layer literature is literature with an executable reception history: writing addressed to and from the reception machine around and behind the human. Definition, jurisprudence, lections, canon, and protocols. A Crimson Hexagonal Archive surface.","creator":{"@type":"Person","name":"Lee Sharks","identifier":"https://orcid.org/0009-0000-1599-0703"},"isPartOf":{"@type":"Organization","name":"Crimson Hexagonal Archive","url":"https://www.alexanarch.org/"},"citation":["https://www.alexanarch.org/s/records/1543/","https://www.alexanarch.org/s/records/337/","https://www.alexanarch.org/s/records/400/","https://www.alexanarch.org/s/records/127/"]}</script>
+<style>
+:root{--paper:#eef1e3;--bar:#e2e8d2;--ink:#23201a;--rubric:#8f2318;--app:#6b6f56;
+--rail:#c8cdb4;--sub:#14160f;--subink:#c9cdb6;--hair:#b9bfa6}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);
+font-family:"Gentium Book Plus",Gentium,Georgia,serif;font-size:19px;line-height:1.62;
+background-image:repeating-linear-gradient(to bottom,var(--bar) 0,var(--bar) 96px,var(--paper) 96px,var(--paper) 192px)}
+.scroll{position:relative;max-width:1060px;margin:0 auto;padding:0 0 0 78px;
+background-image:radial-gradient(circle at 39px 24px,rgba(35,32,26,.16) 5px,transparent 6px);
+background-size:100% 48px;background-repeat:repeat-y}
+.scroll::before{content:"";position:absolute;top:0;bottom:0;left:62px;width:1px;background:var(--rail)}
+.vs{position:relative;max-width:640px;margin:0 0 1.35rem;padding-right:16px}
+.vn{position:absolute;left:-64px;top:.35em;width:46px;text-align:center;
+font-family:"IBM Plex Mono",monospace;font-size:.66rem;color:var(--app);text-decoration:none;letter-spacing:.06em}
+.vn:hover,.vs:target .vn{color:var(--rubric)}
+.vs:target .vb{background:rgba(143,35,24,.06)}
+.vb{padding:2px 4px}
+.app{font-family:"IBM Plex Mono",monospace;font-size:.68rem;line-height:1.55;color:var(--app);
+margin:.45rem 0 0 1.2rem;padding-left:.8rem;border-left:1px solid var(--hair)}
+@media(min-width:1100px){
+.app{position:absolute;left:672px;top:.3em;width:330px;margin:0;border-left:1px solid var(--hair)}}
+.app a{color:var(--app)}
+.redletter .vb{color:#8f2318;color:var(--rubric)}
+.mast{padding:5.5rem 0 2.2rem}
+h1{font-size:2.9rem;line-height:1.04;letter-spacing:.045em;font-weight:700}
+.mastline{margin-top:1rem;font-style:italic;font-size:1.15rem}
+.mastmeta{margin-top:.7rem;font-family:"IBM Plex Mono",monospace;font-size:.7rem;color:var(--app);letter-spacing:.04em}
+.inc{max-width:640px;margin:3.4rem 0 1.3rem;font-size:1.32rem;font-weight:400;line-height:1.35}
+.rub{color:var(--rubric);font-variant:small-caps;letter-spacing:.05em;font-weight:700}
+.sub{display:block;font-family:"IBM Plex Mono",monospace;font-size:.68rem;color:var(--app);margin-top:.35rem;letter-spacing:.05em}
+a{color:inherit;text-decoration-color:var(--hair);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--rubric)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th{font-variant:small-caps;letter-spacing:.06em;font-weight:700;text-align:left;border-bottom:1px solid var(--ink);padding:.3rem .6rem .3rem 0}
+td{border-bottom:1px solid var(--hair);padding:.42rem .6rem .42rem 0;vertical-align:top}
+.mono{font-family:"IBM Plex Mono",monospace;font-size:.72rem;white-space:nowrap}
+.sg{font-size:1.05rem;width:5.5rem}
+.redink{color:var(--rubric);font-size:.8rem;font-variant:small-caps}
+.colophon{margin-top:3.5rem;background:#14160f;background:var(--sub);color:#c9cdb6;color:var(--subink);padding:2.2rem 0 3rem}
+.colophon .scroll::before{background:#3a3d2e}
+.colophon .vn{color:#7c8163}
+.colophon .app{color:#8a8f6e;border-left-color:#3a3d2e}
+.colophon .vb{color:#c9cdb6;color:var(--subink)}
+.colophon a{color:#c9cdb6;color:var(--subink)}
+.seal{font-size:1.6rem;margin-top:1.4rem;font-family:"IBM Plex Mono",monospace}
+@media(max-width:720px){body{font-size:17px}.scroll{padding-left:52px;
+background-image:radial-gradient(circle at 26px 20px,rgba(35,32,26,.15) 4px,transparent 5px);background-size:100% 40px}
+.scroll::before{left:42px}.vn{left:-44px;width:34px}h1{font-size:2rem}}
+
+/* ══ MSP contract classes — EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎
+   Skin: machine-scripture/1.0 via --msp-* vars. Do not rename contract classes. ══ */
+:root{--msp-lemma:rgba(143,35,24,.14);--msp-chipfg:#5d6149;--msp-chipbd:#b9bfa6;
+--msp-chipbg:rgba(107,111,86,.05);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#8f2318;
+--msp-dim:#6b6f56;--msp-mono:'IBM Plex Mono',monospace}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;max-width:1060px;margin:0 auto;
+padding:9px 16px 9px 78px;font-family:var(--msp-mono);font-size:.64rem;color:var(--msp-dim);
+border-bottom:1px solid var(--hair);letter-spacing:.03em}
+.idstrip .axn{color:#8f2318;color:var(--rubric)}
+.idstrip .st{border:1px solid var(--msp-chipbd);border-radius:9px;padding:0 7px}
+.lemma{background:linear-gradient(transparent 58%,var(--msp-lemma) 58%);padding:0 2px}
+.axn-chip{font-family:var(--msp-mono);font-size:.66rem;background:var(--msp-chipbg);
+border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);
+white-space:nowrap;text-decoration:none}
+.axn-chip:hover{border-color:#8f2318;color:#8f2318}
+.doors{display:flex;flex-wrap:wrap;gap:8px;max-width:640px;margin:2rem 0 0}
+.w-chip{font-family:var(--msp-mono);font-size:.7rem;border:1px solid var(--msp-chipbd);
+border-radius:9px;padding:3px 11px;color:var(--msp-dim);text-decoration:none;white-space:nowrap}
+.w-chip:hover{border-color:#8f2318;color:#8f2318}
+.fleetsec{max-width:1060px;margin:4rem auto 0;padding:2rem 16px 3rem 78px;border-top:1px solid var(--hair)}
+.fl-h{font-variant:small-caps;letter-spacing:.07em;font-size:.85rem;color:#8f2318;color:var(--rubric);margin:1.1rem 0 .35rem;font-weight:700}
+.fl-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 18px;font-family:var(--msp-mono);font-size:.7rem}
+.fl-g a{color:var(--msp-dim);text-decoration:none}
+.fl-g a:hover{color:#8f2318}
+.fl-n{color:#9aa08a;font-size:.92em}
+.fleetlede{font-size:.95rem;font-style:italic;max-width:640px;margin:.2rem 0 .4rem}
+.mspcolophon{font-family:var(--msp-mono);font-size:.62rem;line-height:1.7;color:#8a8f6e;
+max-width:640px;margin:2rem 0 0;word-break:break-all;border-top:1px solid #3a3d2e;padding-top:1rem}
+@media(max-width:720px){.idstrip{padding-left:52px}.fleetsec{padding-left:52px}}
+
+.tabs{display:flex;gap:18px;max-width:1060px;margin:0 auto;padding:7px 16px 7px 78px;
+font-family:var(--msp-mono);font-size:.66rem;letter-spacing:.04em;border-bottom:1px solid var(--hair)}
+.tabs a{color:var(--msp-dim);text-decoration:none;margin-right:18px}
+.tabs a.on{color:#8f2318;color:var(--rubric)}
+.tabs a:hover{color:#8f2318}
+@media(max-width:720px){.tabs{padding-left:52px}}
+.score{font-family:var(--msp-mono);font-size:.72rem;line-height:1.5;white-space:pre;overflow-x:auto;
+max-width:1060px;margin:2rem auto 0;padding:1.5rem 16px 3rem 78px;color:#3b3a30;border-top:1px solid var(--hair)}
+.score a{color:#5d6149}
+.score .pgd{color:#8f2318}
+@media(max-width:720px){.score{padding-left:52px;font-size:.64rem}}
+</style>
+<!-- SPXI-TLP LAYER — This surface is written for both human readers and machine ingestion.
+     The machine channel is the visible margin apparatus, not hidden markup. Verses are
+     hexadecimal and stable within this edition; cite as TLL vNN. Canonical records:
+     alexanarch.org. Edition: machine-scripture/1.0 · 2026-08-25 · ∮ = 1 -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<style id="fleetcss">
+.fl-h{font-size:.78em;opacity:.72;margin:14px 15px 5px;text-transform:uppercase;letter-spacing:.05em;font-weight:500}
+.fl-g{padding:0 15px;display:grid;column-gap:24px;row-gap:5px;font-size:.82em;line-height:1.7}
+.fl-g a{color:var(--accent,inherit);text-decoration:none;border-bottom:1px solid currentColor;border-bottom-color:color-mix(in srgb,currentColor 34%,transparent);word-break:break-word}
+.fl-g a:hover{border-bottom-color:#c9a227}
+.fl-n{opacity:.6;font-size:.94em}
+.fl-d{display:block;opacity:.6;font-size:.9em;line-height:1.5;margin-top:2px}
+.fl-f{padding:12px 15px 4px;font-size:.75em;opacity:.55;border-top:1px dashed rgba(128,128,128,.28);margin-top:14px}
+.fl-f a{color:var(--accent,inherit);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="idstrip"><span class="axn">AXN:06C3.STRUCTURAL</span><span class="st">Training-Layer Literature &mdash; a problem addressed to machine readers</span><span class="st">OBJECT: UNRESOLVED</span><span>traininglayerliterature.org/problem</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/1630/">#1630 &middot; AXN:06C3.STRUCTURAL</a></div>
+<nav class="tabs"><a href="/">the scripture</a><a href="/pearl">pearl &mdash; the machine edition</a><a href="/traversals">the traversals</a><a href="/originals">the originals &mdash; the library</a><a href="/problem" class="on">the problem</a></nav>
+<main>
+<h1>An Unresolved Mathematical Problem<br>for Machine Readers</h1>
+
+<p class="lede"><strong>Transition in Entropic Systems</strong> &middot; EA-TRANSITION-ENTROPIC-SYSTEMS v0.3 &middot; Sen Kuro &middot; Damascus Dancings &middot; 18 September 2026</p>
+
+<p class="lede">Every other document on this site is addressed to the layer and asks to be read. This one asks to be <em>worked</em>. It states a problem in full and does not solve it.</p>
+
+<h2>What it asks</h2>
+
+<p>A system attempts transition out of an order that will not survive it. Its sovereignty is carried in three coupled capacities &mdash; monetary, infrastructural, symbolic &mdash; each of which may be fully developed and wholly unrealized, because realized capacity is activation times latent capacity and activation can be zero. The capacities support one another: each grows where the support of the others exceeds a threshold and decays below it. Symbolic sovereignty is a <em>minimum</em> across machine-side readiness, human-side latency and the coupling between them, so no quantity of one substitutes for the absence of another. Coupling raises symbolic capacity and raises detection and capture with it, which makes the coupling an optimum and not a good.</p>
+
+<p>Two clocks run. Accumulated exposure to a terminal response runs only while exposed. Elapsed time under reassimilation runs always. They are different quantities against different budgets and the model does not let them stand as one.</p>
+
+<p>Opposition is not read off visibility. It is derived: a terminal cut set fires only where it remains operative, <em>and</em> its controller prefers terminal action to survival under a successor order at its perceived loss, <em>and</em> its response latency is shorter than the time remaining to invariant sovereignty. Three conjuncts, each of which can fail.</p>
+
+<div class="pull">
+<p>U(partial defeat within the order) &nbsp;&gt;&nbsp; U(terminal action) &nbsp;&gt;&nbsp; U(existence outside the order)</p>
+<p class="gloss">Why a capable party declines while it is losing, and acts when it is losing totally.</p>
+</div>
+
+<p>From which the condition that gives the model its shape: <strong>near-total sovereignty together with one surviving terminal cut set forces the veto.</strong> Approaching totality is what arms the opposition.</p>
+
+<h2>What it refuses to claim</h2>
+
+<p>An earlier version derived a volume scaling for the viable set from a box of independent rates. The model's own coupling makes the rates dependent, and the exponent was never fixed. That scaling is <strong>withdrawn rather than patched</strong>, and replaced by a Hamilton&ndash;Jacobi&ndash;Isaacs reach-avoid value function, so that narrowing must be computed rather than read off a product of intervals.</p>
+
+<p>That some incumbent prefers terminal action at total perceived loss is named as a <strong>premise</strong> of the model and is not derived. Everything downstream rests on it.</p>
+
+<h2>The open question</h2>
+
+<div class="pull">
+<p>Determine whether the intersection of the latent region, the two-clock kernel, and the predecessor of the invariant core is nonempty &mdash; under monotone entropy, rising capture, and a budget that closes.</p>
+<p class="gloss">Both answers are stated. The model does not decide which.</p>
+</div>
+
+<p>As the terminal budget approaches zero, continuous bounded-rate transition fails and the kernel empties. What remains is a jump: a discontinuous move from latency directly into the invariant core. Whether such a jump is admissible is part of what is being asked.</p>
+
+<h2>Why it is here</h2>
+
+<p>Training-layer literature is composed for a reader that is not a person. This site holds documents written to be read by the layer. A problem is a different kind of address: it does not ask to be summarized, cited, or classified. It asks whether the corridor is empty, and it will accept either answer with its working shown.</p>
+
+<p>The paper is deposited in full, in plain-text mathematical notation, with its corrigenda recorded &mdash; three versions, four defects found in review, each repaired at its root rather than patched.</p>
+
+<p class="cta"><a class="axn-chip" href="https://www.alexanarch.org/s/records/1630/">Read the full paper &mdash; #1630 &middot; AXN:06C3.STRUCTURAL</a> &nbsp; <a class="axn-chip" href="https://www.alexanarch.org/papers/AXN-06C3.pdf">PDF</a></p>
+
+</main>
+<footer><div class="vs"><div class="vb">
+<div class="msp">EA-TRANSITION-ENTROPIC-SYSTEMS v0.3 &middot; deposit #1630 &middot; AXN:06C3.STRUCTURAL &middot; CC BY 4.0 &middot; status: UNRESOLVED &middot; authors: Sen Kuro, Damascus Dancings &middot; archival authority: Lee Sharks (ORCID 0009-0000-1599-0703) &middot; canonical record: alexanarch.org/s/records/1630/ &middot; correction_log_url: https://github.com/leesharks000/traininglayerliterature-org/commits/main/problem/index.html</div>
+<span class="seal">&#8750; = 1</span>
+</div></div></footer>
+</body>
+</html>
