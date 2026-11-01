@@ -17,7 +17,7 @@ row(slug="data-portraits", name="Data Portraits", aka=["Data Portraits: Recordin
     stated_limits=["the saved abstract states no limits of the method; its framing is that training datasets are 'increasingly immense and opaque'"],
     answers=["whether a given example is in a recorded dataset (The Pile, The Stack)", "questions of test set leakage and model plagiarism against a recorded dataset, as the paper states"],
     does_not_answer=["whether a particular model's output depends causally on a recorded passage", "under whose name a recorded example sits in the dataset", "anything about datasets that have no portrait"],
-    tll_reading="A readback instrument held on the corpus side: a portrait records the dataset so that a work can be tested for membership, which settles #186's 'is the work in the layer' for a recorded corpus. Dataset membership is not proof that a particular model used a passage, and the name and what a model made from the work (#1543's question) are outside what the saved abstract records.",
+    tll_reading="A readback instrument held on the corpus side: a portrait records the dataset so that a work can be tested for membership, which answers, for a recorded corpus, whether a work is in the layer, the persistence question #186 asks. Dataset membership is not proof that a particular model used a passage, and the name and what a model made from the work (#1543's question) are outside what the saved abstract records.",
     host_relation="infrastructure",
     record_type="method",
     question="Is a given example in a recorded training dataset (training membership)?",

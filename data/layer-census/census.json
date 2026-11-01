@@ -991,7 +991,7 @@
     "under whose name a recorded example sits in the dataset",
     "anything about datasets that have no portrait"
    ],
-   "tll_reading": "A readback instrument held on the corpus side: a portrait records the dataset so that a work can be tested for membership, which settles #186's 'is the work in the layer' for a recorded corpus. Dataset membership is not proof that a particular model used a passage, and the name and what a model made from the work (#1543's question) are outside what the saved abstract records.",
+   "tll_reading": "A readback instrument held on the corpus side: a portrait records the dataset so that a work can be tested for membership, which answers, for a recorded corpus, whether a work is in the layer, the persistence question #186 asks. Dataset membership is not proof that a particular model used a passage, and the name and what a model made from the work (#1543's question) are outside what the saved abstract records.",
    "host_relation": "infrastructure",
    "record_type": "method",
    "question": "Is a given example in a recorded training dataset (training membership)?",
@@ -1933,7 +1933,7 @@
    "unit": "an item: a directory-like container of files with metadata such as a description and tags (Wikipedia); in the Wayback Machine, a capture of a web page by URL and date",
    "record_object": "per Wikipedia, digitized media including websites, software applications, music, audiovisual and print materials; the public web as collected by its crawlers; books digitized by its own scanning centers and by others (Microsoft's Live Search Books, Google-digitized public domain books uploaded by users, sponsoring libraries)",
    "record": {
-    "in_layer": "not recorded: the saved sources say nothing of training use of its holdings; Wikipedia states that Common Crawl was designed to have more and fresher data than the Wayback Machine",
+    "in_layer": "the saved sources name no training set built from its holdings; Wikipedia states that by 2026 outlets such as The New York Times and The Guardian are concerned about scraping of the Internet Archive of their content and that some news organizations restrict its crawlers, in reports titled for AI scraping (Nieman Lab, 28 January 2026); Wikipedia states that Common Crawl was designed to have more and fresher data than the Wayback Machine",
     "name": "not recorded for authors; Wikipedia records that items carry metadata such as a description and tags, and that Google-digitized books are identical to Google's copies except without the Google watermarks, tagged scanner:google",
     "readback": "per Wikipedia, the Wayback Machine lets archives of the web be searched and accessed, showing previous versions of sites and sites that no longer exist; Archive-It collections are full-text searchable within seven days of capture; Open Library books are full-text searchable",
     "makes": "not recorded: the saved sources name no training set or model made from its holdings"
@@ -1990,6 +1990,16 @@
     "NOT a source of its own words in this row: every claim is Wikipedia's"
    ],
    "evidence": {
+    "ai_scraping": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "By 2026, The New York Times and The Guardian are among the outlets concerned about scraping of the Internet Archive of their content as a way to get around the defenses against scraping from their own websites. Some news organizations are restricting the Internet Archive's crawlers."
+    },
+    "ai_scraping_ref": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "News publishers limit Internet Archive access due to AI scraping concerns"
+    },
     "self_description_wp": {
      "src": "internet-archive--wikipedia",
      "basis": "third_party",
@@ -3289,7 +3299,7 @@
     "free USB copies of volumes 1 and 2 by mail for libraries, educators and individuals"
    ],
    "stated_limits": [
-    "'The physical publication of the ELC3 is forthcoming.'",
+    "'The physical publication of the ELC3 is forthcoming.' (inside an HTML comment in the saved page's markup, not displayed to a reader)",
     "Tim Wright (quoted by Wikipedia, third party): gathering, archiving and tagging the works 'also freezes (necessarily) what may have been otherwise ephemeral or in situ'"
    ],
    "answers": [
@@ -3306,7 +3316,7 @@
    "license": "not stated in the saved sources",
    "lifecycle": {
     "state": "active",
-    "detail": "four volumes, 2006 to 2022; the home page states the physical ELC3 is still forthcoming; no fifth volume is announced on the saved page"
+    "detail": "four volumes, 2006 to 2022; a line in the home page's markup, commented out and not displayed, says the physical ELC3 is forthcoming; no fifth volume is announced on the saved page"
    },
    "founded": "2006 (Volume 1); the ELO itself 1999 (Wikipedia, third party)",
    "version_and_time": {
@@ -4374,7 +4384,7 @@
     }
    ],
    "unchecked": [
-    "nanogenmo--org (github.com/NaNoGenMo): http 403, a refused API path, unread and unquoted",
+    "nanogenmo--org (github.com/NaNoGenMo): http 403 from the census's own outbound proxy (the session was bound to its configured repositories; GitHub itself was not reached), unread and unquoted",
     "nanogenmo--wikipedia: http 404, Wikipedia has no article with this name; unread",
     "the edition repositories and their issues (participants, novels, code)",
     "whether a 2026 edition repository exists (none listed on the saved page)"
