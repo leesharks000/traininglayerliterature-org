@@ -34,7 +34,12 @@ ROWS = []
 def row(**r): ROWS.append(r)
 
 
-ORDER = ['readers-project', 'rerites', 'technelegy', 'output-anthology', 'olmotrace', 'data-portraits', 'copyright-traps', 'literary-ai', 'xenotext', 'common-crawl', 'project-gutenberg', 'internet-archive', 'hathitrust', 'htrc', 'the-pile', 'dolma', 'spawning-hibt', 'books3-search', 'min-k-prob', 'speak-memory', 'elc', 'elmcip', 'cell', 'ebr', 'taper', 'nanogenmo']
+ORDER = ['the-next', 'output-anthology', 'olmotrace', 'data-portraits', 'literary-ai', 'common-crawl', 'project-gutenberg', 'internet-archive', 'hathitrust', 'htrc', 'the-pile', 'dolma', 'spawning-hibt', 'books3-search', 'elc', 'elmcip', 'cell', 'ebr', 'taper', 'nanogenmo']
+FIELD = [{'slug': s, 'why': w} for s, w in [
+  ('readers-project', 'a project and its works'), ('rerites', 'a project of twelve books'), ('technelegy', 'a persona and practice'), ('xenotext', 'a work'),
+  ('min-k-prob', 'a detection method (a paper)'), ('speak-memory', 'a paper'), ('copyright-traps', 'a paper (a method and its experiments)')]]
+# Admission rule (operator, 2026-11-01): a row is an aggregator, a resource that gathers and holds many other works or records. OLMoTrace and
+# Data Portraits stay as queryable indexes over training corpora; the works, papers and methods stay as the field, outside ORDER.
 HOST_RELATIONS = ['direct case', 'theoretical interlocutor', 'empirical comparator', 'historical lineage', 'infrastructure', 'counterposition', 'peripheral comparator', 'meta-aggregation']
 RECORD_TYPES = ['project', 'work', 'persona', 'archive', 'collection', 'anthology', 'journal', 'paper', 'dataset', 'tool', 'standard', 'registry', 'index', 'policy', 'database', 'institution', 'community', 'event series', 'method', 'exhibition', 'library', 'service']
 for slug in ORDER:
@@ -76,7 +81,7 @@ out = {"name": 'Training-Layer Literature meta-aggregator census: the layer', "c
        "schema_note": "The MMRS, provenance, Labor Vector and left-census core (slug, name, aka, url, operator, kind, unit, count, lifecycle, version_and_time, negative_tags, evidence, relations, unchecked, sources) extended for the training layer (1.1, revised 2026-11-01): host_relation, record_type and question as in the authorship census; areas (one or more of six), evidence_kind, record_object (what it records), record (in_layer: whose works it holds or carries into training, or how it bears on that; name: whether a work keeps its author's name and attribution there, as the resource itself shows, or 'not recorded'; readback: whether and how a work can be found there and read back: search, membership test, provenance, or 'not recorded'; makes: what a receiving apparatus makes from the work there, as the resource shows, or 'not recorded'), method, coverage, holdings, stated_limits, answers and does_not_answer, and tll_reading (where it meets the question of #186 and #1543: the archive's reading, kept apart from the resource's own terms). Every quote is verbatim from a saved source.",
        "organizing_question": 'How is literature addressed to a receiving apparatus, what does that apparatus make from it, and how can transmission, transformation and provenance be inspected across later reception?',
        "anchor": {'deposits': [{'deposit': 186, 'axn': 'AXN:032C', 'title': 'Who Is Writing for the Machines? Training-Layer Literature: A Field Survey', 'url': 'https://www.alexanarch.org/s/records/186/'}, {'deposit': 1543, 'axn': 'AXN:0642', 'title': 'Generative Uptake: Training-Layer Literature Extended from Machine Reading to Machine Composition (EA-TLL-COMPOSITION-01)', 'url': 'https://www.alexanarch.org/s/records/1543/'}]},
-       "areas": AREAS, "evidence_kinds": EVIDENCE_KINDS, "unread_sources": unread, "pending": [], "host_relations": HOST_RELATIONS, "rows": ROWS}
+       "areas": AREAS, "evidence_kinds": EVIDENCE_KINDS, "unread_sources": unread, "pending": [], "field": FIELD, "admission_rule": "A row is an aggregator: a resource that gathers and holds many other works or records and says what it holds (operator, 2026-11-01).", "host_relations": HOST_RELATIONS, "rows": ROWS}
 json.dump(out, open(HERE / "census.json", "w"), ensure_ascii=False, indent=1)
 print(len(ROWS), "rows;", sum(len(r.get("evidence") or {}) for r in ROWS), "evidence items;", len(problems), "problems")
 for p in problems: print("  ", p)

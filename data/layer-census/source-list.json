@@ -106,5 +106,11 @@
  "xenotext": {
   "bok2011": "https://www.poetryfoundation.org/blog/uncategorized/60436/the-xenotext-works",
   "wikipedia": "https://en.wikipedia.org/wiki/The_Xenotext"
+ },
+ "the-next": {
+  "home": "https://the-next.eliterature.org/",
+  "curatorial": "https://the-next.eliterature.org/curatorial-statement",
+  "repository": "https://archive.the-next.org/",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_NEXT_Museum"
  }
 }

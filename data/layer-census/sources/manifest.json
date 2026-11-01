@@ -726,5 +726,57 @@
   "bytes": 118599,
   "text_chars": 14549,
   "error": ""
+ },
+ "the-next--home": {
+  "entity": "the-next",
+  "id": "home",
+  "url": "https://the-next.eliterature.org/",
+  "final_url": "https://the-next.org/",
+  "http": "200",
+  "content_type": "text/html; charset=utf8mb4_unicode_ci",
+  "fetched": "2026-11-01T05:32:58Z",
+  "sha256": "34dca9a805e7e34675dbf76261b996ef3826ddecd96aee364e1aad9ffeb76045",
+  "bytes": 58659,
+  "text_chars": 2763,
+  "error": ""
+ },
+ "the-next--curatorial": {
+  "entity": "the-next",
+  "id": "curatorial",
+  "url": "https://the-next.eliterature.org/curatorial-statement",
+  "final_url": "https://the-next.org/curatorial-statement.php",
+  "http": "200",
+  "content_type": "text/html; charset=utf8mb4_unicode_ci",
+  "fetched": "2026-11-01T05:32:59Z",
+  "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+  "bytes": 3,
+  "text_chars": 1,
+  "error": ""
+ },
+ "the-next--repository": {
+  "entity": "the-next",
+  "id": "repository",
+  "url": "https://archive.the-next.org/",
+  "final_url": "https://archive.the-next.org/",
+  "http": "200",
+  "content_type": "text/html",
+  "fetched": "2026-11-01T05:32:59Z",
+  "sha256": "647d842fd60320f453713980394b86fc967b4d64a1baf7b043fca30f3737e5e0",
+  "bytes": 21401,
+  "text_chars": 10018,
+  "error": ""
+ },
+ "the-next--wikipedia": {
+  "entity": "the-next",
+  "id": "wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_NEXT_Museum",
+  "final_url": "https://en.wikipedia.org/wiki/The_NEXT_Museum",
+  "http": "200",
+  "content_type": "text/html; charset=UTF-8",
+  "fetched": "2026-11-01T05:32:59Z",
+  "sha256": "8b6b0a5ee106a4a40f5b8ac633c045f4209fcf549e8c04a426ef482acebebaf6",
+  "bytes": 179595,
+  "text_chars": 12409,
+  "error": ""
  }
 }

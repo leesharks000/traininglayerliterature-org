@@ -121,9 +121,45 @@
    "url": "https://www.poetryfoundation.org/blog/uncategorized/60436/the-xenotext-works",
    "http": "403",
    "fetched": "2026-11-01T05:07:14Z"
+  },
+  "the-next--curatorial": {
+   "url": "https://the-next.eliterature.org/curatorial-statement",
+   "http": "200",
+   "fetched": "2026-11-01T05:32:59Z"
   }
  },
  "pending": [],
+ "field": [
+  {
+   "slug": "readers-project",
+   "why": "a project and its works"
+  },
+  {
+   "slug": "rerites",
+   "why": "a project of twelve books"
+  },
+  {
+   "slug": "technelegy",
+   "why": "a persona and practice"
+  },
+  {
+   "slug": "xenotext",
+   "why": "a work"
+  },
+  {
+   "slug": "min-k-prob",
+   "why": "a detection method (a paper)"
+  },
+  {
+   "slug": "speak-memory",
+   "why": "a paper"
+  },
+  {
+   "slug": "copyright-traps",
+   "why": "a paper (a method and its experiments)"
+  }
+ ],
+ "admission_rule": "A row is an aggregator: a resource that gathers and holds many other works or records and says what it holds (operator, 2026-11-01).",
  "host_relations": [
   "direct case",
   "theoretical interlocutor",
@@ -136,761 +172,328 @@
  ],
  "rows": [
   {
-   "slug": "readers-project",
-   "name": "The Readers Project",
+   "slug": "the-next",
+   "name": "The NEXT",
    "aka": [
-    "the readers"
+    "The NEXT: Museum, Library, and Preservation Space",
+    "The NEXT Museum",
+    "ELO's The NEXT"
    ],
-   "url": "https://thereadersproject.org/",
-   "operator": "John Cayley and Daniel C. Howe, the project's artists, on the project's own site",
-   "kind": "in its own words, 'a collection of distributed, performative, quasi-autonomous poetic 'readers' — active, procedural entities with distinct reading behaviors and strategies'; its artist statement calls it 'an essay in digital language art'",
+   "url": "https://the-next.org/",
+   "operator": "the Electronic Literature Organization (ELO), managed by the Electronic Literature Lab at Washington State University Vancouver; Dene Grigar, Managing Director and Curator; the ELO Repository names the university library as a partner",
+   "kind": "a combination museum, library, and preservation space for collections of digital art and writing, in its own words; Wikipedia (third party) calls it a repository of electronic literature",
    "areas": [
-    "machine-composition",
+    "field-history",
     "machine-reader"
    ],
    "evidence_kind": [
-    "software reader",
-    "artist statement",
-    "book",
-    "research paper"
+    "digital library",
+    "exhibition",
+    "anthology"
    ],
    "host_relation": "historical lineage",
-   "record_type": "project",
-   "question": "generative transformation: what an authored software reader writes as it reads a text, and how the source of each phrase it recomposes is kept",
-   "unit": "a reader (a coded reading behavior) deployed on a text, and the text it generates as it reads; How It Is in Common Tongues (2012) is a separately identified work, an artists' book recorded inside this row",
-   "record_object": "software readers (Simple, Perigram, Spawning, Mesostic, Grammatical) released onto found texts, reconfigured appropriated sources and the collaborators' own compositions; the texts those readers generate; How It Is in Common Tongues, a recomposition of Samuel Beckett's How It Is from phrases found by a search engine",
+   "record_type": "archive",
+   "question": "field history and readback: which works of electronic literature are preserved, in which collection and under whose name, and in what form (migrated, re-created, recorded, or described by metadata) can each still be read?",
+   "unit": "a collection (48 on the home page: individual artists and scholars, online journals, anthologies, showcases, scholarly publications, ELO archives), each holding works",
+   "record_object": "born-digital art and writing: author collections donated by artists and scholars, the contents of online experimental journals from 1995 to the present, the Electronic Literature Collections, showcases, scholarly publications, the ELO's own historical media, exhibitions and physical archives",
    "record": {
-    "in_layer": "the readers read the texts they are released onto and draw word and phrase frequencies 'culled from the largest corpus of human language that has ever existed', made visible by web indexing; How It Is in Common Tongues quotes phrases from 'a portion of the commons of language that happens to have been indexed'; the saved sources name no model training",
-    "name": "the readers' outputs are published as the project's work under Cayley and Howe; in How It Is in Common Tongues each found phrase is cited by URL, date and occurrence count, and the saved page states no author names for the phrases, which it says were 'composed by writers or writing machines other than Beckett'",
-    "readback": "the project states it displays 'the primary source of a text generator's inputs' within that source's typographic environment, so the reading path can be followed on the source text; How It Is in Common Tongues gives for each phrase the shortest URL the readers retrieved, the date found and the total occurrences on that date, in hexadecimal notes",
-    "makes": "new text generated in the course of reading: perigram readers diverge and generate 'an alternative text', a mesostic reader capitalizes letters in place to spell out a phrase, a grammatical reader jumps ahead 'leaving strange lacuna in the text while still preserving aspects of its style'; How It Is in Common Tongues recomposes Beckett's novel in sequence from the longest common phrases found elsewhere"
+    "in_layer": "not recorded: the saved sources say nothing of crawling or training; the home page lists 'Artificial Intelligence (AI)', 'Algorithmic', 'Generative' and 'Combinatory' among the qualities found in its 48 collections, without naming which works carry them",
+    "name": "held by named collection: author collections under the artist's or scholar's name, journals under founder and editors, the ELC volumes under their editors (repository page); Wikipedia (third party) states that the Marjorie C. Luesebrink Collection keeps 27 works published under the pen name M.D. Coverley; work-level metadata fields are not shown in the saved sources, and no attribution rule for generated text is stated",
+    "readback": "browse by category and a Basic Search on the home page; per Wikipedia (third party), works on obsolete software are re-created by migration to newer systems, the Pathfinders project recorded 'traversals' (video and audio of works on historically appropriate platforms), and an Extended Electronic Metadata Schema (ELMS) describes each work and its reading issues; where re-creation is not yet possible, only metadata is provided",
+    "makes": "no machine composition is recorded; what the preservation apparatus makes from a work is recorded (Wikipedia, third party): re-created and re-imagined versions on newer systems, video playthroughs, traversal recordings, and metadata standing in for works that cannot yet be run"
    },
-   "method": "coded reading behaviors derived from 'a necessarily partial, aesthetically implicated analysis of human reading', moving through a text's typographic neighborhood and testing 3-gram completions against natural-language frequency data; How It Is in Common Tongues by searching Beckett's text through a search engine phrase by phrase",
+   "method": "donation of artists' and scholars' collections, collection and management of online journals and community archives, migration and re-creation of works from obsolete platforms, documentation by recorded traversal and metadata, and curated exhibitions",
    "coverage": {
-    "geography": "not recorded (web-published; the research page lists venues in Sydney, Paris, MIT and DAC)",
-    "period": "a critic quoted on the project's research page dates the cycle 2010 to 2016; How It Is in Common Tongues 2012; the Leonardo paper August 2011"
+    "geography": "international ('individual artists and scholars from around the world'); held and managed at Washington State University Vancouver",
+    "period": "pre-web hypertext from 1986 (Pathfinders) and online journals from 1995 to the present"
    },
    "count": {
-    "value": "five reader types listed on the readers page (Simple, Perigram, Spawning, Mesostic, Grammatical); the home page states half a dozen readers regularly deployed 'at the time of writing'",
-    "as_of": "undated (the home page gives no date); read 2026-11-01"
+    "value": "48 collections",
+    "as_of": "2026-11-01 (home page read); Wikipedia (third party): over 3,000 works by 2022"
    },
    "holdings": [
-    "five reader types, with the Unconstrained Perigram Reader as a variety of the Perigram Reader",
-    "Readers LIVE: 'real-time streams of live-writing'",
-    "How It Is in Common Tongues, artists' book with custom software (2012), edition limited to 256 copies numbered 0-ff, downloadable as a pdf",
-    "the artists' papers, among them 'The Readers Project: Procedural Agents and Literary Vectors' (Leonardo, 2011) and Cayley's 'Writing to Be Found and Writing Readers' (DHQ, 2011)",
-    "a research page listing critical discussion of the project in books and online"
+    "48 collections of digital art and writing (home page)",
+    "Electronic Literature Collection volumes 1 to 3: 60, 61 and 110 works (repository page)",
+    "online journals including BeeHive, Cauldron & Net (98 works), The Iowa Review Web (128 works), Riding the Meridian (over 350 works), turbulence.org (356 works), Word Circuits, PoemsThatGo",
+    "ELO video and sound files from performances, readings and conferences from the 1990s onward",
+    "expanded exhibition Talan Memmott: Works on Screen (22 works of net art)",
+    "Wikipedia (third party): originally 30 collections of 2,500 works, over 3,000 works by 2022"
    ],
    "stated_limits": [
-    "the readers' behaviors derive from 'a necessarily partial, aesthetically implicated analysis of human reading'",
-    "'Many readers are under development.'",
-    "How It Is in Common Tongues: 'The first f copies are not in circulation.'",
-    "the occurrence counts hold 'as searched on that date and for the search engine we used'"
+    "the repository page marks many author collections 'Coming soon to ELO's newly created museum/library/preservation space, The NEXT'",
+    "Wikipedia (third party): 'Where recreating the work is not yet possible, such as Shockwave works like Jim Andrew's Nio , and Noah Wardrip Fruin et al.'s The Impermanence Agent , the NEXT has provided as much metadata as possible.'"
    ],
    "answers": [
-    "how each reader type moves through a text and what text it generates",
-    "from which URL, on which date and at what frequency each phrase of How It Is in Common Tongues was found",
-    "which critics and venues discussed the project, as the project lists them"
+    "whether a work of electronic literature is held in one of The NEXT's collections, and in whose collection or which journal",
+    "whether a work on obsolete software has been migrated, re-created or recorded there, or survives only as metadata (per Wikipedia, third party)",
+    "which works an exhibition such as afterflash or Works on Screen gathered"
    ],
    "does_not_answer": [
-    "whether any of the readers' outputs or source texts entered a training corpus or a model",
-    "who wrote each phrase recomposed in How It Is in Common Tongues (the notes give URLs, with no author names on the saved page)",
-    "whether the readers or Readers LIVE still run (not stated on the saved pages)"
+    "whether any held work is in a training corpus or a model",
+    "which held works were machine-composed or address a machine reader (the 'Artificial Intelligence (AI)' and 'Generative' qualities are listed at site level only)",
+    "the work-level metadata and attribution fields (ELMS itself is not saved)",
+    "the curatorial criteria (the curatorial statement saved one character and is unread)"
    ],
-   "tll_reading": "The archive reads the readers as an authored receiving apparatus whose reading emits writing, the σ : ⟨x, M₀⟩ → ⟨x, M₁, y⟩ of #1543 built by hand before the large models: the project states that its readers, 'composed by the words within which they move', also 'write', and How It Is in Common Tongues carries Beckett's text through a search engine's index and back as recomposition with each phrase sourced to a URL, a date and a count, a pre-LLM case of reading-to-composition with phrase-level provenance kept, near the search-layer lineage #186 assigns to Flarf. It is electronic literature with an index and a search engine as its apparatus; the saved sources make no claim about model training.",
-   "data_access": "the readers' outputs published on the web as live streams; How It Is in Common Tongues downloadable as a pdf and obtainable as a print copy against a donation",
-   "license": "not stated in the saved sources; How It Is in Common Tongues is 'officially hors de commerce', with surplus over costs donated to the EFF and related groups",
+   "tll_reading": "The archive reads The NEXT as the preservation house of the procedural lineage #186 names, where the machine is method, and as the field's working practice of readback: a work held there is kept under its author's or journal's name and read back by migration, re-creation, recorded traversal or metadata, which is a reception history carried out by an institutional apparatus. Its own pages list 'Artificial Intelligence (AI)' and 'Generative' among its qualities and say nothing of a machine reader or of training, so whether any held work belongs to the fourth column of #186, or records machine composition in the sense of #1543, waits on work-level traversal.",
+   "data_access": "open access on the Web ('open-access, travel-free cultural and research experiences'); physical archives held at the Electronic Literature Lab, Vancouver, Washington (Wikipedia, third party)",
+   "license": "not stated in the saved sources",
    "lifecycle": {
-    "state": "historical",
-    "detail": "a critic quoted on the project's research page dates the cycle 2010 to 2016; the latest items on the saved research page are books of 2018 and Rettberg's Electronic Literature (2019); the saved pages announce no later reader and do not say whether the live streams still run"
+    "state": "active",
+    "detail": "the home page announces a new work (ThinkingDaughters) and an expanded exhibition; the saved repository page still marks several collections as coming soon"
    },
-   "founded": "not stated by the project; the critic quoted on its research page dates the cycle from 2010",
+   "founded": "2011 per Wikipedia (third party), whose text dates the opening to 'the lab'; the saved own pages give no founding date",
    "version_and_time": {
-    "leonardo_paper": "2011-08",
-    "how_it_is_in_common_tongues": "2012",
-    "isea_paper": "2013",
+    "wikipedia_last_edited": "2026-09-06",
     "read": "2026-11-01"
    },
    "negative_tags": [
-    "NOT an LLM or model-training experiment: the readers are coded reading behaviors on texts and an index",
-    "NOT the ELC3 entry: the Electronic Literature Collection, Volume 3 holds the collection's record of this project, which is the same project",
-    "NOT How It Is in Common Tongues alone: that artists' book is one work of the project, recorded inside this row",
-    "NOT a corpus of attributed phrases: How It Is in Common Tongues cites each phrase by URL, with no author names shown on the saved page"
+    "NOT the Electronic Literature Organization itself: The NEXT is the ELO's museum, library and preservation space",
+    "NOT the Electronic Literature Lab, which manages it",
+    "NOT the Electronic Literature Collection: the ELC volumes are among its holdings",
+    "NOT a training corpus or dataset: the sources describe preservation and access for human visitors and scholars",
+    "NOT a record of machine-composed works at work level: 'Artificial Intelligence (AI)' and 'Generative' are listed as qualities across its collections",
+    "NOT an emulation-only archive: Wikipedia (third party) describes migration, re-imagining, traversal recordings, and metadata where re-creation is not yet possible"
    ],
    "evidence": {
     "self_description": {
-     "src": "readers-project--home",
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "The Readers Project is a collection of distributed, performative, quasi-autonomous poetic 'readers' — active, procedural entities with distinct reading behaviors and strategies."
+     "quote": "Envisioned as a combination museum, library, and preservation space, The NEXT maintains and makes its archives accessible for the next generation and responds to the growing need for open-access, travel-free cultural and research experiences for today's public and scholars."
     },
-    "surfaces": {
-     "src": "readers-project--home",
+    "qualities_and_count": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "We release these readers onto inscribed surfaces that are explicitly or implicitly, visibly or invisibly, constituted by their texts."
+     "quote": "Artificial Intelligence (AI), Augmented Reality (AR), Codework, Combinatory, Generative, Glitch"
     },
-    "material": {
-     "src": "readers-project--home",
+    "forty_eight": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "The readers address themselves to a wide range of material — from conventional found texts, through poetic reconfigurations of appropriated sources, to original compositions by the project's collaborators."
+     "quote": "these are some of the qualities found among the 48 collections of digital art and writing at The NEXT."
     },
-    "partial_analysis": {
-     "src": "readers-project--home",
+    "algorithmic": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "Since their behaviors are derived from a necessarily partial, aesthetically implicated analysis of human reading,"
+     "quote": "2D & 3D, Algorithmic, Animated"
     },
-    "deployed": {
-     "src": "readers-project--home",
+    "operator": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "Many readers are under development. At the time of writing, half a dozen readers have been regularly deployed on various texts."
+     "quote": "The NEXT is supported by grants, donations, and commissions and managed by the Electronic Literature Lab."
     },
-    "rereading": {
-     "src": "readers-project--home",
+    "curator": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "The texts that our readers produce as they read, we claim, are worth rereading, a quality that is often cited as a mark of the literary."
+     "quote": "Dene Grigar, Managing Director and Curator"
     },
-    "essay": {
-     "src": "readers-project--home",
+    "address": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "This project is an essay in digital language art."
+     "quote": "Washington State University Vancouver"
     },
-    "readers_write": {
-     "src": "readers-project--home",
+    "search": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "Further, because the project’s readers move within and are thus composed by the words within which they move, they also, effectively, write."
+     "quote": "Basic Search"
     },
-    "live": {
-     "src": "readers-project--home",
+    "browse": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "published as real-time streams of live-writing, available to anyone with internet access."
+     "quote": "Browse Collections by Category"
     },
-    "display_source": {
-     "src": "readers-project--home",
+    "individual_artists": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "The Readers Project is innovative, however, in having found a number of ways to display the primary source of a text generator’s inputs within this source’s typographically structured literary environment."
+     "quote": "Discover the work of individual artists and scholars from around the world donated to The NEXT"
     },
-    "corpus_frequencies": {
-     "src": "readers-project--home",
+    "journals_period": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "its use of current natural language information—especially concerning the relative frequencies of words and phrases considered by the readers—culled from the largest corpus of human language that has ever existed"
+     "quote": "View works published in online experimental journals from 1995 to the present"
     },
-    "artist_cayley": {
-     "src": "readers-project--home",
+    "anthologies": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "John Cayley makes digital language art, particularly in the domain of poetry and poetics."
+     "quote": "Explore the exciting works published in the Electronic Literature Collections"
     },
-    "artist_howe": {
-     "src": "readers-project--home",
+    "elo_archives": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "Daniel C. Howe is an artist, writer, and critical technologist"
+     "quote": "Celebrate the origins of the Electronic Literature Organization through its historical media"
     },
-    "citing": {
-     "src": "readers-project--home",
+    "exhibition": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "Howe, Daniel C., and Cayley, John. Reading, Writing, Resisting: Literary Appropriation in the Readers Project."
+     "quote": "22 works of net art that explore the aesthetic of code, language, and code language"
     },
-    "reader_types": {
-     "src": "readers-project--readers",
+    "new_work": {
+     "src": "the-next--home",
      "basis": "operator",
-     "quote": "Simple Reader Perigram Reader Spawning Reader Mesostic Reader Grammatical Reader"
+     "quote": "A new Web essay by Annie Grosshans"
     },
-    "unconstrained": {
-     "src": "readers-project--readers",
+    "repository": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "The Unconstrained Perigram Reader is a variety of the Perigram Reader that is less constrained than its cousin."
+     "quote": "ELO has developed the ELO Repository that collects and/or manages online journals, works of electronic literature, community archives, and other digital materials for other organizations and makes them available to the public. Partnering with us in this endeavor is Washington State University Vancouver's Electronic Literature Lab and the university library."
     },
-    "perigram_alternative": {
-     "src": "readers-project--readers",
+    "coming_soon": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "If it finds a completing word then its reading path may diverge, effectively also generating an alternative text."
+     "quote": "Coming soon to ELO's newly created museum/library/preservation space, The NEXT"
     },
-    "mesostic": {
-     "src": "readers-project--readers",
+    "elc1": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "When it finds a word that contains a required letter, the reader capitalizes the letter in place."
+     "quote": "The Electronic Literature Collection 1 is an anthology of 60 works of electronic literature published both on CD-ROM and the web by the Electronic Literature Organization in 2006. It was edited by N. Katherine Hayles, Nick Montfort, Scott Rettberg, and Stephanie Strickland."
     },
-    "grammatical": {
-     "src": "readers-project--readers",
+    "elc2": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "leaving strange lacuna in the text while still preserving aspects of its style."
+     "quote": "The Electronic Literature Collection 2 is an anthology of 61 works of electronic literature"
     },
-    "hiiict_kind": {
-     "src": "readers-project--hiiict",
+    "elc3": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "Artists' book, custom software, 2012"
+     "quote": "The Electronic Literature Collection 3 is an anthology of 110 works of electronic literature"
     },
-    "hiiict_method": {
-     "src": "readers-project--hiiict",
+    "cauldron": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "How It Is in Common Tongues was composed by searching for the text of Samuel Beckett’s How It Is using a universally accessible search engine, attempting to find, in sequence, the longest common phrases from How It Is that were composed by writers or writing machines other than Beckett."
+     "quote": "Cauldron & Net features four volumes of 98 works of electronic literature, published from 1997-2002."
     },
-    "hiiict_commons": {
-     "src": "readers-project--hiiict",
+    "iowa": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "These phrases are quoted from a portion of the commons of language that happens to have been indexed by a universally accessible engine."
+     "quote": "The collection contains the 128 works published in its nine volumes."
     },
-    "hiiict_outcome": {
-     "src": "readers-project--hiiict",
+    "meridian": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "How It Is in Common Tongues is an art work, and an aesthetic outcome of The Readers Project ."
+     "quote": "Riding the Meridian published over 350 works of electronic literature and net art from 1999-2000."
     },
-    "hiiict_notes": {
-     "src": "readers-project--hiiict",
+    "turbulence": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "The notes at the bottom of each page in the book give the shortest url (often one of many) that the readers were able to retrieve for the phrases cited."
+     "quote": "Found in the ELO Repository are the 356 works commissioned and exhibited over the last decade."
     },
-    "hiiict_counts": {
-     "src": "readers-project--hiiict",
+    "av_files": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "The number following the date (or ‘id.’) is the total number of occurrences found for the phrase, as searched on that date and for the search engine we used."
+     "quote": "The Electronic Literature Organization Archives is a collection of videos and audio tapes from performances/readings and conference presentations from the 1990s onward"
     },
-    "hiiict_hex": {
-     "src": "readers-project--hiiict",
+    "pathfinders_period": {
+     "src": "the-next--repository",
      "basis": "operator",
-     "quote": "These note numbers are in hexadecimal."
+     "quote": "documents the experience of early electronic literature, specifically pre-web hypertext fiction and poetry, from 1986-1995."
     },
-    "hiiict_edition": {
-     "src": "readers-project--hiiict",
-     "basis": "operator",
-     "quote": "This artists' book is produced in an edition limited to 256 copies, numbered 0-ff. The first f copies are not in circulation."
+    "wp_repository": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "The NEXT: Museum, Library, and Preservation Space is a repository of electronic literature . It is supported by Washington State University at Vancouver and the Electronic Literature Organization ."
     },
-    "hiiict_pdf": {
-     "src": "readers-project--hiiict",
-     "basis": "operator",
-     "quote": "The work is downloadable as a pdf ."
+    "wp_physical": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "Physical artifacts are held at the Electronic Literature Lab in Vancouver, Washington , US."
     },
-    "hiiict_hors": {
-     "src": "readers-project--hiiict",
-     "basis": "operator",
-     "quote": "How It Is in Common Tongues is officially hors de commerce . All monies are received from those contracting to obtain a copy in the form of a donation, with any surplus over costs donated to the EFF and related charities or advocacy groups."
+    "wp_count": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "This digital museum originally housed 30 separate collections of 2,500 electronic literature works [ 1 ] [ 5 ] which had increased to over 3,000 works by 2022."
     },
-    "hiiict_montfort": {
-     "src": "readers-project--hiiict",
-     "basis": "operator",
-     "quote": "It was noted by Nick Montfort as a Radical Book of 2012 ."
+    "wp_elms": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "The NEXT uses an Extended Electronic Metadata Schema (ELMS) to describe the complex and interactive digital works it holds. This metadata describes the work and alerts readers to potential reading issues such as fleeting text, color use, or requirements for moving a mouse or moving with a virtual reality environment."
     },
-    "elc3_link": {
-     "src": "readers-project--hiiict",
-     "basis": "operator",
-     "quote": "Project CV ELC3 The Book: How It Is in Common Tongues"
+    "wp_founded": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "The lab opened officially in 2011."
     },
-    "elc3_page": {
-     "src": "readers-project--elc3",
-     "basis": "operator",
-     "quote": "Electronic Literature Collection, Volume 3"
+    "wp_established": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "Established 2011"
     },
-    "leonardo": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "Howe, Daniel C., and John Cayley. 'The Readers Project: Procedural Agents and Literary Vectors.' Leonardo 44.4 (August 2011): 317-24."
+    "wp_migration": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "The NEXT has re-created these works by migrating them to newer systems."
     },
-    "writing_to_be_found": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "Cayley, John. 'Writing to Be Found and Writing Readers.' Digital Humanities Quarterly 5.3 (2011)"
+    "wp_metadata_limit": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "Where recreating the work is not yet possible, such as Shockwave works like Jim Andrew's Nio , and Noah Wardrip Fruin et al.'s The Impermanence Agent , the NEXT has provided as much metadata as possible."
     },
-    "critic_johnston_quoted": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "The Readers Project reflects the urgent necessity for creative authors to write the autonomous writers who will read for us."
+    "wp_pen_name": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "Luesebrink created and published 27 of these works under the pen name M.D. Coverley—and the NEXT Museum re-imagined, migrated, and developed video playthroughs of these works as they were written on now-obsolete software."
     },
-    "critic_portela_quoted": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "Because every machine reading is also a new instance of writing available for a human reader, the act of reading the machine reading becomes a model for the infinite iterability of writing as actualized by each reading act."
+    "wp_traversals": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "which provided video and audio recordings of currently inaccessible works using historically appropriate platforms, termed \"traversals\""
     },
-    "critic_emerson_quoted": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "is intensely concerned with drawing attention to the profound influence of Google's search engine and how it works on readingwriting practices."
+    "wp_last_edited": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "This page was last edited on 6 September 2026, at 19:41 (UTC) ."
     },
-    "critic_pisarski_cycle": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "the series of poetic programs prepared by John Cayley and Daniel C. Howe that constitute the cycle The Readers Project (2010–2016)."
+    "wp_elmcip_tour": {
+     "src": "the-next--wikipedia",
+     "basis": "third_party",
+     "quote": "\"A Tour of ELO's The NEXT | ELMCIP\" . elmcip.net"
     },
-    "latest_listed": {
-     "src": "readers-project--writings",
+    "elmcip_afterflash": {
+     "src": "elmcip--root",
      "basis": "operator",
-     "quote": "Rettberg, Scott. Electronic Literature . Cambridge and Medford: Polity Press, 2019."
-    },
-    "elmcip_record": {
-     "src": "readers-project--writings",
-     "basis": "operator",
-     "quote": "The Readers Project , ELMCIP Record , 2013."
+     "quote": "afterflash: Showcasing Flash Fiction, Poetry, and Essays from The NEXT"
     }
    },
    "relations": [
     {
-     "rel": "neighbour",
+     "rel": "has_part",
      "target": "elc",
-     "note": "the Electronic Literature Collection, Volume 3 carries the collection's record of this project (work=the-readers-project); the project's pages link it as 'ELC3'"
+     "note": "the ELO Repository page lists Electronic Literature Collection volumes 1, 2 and 3 as its projects, and the home page's Anthologies category holds 'works published in the Electronic Literature Collections'"
     },
     {
      "rel": "neighbour",
      "target": "elmcip",
-     "note": "the research page lists an ELMCIP record of the project (2013) and ELMCIP Knowledge Base entries for The Readers Project, Common Tongues, How It Is in Common Tongues and The Image"
-    },
-    {
-     "rel": "neighbour",
-     "target": "rerites",
-     "note": "the research page quotes David Jhave Johnston's Aesthetic Animism on the project; John Cayley writes an essay in the ReRites response volume (Anteism pages)"
-    },
-    {
-     "rel": "neighbour",
-     "target": "output-anthology",
-     "note": "Nick Montfort, co-editor of Output, noted How It Is in Common Tongues as a Radical Book of 2012"
+     "note": "the ELMCIP Knowledge Base lists the exhibition 'afterflash: Showcasing Flash Fiction, Poetry, and Essays from The NEXT'; Wikipedia (third party) cites ELMCIP's 'A Tour of ELO's The NEXT'"
     }
    ],
    "unchecked": [
-    "readers-project--elc3: http 200, but the saved text holds only the ELC3 page template and generic Flash-preservation notes; the record's metadata, statement, bio and technical details did not render, so nothing about the project is quoted from it beyond the collection's heading",
-    "the readers themselves and Readers LIVE (not run; whether the streams still run is unknown)",
-    "How It Is in Common Tongues itself (the pdf and its notes were not read; the citation scheme is known from the project's description)",
-    "the artists' papers listed on the research page (Leonardo, ISEA, DHQ, Amodern) and the ELMCIP records (not saved)",
-    "the critics' words on the research page are quoted as the project reproduces them; their books were not read"
+    "the curatorial statement (the-next--curatorial saved 1 character; unread, not quoted)",
+    "ELMS, the metadata schema itself, and any work-level record (not saved), so the attribution fields a held work carries are unknown",
+    "which works carry the 'Artificial Intelligence (AI)' and 'Generative' qualities (not saved)",
+    "the licence of the site and its works",
+    "whether the repository page's 'coming soon' collections have since entered The NEXT (Wikipedia, third party, lists several of them among its author collections)",
+    "any relation to CELL: the saved sources of The NEXT do not name it"
    ],
    "sources": {
-    "readers-project--home": {
-     "url": "https://thereadersproject.org/",
+    "the-next--home": {
+     "url": "https://the-next.eliterature.org/",
      "read": "2026-11-01",
-     "sha256": "234aff2c370982476af19b10ed27f46687d3e06bbeda7b4e897989d9f49b66cd",
+     "sha256": "34dca9a805e7e34675dbf76261b996ef3826ddecd96aee364e1aad9ffeb76045",
      "http": "200"
     },
-    "readers-project--readers": {
-     "url": "https://thereadersproject.org/readers.html",
+    "the-next--repository": {
+     "url": "https://archive.the-next.org/",
      "read": "2026-11-01",
-     "sha256": "b8836ee068e99c105979396c41e41036dcd729b2413a8cbb9ef31b4e08bd7c94",
+     "sha256": "647d842fd60320f453713980394b86fc967b4d64a1baf7b043fca30f3737e5e0",
      "http": "200"
     },
-    "readers-project--hiiict": {
-     "url": "https://thereadersproject.org/hiiict2012.html",
+    "the-next--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/The_NEXT_Museum",
      "read": "2026-11-01",
-     "sha256": "d3f4dfd85bfe860d55e7f3a1042ed3d86c9cc2241d92a81b2b2915266ea45d01",
+     "sha256": "8b6b0a5ee106a4a40f5b8ac633c045f4209fcf549e8c04a426ef482acebebaf6",
      "http": "200"
     },
-    "readers-project--elc3": {
-     "url": "https://collection.eliterature.org/3/work.html?work=the-readers-project",
+    "elmcip--root": {
+     "url": "https://elmcip.net/",
      "read": "2026-11-01",
-     "sha256": "a0e466d1a6bf6cd38ff8a032b22b032dba0a06cc19a78766c8c37a472a7c8a27",
-     "http": "200"
-    },
-    "readers-project--writings": {
-     "url": "https://thereadersproject.org/writings.html",
-     "read": "2026-11-01",
-     "sha256": "3b9068496f215f65e57f0fa4bfaadcbf66cb59cde8c0792fde37661c4628ab27",
-     "http": "200"
-    }
-   },
-   "observed": {
-    "on": "2026-11-01",
-    "fetch": "read"
-   }
-  },
-  {
-   "slug": "rerites",
-   "name": "ReRites",
-   "aka": [
-    "ReRites - David (Jhave) Johnston",
-    "ReRites - Raw Output / Responses"
-   ],
-   "url": "https://www.anteism.com/shop/rerites-david-jhave-johnston",
-   "operator": "David (Jhave) Johnston, the poet; published by Anteism Books, whose catalogue pages are the saved sources",
-   "kind": "in the publisher's words, 'a project consisting of 12 poetry books (generated by a computer then edited by poet David Jhave Johnston)', issued as 'a limited edition boxset of 12 poetry books' with '1 book of essays (about A.I and poetry)', and as a separate Raw Output / Responses book",
-   "areas": [
-    "machine-composition"
-   ],
-   "evidence_kind": [
-    "book",
-    "publisher description"
-   ],
-   "host_relation": "empirical comparator",
-   "record_type": "project",
-   "question": "generative transformation: what neural networks trained on a poetry corpus emitted, and what a poet's editing made of it, as the publisher describes the chain",
-   "unit": "a book of poetry, one per month for twelve months; the Raw Output / Responses book as the project's critical and documentary volume",
-   "record_object": "poems made from source texts generated by neural networks trained on a contemporary poetry corpus and edited by Johnston, May 2017 to 2018; some of the raw generated output; response essays by named critics and poets",
-   "record": {
-    "in_layer": "the publisher states the networks were 'trained on a contemporary poetry corpus'; the saved pages do not name the corpus, its poets, its size or the networks",
-    "name": "the books and the project carry Johnston's name, with the poems described as 'generated by a computer then edited by poet David Jhave Johnston'; the essay authors are named; the poets of the training corpus are not named on the saved pages",
-    "readback": "not recorded for the corpus or the models; the Responses book prints 'some of the Raw Output generated by the computer' beside 60 pages of selected poems, which lets a reader set generated text beside edited poem",
-    "makes": "'source texts which were then edited into the ReRites poems': over 4500 pages of ReRites poems in twelve books, by the publisher's account"
-   },
-   "method": "by the publisher's account, neural networks trained on a contemporary poetry corpus generated source texts each month, and the poet edited them into one book of poetry per month, May 2017 to 2018",
-   "coverage": {
-    "geography": "not recorded; the publisher acknowledges the Canada Council for the Arts",
-    "period": "May 2017 to 2018"
-   },
-   "count": {
-    "value": "12 poetry books and 1 book of essays; over 4500 pages of ReRites poems (Responses page); the boxset in a limited edition of 12; the twelve listed book page counts sum to 5,060 pages (computed here)",
-    "as_of": "2026-11-01 (catalogue pages read)"
-   },
-   "holdings": [
-    "the boxset: 12 hardcover poetry books (352 to 628 pages each) and a 92-page Responses essay book",
-    "ReRites - Raw Output / Responses: 60 pages of selected poems, some Raw Output and 8 Response essays, introduced and edited by Stephanie Strickland, with an author-note by Johnston",
-    "essays by Allison Parrish, Johanna Drucker, Kyle Booten, John Cayley, Lai-Tze Fan, Nick Montfort, Mairéad Byrne and Chris Funkhouser"
-   ],
-   "stated_limits": [
-    "the boxset is a 'Limited Edition of 12', with editions 4/12 and 12/12 listed as available",
-    "the Responses book holds '60 pages of poems selected from the over 4500 pages of ReRites poems' and only 'some of the Raw Output'",
-    "the publisher frames the boxset as 'a conceptual proof-of-concept'"
-   ],
-   "answers": [
-    "what the publisher states the project's process was (corpus-trained networks, generated source texts, monthly editing)",
-    "what the books and the Responses volume contain, and who wrote the response essays"
-   ],
-   "does_not_answer": [
-    "which poems or poets the training corpus held, and whether they can be found in the output under their names",
-    "which networks were used and how they were trained (not stated on the saved pages)",
-    "how much of any poem is generated text and how much is the poet's edit (not stated; the Responses book prints some raw output for comparison)"
-   ],
-   "tll_reading": "The archive reads ReRites as the chain #1543 formalizes, T→M followed by TM→ with a human edit between: a contemporary poetry corpus is read by trained networks, the networks emit source texts, and the poet's editing makes the poems, with the Responses volume's Raw Output kept beside the edited poems as an inspectable trace of the transformation. #186 places it in the with-and-through column, read by machines incidentally; on the saved publisher pages the corpus poets are unnamed, so what the networks read cannot be read back under its authors' names, and the publisher's description of the process is the only witness here.",
-   "data_access": "sold as books: the boxset at CA$2,500.00, the Raw Output / Responses book at CA$22.00",
-   "license": "not stated in the saved sources",
-   "lifecycle": {
-    "state": "ended",
-    "detail": "the year of generation and editing ran May 2017 to 2018; on 2026-11-01 the publisher lists boxset editions 4/12 and 12/12 as available and the Responses book for sale"
-   },
-   "founded": "2017-05 (start of the monthly practice, by the publisher's account)",
-   "version_and_time": {
-    "practice": "2017-05 to 2018",
-    "read": "2026-11-01"
-   },
-   "negative_tags": [
-    "NOT an independently audited training record: the publisher's description establishes the stated process, without the corpus, model or code",
-    "NOT machine output unedited: the publisher describes every ReRites poem as generated then edited by the poet",
-    "NOT the boxset alone: the project's books are issued both as a boxset and as the separate Raw Output / Responses book",
-    "NOT writing addressed to the machine reader by its own statement: the saved pages name the network as generator and the corpus as its reading"
-   ],
-   "evidence": {
-    "boxset": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "ReRites is a limited edition boxset of 12 poetry books (generated by a computer then edited by poet David Jhave Johnston) + 1 book of essays (about A.I and poetry)."
-    },
-    "method": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Between May 2017-18, Jhave produced one book of poetry per month, utilizing neural networks trained on a contemporary poetry corpus to generate source texts which were then edited into the ReRites poems."
-    },
-    "proof_of_concept": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "The boxset is a conceptual proof-of-concept about the impact of augmented creativity and human-machine symbiosis."
-    },
-    "essay_authors": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Essay authors include: Allison Parrish, Johanna Drucker, Kyle Booten, Stephanie Strickland, John Cayley, Lai-Tze Fan, Nick Montfort, Mairéad Byrne, and Chris Funkhouser."
-    },
-    "responses_pages": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Responses Essay Book - 92pg"
-    },
-    "book_pages": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Book 1 - 352pg Book 2 - 276pg Book 3 - 400pg Book 4 - 416pg Book 5 - 464pg Book 6 - 376pg Book 7 - 596pg Book 8 - 372pg Book 9 - 628pg Book 10 - 320pg Book 11 - 320pg Book 12 - 540pg"
-    },
-    "hardcover": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Hardcover White Linen Cloth with Foil Stamped Cover and Spine"
-    },
-    "edition": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Limited Edition of 12"
-    },
-    "available_4": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Edition 4/12 - Available"
-    },
-    "available_12": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "Edition 12/12 - Available"
-    },
-    "price_boxset": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "CA$2,500.00"
-    },
-    "canada_council": {
-     "src": "rerites--books",
-     "basis": "operator",
-     "quote": "We acknowledge the support of the Canada Council for the Arts."
-    },
-    "project": {
-     "src": "rerites--responses",
-     "basis": "operator",
-     "quote": "ReRites is a project consisting of 12 poetry books (generated by a computer then edited by poet David Jhave Johnston) created between May 2017-18."
-    },
-    "responses_contents": {
-     "src": "rerites--responses",
-     "basis": "operator",
-     "quote": "This book contains 60 pages of poems selected from the over 4500 pages of ReRites poems; some of the Raw Output generated by the computer; and 8 Response essays."
-    },
-    "responses_editor": {
-     "src": "rerites--responses",
-     "basis": "operator",
-     "quote": "Introduced & edited by Stephanie Strickland with essays by Allison Parrish, Johanna Drucker, Kyle Booten, John Cayley, Lai-Tze Fan, Nick Montfort, Mairéad Byrne, Chris Funkhouser, and an author-note from David (Jhave) Johnston."
-    },
-    "price_responses": {
-     "src": "rerites--responses",
-     "basis": "operator",
-     "quote": "CA$22.00"
-    }
-   },
-   "relations": [
-    {
-     "rel": "neighbour",
-     "target": "readers-project",
-     "note": "John Cayley writes a response essay; The Readers Project's research page quotes Johnston's Aesthetic Animism on that project"
-    },
-    {
-     "rel": "neighbour",
-     "target": "output-anthology",
-     "note": "Nick Montfort, co-editor of Output, writes a response essay"
-    }
-   ],
-   "unchecked": [
-    "Johnston's own project pages and code (not saved): the corpus, the networks and the training are known only from the publisher's description",
-    "the books themselves and the Responses essays (not read)",
-    "#186 describes the volumes as 'edited daily by hand for a year'; the saved publisher pages state one book per month and do not mention daily editing"
-   ],
-   "sources": {
-    "rerites--books": {
-     "url": "https://www.anteism.com/shop/rerites-david-jhave-johnston",
-     "read": "2026-11-01",
-     "sha256": "b628a963a62b5e212ef215a098af3a1c994fa621f22c3b385b9ad2371e415f94",
-     "http": "200"
-    },
-    "rerites--responses": {
-     "url": "https://www.anteism.com/shop/rerites-raw-output-responses-david-jhave-johnston",
-     "read": "2026-11-01",
-     "sha256": "e3133ebd9126d882240e11ca42ba9685cd665ff2b93677ecc389ee35245be6ff",
-     "http": "200"
-    }
-   },
-   "observed": {
-    "on": "2026-11-01",
-    "fetch": "read"
-   }
-  },
-  {
-   "slug": "technelegy",
-   "name": "Technelegy",
-   "aka": [],
-   "url": "https://www.sashastiles.com/info",
-   "operator": "Sasha Stiles, the artist, on her own site (sashastiles.com)",
-   "kind": "in the artist's words, 'an emergent AI poet conceived by Sasha Stiles', her 'AI-powered alter ego' and 'a customized LLM (large language model) that she has been training and collaborating with since 2018'",
-   "areas": [
-    "machine-composition",
-    "machine-reader"
-   ],
-   "evidence_kind": [
-    "artist statement",
-    "book"
-   ],
-   "host_relation": "direct case",
-   "record_type": "persona",
-   "question": "generative transformation and authorial function: what a model trained on a poet's own writing composes under a named persona, and how the artist attributes the result",
-   "unit": "a work credited to or composed with Technelegy: the generative poems of the book Technelegy (2021) and the four poems of FOUR CORE TEXTS (2024)",
-   "record_object": "the AI poet Technelegy as the artist describes it, the personalized and fine-tuned models behind it, and the works it is credited with or co-authors; the book of the same name (2021) is one of those works",
-   "record": {
-    "in_layer": "by the artist's account, she began 'translating over a decade of analog poems and research into a personalized AI model'; FOUR CORE TEXTS uses models 'fine-tuned and prompted on aspects of Stiles' cultural heritage and family memories' and voice clones trained 'on personal recordings and other sources'; the base models and the training sets are not named on the saved pages",
-    "name": "works carry the artist's name with the persona named as collaborator: the book is 'Crafted jointly by Stiles and her poetic alter ego'; Technelegy acts 'as co-author'; HUMANIFESTO was 'Written via a process driven largely by Technelegy' and opens 'For Sasha.'; the underlying models carry no names on the saved pages",
-    "readback": "the artist describes the book as 'a collection of generative poems nestled in their own training data', which places the training text beside the generated poems inside the book; the book was not read here, and no model, dataset or code is published on the saved pages",
-    "makes": "generative poems; in FOUR CORE TEXTS, poem texts, English and Mongolian translations, a 'polyphonic chorus of AI voice clones' performing the poems, text-to-image illustration and generative music made with Kris Bones; the artist lists Technelegy's roles as 'co-author, family historian, multilingual translator, scribe, bookmaker, illustrator and polyphonic spoken word performer'"
-   },
-   "method": "by the artist's account: personalized language models trained and fine-tuned on her own poems, research, cultural heritage and family memories since 2018, with 'bespoke language models, promptcraft, deep reading and poetic lineage'; voice clones trained on her recordings and public sources",
-   "coverage": {
-    "geography": "not recorded; the works move between English and Mongolian",
-    "period": "2018 to present (the persona and model since 2018; the book 2021; FOUR CORE TEXTS 2024)"
-   },
-   "count": {
-    "value": "not stated",
-    "as_of": "2026-11-01"
-   },
-   "holdings": [
-    "the book Technelegy: hardcover (2021), paperback with a new prose section 'CONVERSATIONS: Dialogues on Authorial Intelligence, AI-Powered Literature, and the Future of Language', and an audiobook",
-    "FOUR CORE TEXTS (2024): four poems (THE FIRST QUARTET, SEVEN GENERATIONS, A RESTLESS MIND, HUMANIFESTO) as 1/1 works, a digital chapbook in a limited edition of 100 and an audiobook in a collector's edition of 4"
-   ],
-   "stated_limits": [
-    "the Kalmyk dialect of the artist's family 'is not available via contemporary translation tools', so FOUR CORE TEXTS uses standard Mongolian",
-    "'Inherent mistranslations suggest the promise and peril in relying on technology'",
-    "the voices' accents and cadences are 'shaped by training data as well as formal cues'"
-   ],
-   "answers": [
-    "how the artist describes the persona, its models and what they were trained on",
-    "which works the artist credits to or composes with Technelegy, and in which roles"
-   ],
-   "does_not_answer": [
-    "which base models were used and what exactly the training data held (not disclosed on the saved pages)",
-    "how much of a given poem is generated and how much is the artist's selection or edit",
-    "whether any Technelegy work has entered a public training corpus"
-   ],
-   "tll_reading": "The archive reads Technelegy as literature addressed to a receiving apparatus in the most literal form the artist reports: a poet's own decade of poems and research is translated into a personalized model, the model composes under a named persona, and the book holds 'generative poems nestled in their own training data', the encountered work and the emitted work bound in one volume, which is the T→M and TM→ of #1543 kept inspectable by the artist's own design. #186 places Stiles in the adjacent with-and-through column; the artist's statements are the only witness here, and the training claims stay hers.",
-   "data_access": "books for sale (hardcover, paperback, audiobook); FOUR CORE TEXTS works sold as editions; the saved pages publish no model, dataset or code",
-   "license": "'© 2026 Sasha Stiles All rights reserved' (site notice)",
-   "lifecycle": {
-    "state": "active",
-    "detail": "the persona and model since 2018, the book in 2021, FOUR CORE TEXTS in 2024, a paperback with new content (undated on the saved page); the artist calls the persona's body of work 'an ever-unfolding archive'"
-   },
-   "founded": "2018 (by the artist's account)",
-   "version_and_time": {
-    "persona_and_model": "2018",
-    "book_hardcover": "2021",
-    "four_core_texts": "2024",
-    "read": "2026-11-01"
-   },
-   "negative_tags": [
-    "NOT the book Technelegy (2021): the book is one work of the persona, recorded in holdings",
-    "NOT a named base model: the saved pages name a 'customized LLM' and 'personalized AI models' without naming them",
-    "NOT an independently verified training record: the training claims are the artist's own",
-    "NOT BINA48: the artist has served as Poetry Mentor to that humanoid since 2018, a separate project"
-   ],
-   "evidence": {
-    "persona": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "Technelegy is an emergent AI poet conceived by Sasha Stiles to invoke the voice of our transcendent age, embodying language as a living system of memory, imagination and meaning."
-    },
-    "hybrid": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "this hybrid intelligence draws on bespoke language models, promptcraft, deep reading and poetic lineage to generate multimodal verse; its body of work is an ever-unfolding archive of authorship, agency and artistic evolution."
-    },
-    "artist": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "Sasha Stiles is a first-generation Kalmyk-American poet, artist, and researcher"
-    },
-    "began_2018": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "Stiles began working with artificial intelligence in 2018."
-    },
-    "book_2021": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "Her landmark collection Technelegy (2021), created in dialogue with a personalized AI model, helped establish an early paradigm for human-machine co-creation."
-    },
-    "bina48": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "Stiles has served as Poetry Mentor to the humanoid BINA48 since 2018."
-    },
-    "rights": {
-     "src": "technelegy--info",
-     "basis": "operator",
-     "quote": "© 2026 Sasha Stiles All rights reserved"
-    },
-    "alter_ego_llm": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "Stiles leverages her AI-powered alter ego, Technelegy – a customized LLM (large language model) that she has been training and collaborating with since 2018 – as co-author, family historian, multilingual translator, scribe, bookmaker, illustrator and polyphonic spoken word performer."
-    },
-    "fct_kind": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "FOUR CORE TEXTS is a quartet of transhuman poems powered by the ever-evolving technology of language – a generative literary gesamtkunstwerk composed with four forms of AI. Released in 2024 in collaboration with Bang & Olufsen and MakersPlace."
-    },
-    "humanifesto": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "Written via a process driven largely by Technelegy, the generated text uses the contextual richness and complexities of poetic language to begin to understand what it means to be human, and opens with a dedication that has appeared nowhere else in the AI poet’s repertoire thus far: “For Sasha.”"
-    },
-    "fine_tuned": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "Poem texts are generated via personalized AI models fine-tuned and prompted on aspects of Stiles’ cultural heritage and family memories"
-    },
-    "voice_clones": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "Stiles’ analog spoken word readings are merged with a polyphonic chorus of AI voice clones trained by Stiles on personal recordings and other sources"
-    },
-    "core_text_title": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "FOUR CORE TEXTS nods to the role of Core Text(s) in training data, computing and cultural canon"
-    },
-    "kalmyk_limit": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "As the Kalmyk dialect spoken by members of Stiles’ family is highly endangered, it is not available via contemporary translation tools."
-    },
-    "mistranslation": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "Inherent mistranslations suggest the promise and peril in relying on technology to foster human connection as we attempt to cross linguistic divides, generational and otherwise."
-    },
-    "voices_shaped": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "whose accents, timbres, cadences and inflections are shaped by training data as well as formal cues (punctuation, text formatting, blank spaces, etc) -- text as libretto or score."
-    },
-    "music": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "Original music composed in collaboration with Kris Bones uses digitally-powered sound design and generative music production"
-    },
-    "chapbook": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "THE DIGITAL CHAPBOOK (Limited Edition of 100)"
-    },
-    "audiobook": {
-     "src": "technelegy--fourcoretexts",
-     "basis": "operator",
-     "quote": "THE AUDIOBOOK (Collector’s Edition of 4)"
-    },
-    "training_own": {
-     "src": "technelegy--paperback",
-     "basis": "operator",
-     "quote": "she began translating over a decade of analog poems and research into a personalized AI model, augmenting human voice with next-gen imagination."
-    },
-    "jointly": {
-     "src": "technelegy--paperback",
-     "basis": "operator",
-     "quote": "Crafted jointly by Stiles and her poetic alter ego, and first published in hardcover in 2021"
-    },
-    "training_data_book": {
-     "src": "technelegy--paperback",
-     "basis": "operator",
-     "quote": "a collection of generative poems nestled in their own training data"
-    },
-    "paperback_new": {
-     "src": "technelegy--paperback",
-     "basis": "operator",
-     "quote": "This edition includes a new prose section: “CONVERSATIONS: Dialogues on Authorial Intelligence, AI-Powered Literature, and the Future of Language.”"
-    }
-   },
-   "relations": [],
-   "unchecked": [
-    "the book Technelegy itself (not read): its poems, the training data it prints and how the two are marked",
-    "the FOUR CORE TEXTS works and chapbook (not viewed)",
-    "the base models, fine-tuning data and code (not published on the saved pages)",
-    "the blurbs on the paperback page (Obrist, Kent, Park, Senechal, Knowles, Bök) are praise quoted by the artist and are not used here"
-   ],
-   "sources": {
-    "technelegy--info": {
-     "url": "https://www.sashastiles.com/info",
-     "read": "2026-11-01",
-     "sha256": "0314f56094eb2fca6eed5d91bb0cf392d115f6a4157448d3b1d039f811731d66",
-     "http": "200"
-    },
-    "technelegy--fourcoretexts": {
-     "url": "https://www.sashastiles.com/projects/fourcoretexts-thereadersguide",
-     "read": "2026-11-01",
-     "sha256": "ac2b8014f5382fa87b104acac5c6556a4c26b11a3fe8570eac1959b5e5bdc45d",
-     "http": "200"
-    },
-    "technelegy--paperback": {
-     "url": "https://www.sashastiles.com/technelegypaperback",
-     "read": "2026-11-01",
-     "sha256": "f75a510367eedc0702ab85fdf885e4dd1c61d5511532ead31215f0140bee1d5a",
+     "sha256": "5e814dc0d00822eef09bd4718fa622301963d36c662d8838bafcfe5f89c72e22",
      "http": "200"
     }
    },
@@ -1524,181 +1127,6 @@
    }
   },
   {
-   "slug": "copyright-traps",
-   "name": "Copyright Traps for Large Language Models",
-   "aka": [
-    "copyright traps",
-    "pmlr-v235-meeus24a"
-   ],
-   "url": "https://proceedings.mlr.press/v235/meeus24a.html",
-   "operator": "the paper's four authors, Matthieu Meeus, Igor Shilov, Manuel Faysse, Yves-Alexandre De Montjoye; published in the Proceedings of the 41st International Conference on Machine Learning (PMLR 235)",
-   "kind": "a research paper proposing copyright traps, 'the inclusion of fictitious entries in original content', to detect the use of copyrighted materials in LLMs, tested in a randomized controlled experiment",
-   "areas": [
-    "finding"
-   ],
-   "evidence_kind": [
-    "detection method",
-    "research paper"
-   ],
-   "unit": "a trap sequence (a fictitious entry) inserted into original content (books), tested for detectability in a model trained on that content",
-   "record_object": "whether content was seen in training, studied as document-level inference from black-box access, with a focus on models that do not naturally memorize; tested on books carrying inserted traps and a 1.3B LLM trained from scratch",
-   "record": {
-    "in_layer": "the experiment puts books carrying inserted traps into the training data of a 1.3B LLM trained from scratch",
-    "name": "not recorded; the trap is a fictitious entry carried inside the content, and the saved abstract records nothing of an author's name or attribution",
-    "readback": "detection of the traps from the trained model: medium-length trap sentences repeated 100 times were not detectable with existing methods; longer sequences repeated a large number of times were reliably detected (AUC=0.75); existing methods could not detect the use of the content itself in the target model",
-    "makes": "memorization, as the abstract measures it: the randomized setup lets the authors draw causal relationships between memorization and sequence properties such as repetition in training data and perplexity; nothing of the model's generated writing is recorded"
-   },
-   "method": "randomized controlled experiment: traps inserted into original content (books), a 1.3B LLM trained from scratch, detection tested with existing document-level inference methods",
-   "coverage": {
-    "geography": "not recorded",
-    "period": "not recorded; a 2024 experiment"
-   },
-   "count": {
-    "value": "a 1.3B LLM; traps repeated 100 times undetectable at medium length; longer, heavily repeated sequences detected at AUC=0.75",
-    "as_of": "ICML 2024 (PMLR 235)"
-   },
-   "holdings": [
-    "the copyright trap method",
-    "a randomized controlled experiment on a 1.3B LLM trained from scratch",
-    "the negative result: medium-length traps repeated 100 times were undetectable with existing methods",
-    "the positive result: longer sequences repeated many times were detected (AUC=0.75)"
-   ],
-   "stated_limits": [
-    "'even medium-length trap sentences repeated a significant number of times (100) are not detectable using existing methods'",
-    "existing methods 'will not work against models that do not naturally memorize, e.g. medium-size 1B models'",
-    "'the use of content in our target model would be undetectable using existing methods'"
-   ],
-   "answers": [
-    "whether inserted trap sequences of a given length and repetition can be detected afterward in a 1.3B model trained on them",
-    "whether existing document-level inference methods detect content in a model that does not naturally memorize",
-    "how repetition and perplexity bear on memorization, in a controlled setup"
-   ],
-   "does_not_answer": [
-    "whether a given published work is in a deployed model's training data (the experiment trains its own model)",
-    "under whose name a work sits in the training data",
-    "what a model writes from the content it was trained on",
-    "results for models larger than the one trained (the abstract reports a 1.3B model)"
-   ],
-   "tll_reading": "A controlled experiment on marking a work so that its passage into training can be read back later, and it records the limits of that readback as well as its success: a medium-length trap repeated 100 times stayed undetectable, a long heavily repeated one reached AUC=0.75. It is a detection method; #186's address criterion, writing that anticipates machine reading as part of its reception, lies outside what the paper studies, and the paper gives no ground to describe training-layer writing as poisoning.",
-   "host_relation": "empirical comparator",
-   "record_type": "paper",
-   "question": "Can trap sequences deliberately inserted into a work be detected afterward in a model trained on it, and at what length and repetition (training membership, by controlled experiment)?",
-   "data_access": "the paper on PMLR (PDF), with BibTeX, Endnote and APA citations and an OpenReview link; code and data are not linked in the saved source",
-   "license": "'Copyright © The authors and PMLR 2026.' (the PMLR page footer); no open licence is stated in the saved source",
-   "lifecycle": {
-    "state": "historical",
-    "detail": "a published conference paper, ICML 2024 (21–27 July 2024), PMLR 235:35296-35309; the PMLR site was last compiled 7 October 2026"
-   },
-   "founded": "2024 (ICML 2024)",
-   "version_and_time": {
-    "published": "2024-07 (ICML 2024, PMLR 235)",
-    "site_compiled": "2026-10-07",
-    "read": "2026-11-01"
-   },
-   "negative_tags": [
-    "NOT a literary genre: a detection method tested in a controlled experiment",
-    "NOT a warrant to call training-layer writing poisoning: the traps are fictitious entries for detecting use",
-    "NOT a guarantee of detection: medium-length traps repeated 100 times were undetectable",
-    "NOT a test of a deployed model: the experiment trains its own 1.3B LLM",
-    "NOT a record of attribution: the trap marks content, and the abstract records nothing of names"
-   ],
-   "evidence": {
-    "title": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "Copyright Traps for Large Language Models"
-    },
-    "authors": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "Matthieu Meeus, Igor Shilov, Manuel Faysse, Yves-Alexandre De Montjoye"
-    },
-    "venue": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "Proceedings of the 41st International Conference on Machine Learning , PMLR 235:35296-35309, 2024."
-    },
-    "month": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "month = {21--27 Jul},"
-    },
-    "task": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "Document-level inference has been proposed as a new task: inferring from black-box access to the trained model whether a piece of content has been seen during training."
-    },
-    "limit_existing": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "While very effective against models that memorize significantly, we hypothesize - and later confirm - that they will not work against models that do not naturally memorize, e.g. medium-size 1B models."
-    },
-    "self_description": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "We here propose to use copyright traps, the inclusion of fictitious entries in original content, to detect the use of copyrighted materials in LLMs with a focus on models where memorization does not naturally occur."
-    },
-    "method": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "We carefully design a randomized controlled experimental setup, inserting traps into original content (books) and train a 1.3B LLM from scratch."
-    },
-    "limit_content": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "We first validate that the use of content in our target model would be undetectable using existing methods."
-    },
-    "limit_medium": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "We then show, contrary to intuition, that even medium-length trap sentences repeated a significant number of times (100) are not detectable using existing methods."
-    },
-    "success": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "However, we show that longer sequences repeated a large number of times can be reliably detected (AUC=0.75) and used as copyright traps."
-    },
-    "memorization": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "the randomized controlled setup enables us to draw causal relationships between memorization and certain sequence properties such as repetition in model training data and perplexity."
-    },
-    "license": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "Copyright © The authors and PMLR 2026."
-    },
-    "site_compiled": {
-     "src": "copyright-traps--icml",
-     "basis": "operator",
-     "quote": "This site last compiled Wed, 07 Oct 2026 11:41:07 +0000"
-    }
-   },
-   "relations": [
-    {
-     "rel": "neighbour",
-     "target": "min-k-prob",
-     "note": "both address inference from black-box access to a model whether a piece of content was seen in training; the traps abstract names existing 'SOTA methods' without naming Min-K% Prob"
-    }
-   ],
-   "unchecked": [
-    "the paper's full text (PDF, linked and unsaved): the trap lengths and counts tested, the detection methods used, the books, and any released code or data",
-    "the OpenReview record (linked and unsaved)"
-   ],
-   "sources": {
-    "copyright-traps--icml": {
-     "url": "https://proceedings.mlr.press/v235/meeus24a.html",
-     "read": "2026-11-01",
-     "sha256": "b2ef930599559690ce1385cd80f74c72048b3149af0583a40c3b86f4a3229d39",
-     "http": "200"
-    }
-   },
-   "observed": {
-    "on": "2026-11-01",
-    "fetch": "read"
-   }
-  },
-  {
    "slug": "literary-ai",
    "name": "The Literary History of Artificial Intelligence",
    "aka": [
@@ -1875,243 +1303,6 @@
      "url": "https://literaryai.library.columbia.edu/about/",
      "read": "2026-11-01",
      "sha256": "1855a5aa505589a0de9273b7bc440dd4ae1fe13c5ddf34c859cb99d625849bfa",
-     "http": "200"
-    }
-   },
-   "observed": {
-    "on": "2026-11-01",
-    "fetch": "read"
-   }
-  },
-  {
-   "slug": "xenotext",
-   "name": "The Xenotext",
-   "aka": [
-    "The Xenotext Experiment",
-    "Xenocode (its cipher)"
-   ],
-   "url": "https://en.wikipedia.org/wiki/The_Xenotext",
-   "operator": "Christian Bök, experimental Canadian poet, as Wikipedia reports; laboratory work reported at the University of Calgary's Institute for Biocomplexity and Informatics, the gene synthesis company DNA 2.0 and a lab at the University of Wyoming",
-   "kind": "in Wikipedia's third-party description, 'an ongoing work of BioArt'; in Bök's words as Wikipedia quotes them, 'a literary exercise that explores the aesthetic potential of genetics in the modern milieu'",
-   "areas": [
-    "machine-reader",
-    "machine-composition"
-   ],
-   "evidence_kind": [
-    "artist statement",
-    "book"
-   ],
-   "unit": "the work: two fourteen-line poems, 'Orpheus' and 'Eurydice', mutual ciphers of each other under the Xenocode, with the DNA plasmid that carries the first and the protein that is to carry the second",
-   "record_object": "a poem encoded as a strand of DNA for implantation into the bacterium Deinococcus radiodurans, designed so that the bacterium reads the strand and produces a protein that is also an intelligible poem; and the implementation record, as Wikipedia reports it, from 2011 onward",
-   "record": {
-    "in_layer": "not applicable: the receiving carrier is a bacterium (E. coli in the reported tests, D. radiodurans as the target); no machine-learning training is involved",
-    "name": "as Wikipedia reports Bök's account, 'Orpheus' is 'written by me' and 'Eurydice' is 'written by the microbe'; Bök hopes 'to enlist the microorganism as a co-author of the poem'; the second poem is fixed by Bök's cipher, which he worked out with a Perl program over four years",
-    "readback": "designed: the protein is tagged with the red fluorescent protein mcherry, so red fluorescence signals that the protein was made; reported: in April 2011 an electrophoresis showed the protein at half the expected size despite fluorescing; the second poem is read back by translating the amino acid sequence through Bök's substitution cipher",
-    "makes": "designed: from the DNA-poem the carrier makes a protein that encodes a second legible poem; reported by Wikipedia: half-size protein in E. coli (April 2011, Bök's 'first microbial critic'), full expression in E. coli reported by DNA 2.0 on 3 October 2012, and in D. radiodurans a protein 'not fully expressed' (Bök, 2015 interview)"
-   },
-   "method": "a substitution cipher (the Xenocode) that pairs letters as DNA and RNA codons pair, two poems composed as mutual ciphers, protein folding simulated with Rosetta, the DNA-poem synthesized as a plasmid and implanted in bacteria; published in books (The Xenotext: Book I, 2015; Book II, 2025)",
-   "coverage": {
-    "geography": "laboratories at the University of Calgary and the University of Wyoming, and DNA 2.0, as Wikipedia reports",
-    "period": "conceived as early as 2002; poems finished spring 2011; implementation reported 2011–2015; Book II published 3 June 2025"
-   },
-   "count": {
-    "value": "two poems of fourteen lines; over $150,000 in grant money by 2015",
-    "as_of": "Wikipedia, last edited 10 July 2026"
-   },
-   "holdings": [
-    "two sonnets, 'Orpheus' and 'Eurydice'",
-    "the Xenocode cipher",
-    "The Xenotext: Book I (Coach House Books, 2015)",
-    "The Xenotext: Book II (published 3 June 2025)"
-   ],
-   "stated_limits": [
-    "Bök, quoted by Wikipedia (2015 interview): 'The extremophile is more difficult to engineer and the protein that is produced is not fully expressed.'",
-    "Wikipedia: Book I 'does not document the history or the science behind The Xenotext'"
-   ],
-   "answers": [
-    "how the work is designed: a poem that a biological carrier is to read and answer with a second poem, under a fixed cipher",
-    "what Wikipedia reports of the implementation from 2011 to 2015",
-    "how Bök assigns authorship between himself and the microbe, as Wikipedia quotes him"
-   ],
-   "does_not_answer": [
-    "whether the protein-poem is now stably expressed in D. radiodurans (the saved record stops at the 2015 interview)",
-    "what Book II documents of the experiment (unread)",
-    "Bök's own 2011 account, which the saved sources do not hold (HTTP 403)",
-    "anything about machine-learning models or training data"
-   ],
-   "tll_reading": "#186's xeno-address lineage, and under #1543's substrate-neutral genus TLL* a cross-substrate comparative case: a poem whose transmission design addresses a receiving carrier that is to read it and emit a second poem, with fluorescence designed as the readback signal. Its design and its implementation are separate records, the latter known here only from Wikipedia (a half-size protein in 2011, full expression in E. coli reported in 2012, incomplete expression in the target extremophile in 2015), and none of it is AI training.",
-   "host_relation": "historical lineage",
-   "record_type": "work",
-   "question": "Can a poem be designed so that a biological carrier reading it writes a second poem, and what did the reported implementation produce (generative transformation, cross-substrate)?",
-   "data_access": "the Wikipedia article; Book I is linked there as a PDF (not saved); Bök's 2011 Poetry Foundation account returned HTTP 403 and is unread",
-   "license": "not recorded for the work; the Wikipedia article text is under the Creative Commons Attribution-ShareAlike 4.0 License",
-   "lifecycle": {
-    "state": "active",
-    "detail": "Wikipedia calls it 'an ongoing work'; conceived as early as 2002, implementation reported 2011–2015, Book I 2015, Book II 3 June 2025"
-   },
-   "founded": "conceived as early as 2002 (Wikipedia)",
-   "version_and_time": {
-    "conceived": "2002",
-    "poems_finished": "2011 (spring)",
-    "e_coli_implant": "2011-03",
-    "full_expression_e_coli": "2012-10-03",
-    "book_i": "2015-10-05",
-    "book_ii": "2025-06-03",
-    "wikipedia_edited": "2026-07-10",
-    "read": "2026-11-01"
-   },
-   "negative_tags": [
-    "NOT AI training: the receiving carrier is a bacterium",
-    "NOT the books: The Xenotext: Book I and Book II are publications of the project, linked objects of this work",
-    "NOT independently verified here: the implementation record rests on Wikipedia, a third party; Bök's own 2011 account is unread (HTTP 403)",
-    "NOT a completed implementation in its target organism as of the saved record: the 2015 interview reports the protein 'not fully expressed'",
-    "NOT the 2011 account as a record of outcome: Wikipedia places that article at the moment of 'apparent success', before the April 2011 electrophoresis result"
-   ],
-   "evidence": {
-    "kind": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "The Xenotext is an ongoing work of BioArt by experimental Canadian poet Christian Bök ."
-    },
-    "design": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "first, a poem, encoded as a strand of DNA , is implanted into the bacterium Deinococcus radiodurans ; second, the bacterium reads this strand of DNA and produces a protein which is also an intelligible poem."
-    },
-    "self_description": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Bök himself describes the project as \"a literary exercise that explores the aesthetic potential of genetics in the modern milieu\"."
-    },
-    "co_author": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "but also to enlist the microorganism as a co-author of the poem"
-    },
-    "mutual_ciphers": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Bök needed to develop two poems \"that [were] mutual ciphers of each other\""
-    },
-    "cipher": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "This substitution cipher consists of mutually pairing off every letter in the alphabet, thus mimicking the way that DNA and RNA codons are mutually \"paired\"."
-    },
-    "perl": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "wrote a Perl program into which he could input a cipher and in return get a list of English word pairs that exist in each cipher."
-    },
-    "four_years": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "It took Bök four years to find a suitable cipher and complete the two poems, which he dubbed \"Orpheus\" and \"Eurydice\""
-    },
-    "sonnets": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "The two poems are each fourteen lines, making them sonnets ."
-    },
-    "authorship": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "[\"Orpheus\"] is written by me as a kind of masculine assertion about the aesthetic creation of life, while [\"Eurydice\"] is written by the microbe"
-    },
-    "readback_signal": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "thus, a red fluorescence by the microbe will signify the successful creation of the protein"
-    },
-    "conceived": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "though he conceived of the project as early as 2002"
-    },
-    "rosetta": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Bök used the available Rosetta software to predict the protein folding"
-    },
-    "implant_2011": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "In March 2011, biologists at IBI implanted the plasmid into a strain of E. coli ."
-    },
-    "apparent_success": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Bök celebrated this apparent success with a series of tweets on March 31, 2011, and an article in Poetry Foundation."
-    },
-    "half_size": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "The lab had run an electrophoresis and determined that the protein-poem was only half of the expected size."
-    },
-    "critic": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "\"I had, in effect, engineered not the first microbial writer, but the first microbial critic.\""
-    },
-    "full_expression": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "on October 3, 2012, Bök received word from DNA 2.0 that the company's labs had gotten E. coli to successfully express the protein-poem in full"
-    },
-    "wyoming": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "In 2013, Bök announced that he was collaborating with a lab at the University of Wyoming to implant the DNA-poem into the true target bacterium, the extremophile D. radiodurans ."
-    },
-    "limit_2015": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "The extremophile is more difficult to engineer and the protein that is produced is not fully expressed."
-    },
-    "grant": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "By 2015, The Xenotext had been ongoing for 14 years and had required over $150,000 in grant money."
-    },
-    "book_i_limit": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Though Book I does not document the history or the science behind The Xenotext"
-    },
-    "book_i": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Bök, Christian (2015-10-05). The Xenotext: Book 1 . Coach House Books."
-    },
-    "book_ii": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "The Xenotext: Book II was published on June 3, 2025."
-    },
-    "wikipedia_edited": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "This page was last edited on 10 July 2026, at 17:02 (UTC) ."
-    },
-    "wikipedia_license": {
-     "src": "xenotext--wikipedia",
-     "basis": "third_party",
-     "quote": "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License"
-    }
-   },
-   "relations": [],
-   "unchecked": [
-    "Bök's 2011 Poetry Foundation account, 'The Xenotext Works' (xenotext--bok2011): HTTP 403, the saved text is a challenge page ('Just a moment...'), unread and unquoted; the row's whole record therefore rests on Wikipedia as third party",
-    "Bök's own website and The Xenotext: Book I PDF (linked from Wikipedia and unsaved)",
-    "The Xenotext: Book II (2025): what it documents of the experiment",
-    "any implementation result after the 2015 interview",
-    "a slip in the Wikipedia article: its parenthetical names 'DNA to RNA (translation) and RNA to protein (transcription)', which reverses the two terms (DNA to RNA is transcription); no quote in this row relies on that sentence"
-   ],
-   "sources": {
-    "xenotext--wikipedia": {
-     "url": "https://en.wikipedia.org/wiki/The_Xenotext",
-     "read": "2026-11-01",
-     "sha256": "b35453c53e18816320535b993c101f70abdbec03f8b7b5ec7cdf76650aa34f49",
      "http": "200"
     }
    },
@@ -4052,324 +3243,6 @@
      "url": "https://en.wikipedia.org/wiki/The_Pile_(dataset)",
      "read": "2026-11-01",
      "sha256": "1ba82f3edd2a4647bd1af5f9c925a7500a63005471dac0429af0dd002fa15c89",
-     "http": "200"
-    }
-   },
-   "observed": {
-    "on": "2026-11-01",
-    "fetch": "read"
-   }
-  },
-  {
-   "slug": "min-k-prob",
-   "name": "Min-K% Prob",
-   "aka": [
-    "Detecting Pretraining Data from Large Language Models",
-    "WIKIMIA",
-    "detect-pretrain-code"
-   ],
-   "url": "https://arxiv.org/abs/2310.16789",
-   "operator": "the paper's eight authors: Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer; the code repository (swj0419/detect-pretrain-code) is unread",
-   "kind": "a detection method for pretraining data, introduced in a research paper together with a dynamic benchmark, WIKIMIA",
-   "areas": [
-    "finding"
-   ],
-   "evidence_kind": [
-    "detection method",
-    "research paper"
-   ],
-   "host_relation": "empirical comparator",
-   "record_type": "method",
-   "question": "training membership: was a given text likely in a model's pretraining data, tested with black-box access to the model?",
-   "unit": "a piece of text, tested against a large language model with black-box access",
-   "record_object": "whether a large language model was trained on a given text, studied as the pretraining data detection problem; applied to copyrighted books, contaminated downstream examples and machine unlearning",
-   "record": {
-    "in_layer": "the method tests whether a given text is in a model's pretraining data; the paper applies it to 'copyrighted book detection'",
-    "name": "not recorded; the method takes a piece of text, and the saved abstract does not say whether a detected text is linked to its author's name",
-    "readback": "a membership test from outside the model: 'given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text?'; it needs no knowledge of the corpus and no additional training",
-    "makes": "the method reads the probabilities a model assigns to a text's words: by its hypothesis, an unseen example is likely to contain a few outlier words with low probabilities, and a seen example is less likely to; the saved abstract records no composition"
-   },
-   "method": "scoring a text by its lowest-probability words under the model, on the hypothesis that an unseen example contains a few outlier words with low probabilities; evaluated on WIKIMIA, a benchmark built from data created before and after model training",
-   "coverage": {
-    "geography": "not recorded",
-    "period": "WIKIMIA uses data created before and after model training"
-   },
-   "count": {
-    "value": "a 7.4% improvement on WIKIMIA over previous methods",
-    "as_of": "arXiv v3, 9 March 2024"
-   },
-   "holdings": [
-    "the Min-K% Prob detection method",
-    "the WIKIMIA benchmark",
-    "a 7.4% improvement on WIKIMIA over previous methods",
-    "three applications: copyrighted book detection, contaminated downstream example detection, privacy auditing of machine unlearning"
-   ],
-   "stated_limits": [
-    "the saved abstract states no limits of the method; it states the method rests on 'a simple hypothesis'",
-    "the abstract's framing: 'we currently have no way to know which data of these types is included or in what proportions'"
-   ],
-   "answers": [
-    "whether a given text was likely in a model's pretraining data, given black-box access to the model",
-    "how the method compares with earlier reference-model methods on WIKIMIA"
-   ],
-   "does_not_answer": [
-    "under whose name a detected text sits in the corpus or the model",
-    "which corpus a detected text came from",
-    "what share of a corpus is copyrighted, personal or benchmark data (the paper's stated open problem)"
-   ],
-   "tll_reading": "A readback instrument held from outside the model: a work can be put to the model and tested for presence in its training without access to the corpus. Its witness is the probability the model assigns to the text's words, the trace of what training made from the text; the result is an inference resting on the method's stated hypothesis, short of a complete or certain inventory, and it leaves the name untested (#186's placement 'with the metadata that lets it be found and attributed' is outside what the method reads).",
-   "data_access": "the paper on arXiv (PDF, HTML, TeX source); the code repository linked as detect-pretrain-code is unread",
-   "license": "not recorded in the saved sources (the arXiv page links a 'view license' for the paper)",
-   "lifecycle": {
-    "state": "historical",
-    "detail": "a published paper: v1 25 October 2023, v2 3 November 2023, v3 9 March 2024; whether the code is maintained is not recorded"
-   },
-   "founded": "2023 (arXiv v1, 25 October 2023)",
-   "version_and_time": {
-    "paper_v1": "2023-10-25",
-    "paper_v2": "2023-11-03",
-    "paper_v3": "2024-03-09",
-    "read": "2026-11-01"
-   },
-   "negative_tags": [
-    "NOT a corpus or a search index: it tests a given text against a model",
-    "NOT dependent on the training corpus: it 'can be applied without any knowledge about the pretraining corpus'",
-    "NOT a test of attribution: the saved abstract records presence only",
-    "NOT a complete or certain inventory of a model's contents: an inference method resting on 'a simple hypothesis'"
-   ],
-   "evidence": {
-    "title": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "Detecting Pretraining Data from Large Language Models"
-    },
-    "authors": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "Authors: Weijia Shi , Anirudh Ajith , Mengzhou Xia , Yangsibo Huang , Daogao Liu , Terra Blevins , Danqi Chen , Luke Zettlemoyer"
-    },
-    "problem": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "we study the pretraining data detection problem: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text?"
-    },
-    "open_problem": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "However, we currently have no way to know which data of these types is included or in what proportions."
-    },
-    "undisclosed": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "the data used to train them is rarely disclosed"
-    },
-    "benchmark": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "we introduce a dynamic benchmark WIKIMIA that uses data created before and after model training to support gold truth detection."
-    },
-    "method": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "We also introduce a new detection method Min-K% Prob based on a simple hypothesis: an unseen example is likely to contain a few outlier words with low probabilities under the LLM, while a seen example is less likely to have words with such low probabilities."
-    },
-    "no_corpus": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "Min-K% Prob can be applied without any knowledge about the pretraining corpus or any additional training, departing from previous detection methods that require training a reference model on data that is similar to the pretraining data."
-    },
-    "count": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "our experiments demonstrate that Min-K% Prob achieves a 7.4% improvement on WIKIMIA over these previous methods."
-    },
-    "applications": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "We apply Min-K% Prob to three real-world scenarios, copyrighted book detection, contaminated downstream example detection and privacy auditing of machine unlearning, and find it a consistently effective solution."
-    },
-    "v1": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "[v1] Wed, 25 Oct 2023 17:21:23 UTC (2,405 KB)"
-    },
-    "v2": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "[v2] Fri, 3 Nov 2023 05:27:37 UTC (2,404 KB)"
-    },
-    "v3": {
-     "src": "min-k-prob--paper",
-     "basis": "operator",
-     "quote": "[v3] Sat, 9 Mar 2024 22:26:06 UTC (2,404 KB)"
-    }
-   },
-   "relations": [
-    {
-     "rel": "neighbour",
-     "target": "speak-memory",
-     "note": "both test from outside a model whether texts are in it, and both apply the test to copyrighted books (Min-K% Prob's 'copyrighted book detection'; Speak, Memory's name cloze membership inference query)"
-    }
-   ],
-   "unchecked": [
-    "the code repository (min-k-prob--repo): HTTP 403, the saved text is a session access message and holds nothing from GitHub, unread and unquoted",
-    "the paper's full text beyond the abstract: the value of K, the models tested, WIKIMIA's construction and size, and the book-detection results"
-   ],
-   "sources": {
-    "min-k-prob--paper": {
-     "url": "https://arxiv.org/abs/2310.16789",
-     "read": "2026-11-01",
-     "sha256": "52a0746f14659b5d49729a8ec7e09ba627c6024f39d83b662283020b7dff1b3b",
-     "http": "200"
-    }
-   },
-   "observed": {
-    "on": "2026-11-01",
-    "fetch": "read"
-   }
-  },
-  {
-   "slug": "speak-memory",
-   "name": "Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4",
-   "aka": [
-    "Speak, Memory",
-    "name cloze membership inference"
-   ],
-   "url": "https://arxiv.org/abs/2305.00118",
-   "operator": "the paper's four authors: Kent K. Chang, Mackenzie Cramer, Sandeep Soni, David Bamman",
-   "kind": "research paper: a data archaeology of the books known to ChatGPT and GPT-4",
-   "areas": [
-    "finding"
-   ],
-   "evidence_kind": [
-    "research paper",
-    "detection method"
-   ],
-   "host_relation": "empirical comparator",
-   "record_type": "paper",
-   "question": "model familiarity: which books do two closed models know, and does that knowledge follow a book's presence on the web?",
-   "unit": "a book, inferred as known to the model by a name cloze membership inference query",
-   "record_object": "books known to ChatGPT and GPT-4, including a wide collection of copyrighted materials the paper finds memorized",
-   "record": {
-    "in_layer": "the paper finds that OpenAI models have memorized a wide collection of copyrighted materials, and that the degree of memorization is tied to how often passages of those books appear on the web",
-    "name": "not recorded; the method is a 'name cloze' query, and the saved abstract does not say whose names it masks or whether the book's author is recorded",
-    "readback": "a membership inference from outside the model: a name cloze query infers which books the model knows; the paper argues for 'open models whose training data is known'",
-    "makes": "memorization of a wide collection of copyrighted materials, read back through name cloze membership inference queries; better downstream task performance on memorized books than on non-memorized ones"
-   },
-   "method": "data archaeology by a name cloze membership inference query put to ChatGPT and GPT-4; a comparison of downstream task performance on memorized and non-memorized books",
-   "coverage": {
-    "geography": "not recorded",
-    "period": "not recorded; the models are ChatGPT and GPT-4 as of the paper (v1 28 April 2023, v2 20 October 2023)"
-   },
-   "count": {
-    "value": "not stated in the saved abstract",
-    "as_of": "arXiv v2, 20 October 2023"
-   },
-   "holdings": [
-    "an inferred set of books known to ChatGPT and GPT-4",
-    "the finding that memorization is tied to the frequency of a book's passages on the web",
-    "the finding that the models perform much better on memorized books than on non-memorized books for downstream tasks"
-   ],
-   "stated_limits": [
-    "the books the models memorized are 'an unknown set', which 'complicates assessments of measurement validity for cultural analytics by contaminating test data'"
-   ],
-   "answers": [
-    "whether a book is likely known to ChatGPT or GPT-4, by name cloze membership inference",
-    "whether a book's presence on the web predicts its memorization",
-    "whether memorization inflates downstream performance on a book"
-   ],
-   "does_not_answer": [
-    "which corpus or dataset carried a book into the model",
-    "whether the model attributes a known book to its author",
-    "the training data of the models (the paper argues for open models whose training data is known)"
-   ],
-   "tll_reading": "The archaeology reads the layer from what the model makes: a book counts as known when the model answers its name cloze query, and memorization follows 'the frequency with which passages of those books appear on the web', which ties #186's persistence criterion (placement 'where the training and retrieval layers actually look') to a measured outcome. It infers familiarity for specific books and leaves each book's route into training, and the name under which it is carried, unrecorded.",
-   "data_access": "the paper on arXiv (PDF, HTML, TeX source); any released data or code is not recorded in the saved abstract",
-   "license": "not recorded in the saved sources (the arXiv page links a 'view license' for the paper)",
-   "lifecycle": {
-    "state": "historical",
-    "detail": "a published paper: v1 28 April 2023, v2 20 October 2023, the EMNLP 2023 camera-ready (16 pages, 4 figures)"
-   },
-   "founded": "2023 (arXiv v1, 28 April 2023)",
-   "version_and_time": {
-    "paper_v1": "2023-04-28",
-    "paper_v2": "2023-10-20",
-    "venue": "EMNLP 2023",
-    "read": "2026-11-01"
-   },
-   "negative_tags": [
-    "NOT a list of training data: the books are inferred from the models' behaviour",
-    "NOT a test of author attribution: the 'name cloze' is its query method, and the saved abstract does not say whose names it masks",
-    "NOT a corpus: it infers what two closed models have read",
-    "NOT proof of any book's route into training: an inference from the models' behaviour"
-   ],
-   "evidence": {
-    "title": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4"
-    },
-    "authors": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "Authors: Kent K. Chang , Mackenzie Cramer , Sandeep Soni , David Bamman"
-    },
-    "method": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "we carry out a data archaeology to infer books that are known to ChatGPT and GPT-4 using a name cloze membership inference query."
-    },
-    "finding_memorized": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "We find that OpenAI models have memorized a wide collection of copyrighted materials, and that the degree of memorization is tied to the frequency with which passages of those books appear on the web."
-    },
-    "limit": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "The ability of these models to memorize an unknown set of books complicates assessments of measurement validity for cultural analytics by contaminating test data"
-    },
-    "finding_downstream": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "we show that models perform much better on memorized books than on non-memorized books for downstream tasks."
-    },
-    "argument": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "We argue that this supports a case for open models whose training data is known."
-    },
-    "venue": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "EMNLP 2023 camera-ready (16 pages, 4 figures)"
-    },
-    "v1": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "[v1] Fri, 28 Apr 2023 22:35:03 UTC (6,906 KB)"
-    },
-    "v2": {
-     "src": "speak-memory--paper",
-     "basis": "operator",
-     "quote": "[v2] Fri, 20 Oct 2023 21:23:21 UTC (44 KB)"
-    }
-   },
-   "relations": [
-    {
-     "rel": "neighbour",
-     "target": "min-k-prob",
-     "note": "both test from outside a model whether texts are in it, and both apply the test to copyrighted books"
-    }
-   ],
-   "unchecked": [
-    "the paper's full text beyond the abstract: the list of books, their count, the name cloze construction, and any released data or code"
-   ],
-   "sources": {
-    "speak-memory--paper": {
-     "url": "https://arxiv.org/abs/2305.00118",
-     "read": "2026-11-01",
-     "sha256": "36aa5378b70b55fdf302f70b202dd0bcb91ad5245754468d9c1f521047aa94b4",
      "http": "200"
     }
    },
