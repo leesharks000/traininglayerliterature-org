@@ -11,18 +11,22 @@ OUT = ROOT / "aggregators"
 e = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 AREAS = D["areas"]; SHORT = {k: v.split(":")[0] for k, v in AREAS.items()}
 BASIS = {"operator": "the resource's own statement", "third_party": "a third-party account", "reading": "the archive's reading"}
-REC = [("in_layer", "In the layer"), ("name", "Under whose name"), ("readback", "Found and read back")]
-CARD = ("readback", "Found and read back")
+REC = [("in_layer", "In the layer"), ("name", "Under whose name"), ("readback", "Found and read back"), ("makes", "What the apparatus makes from it")]
+CARD = ("makes", "What the apparatus makes from it")
 READING = "tll_reading"
 TITLE = "The training layer: a meta-aggregator"
-SIB = ('<p>Its sibling census, on authorship and the names authors choose, is the <a href="https://www.leesharks.com/apparatus/aggregators/">apparatus meta-aggregator</a> '
+SIB = ('<p>Its sibling census, on how authorship is made, named and attributed, is the <a href="https://www.leesharks.com/apparatus/aggregators/">apparatus meta-aggregator</a> '
        'at leesharks.com; the family\'s other censuses are <a href="https://www.laborvector.org/aggregators/">Labor Vector</a> (labor and AI) and '
        '<a href="https://www.maryleelabor.org/aggregators/">Mary Lee Labor</a> (left politics and labor).</p>')
-LEDE = ("A census of the corpora that carry writing into machine training, the tools and methods that test whether a work is there, and the literature "
-        "written for the machine reader: electronic literature, data poetics, generative and computational writing. Each resource is read from its own pages.")
+LEDE = ("A census of the corpora that carry writing into machine training, the tools that test whether a work is in a training set or trace an output back "
+        "to training text, the readers, models and practices that make new writing from what they read, the literature composed for a machine or other "
+        "carrier to read, and the field's history and indexes. Each resource is read from its own pages, and each states what it is to this census: a direct "
+        "case, a historical lineage, an empirical comparator, infrastructure, a theoretical interlocutor or a peripheral comparator.")
 ANCHOR = ("The question joins two deposits: {a0}, the field survey of writing addressed to the machine reader, and {a1}, which extends the genre from machine "
-          "reading to machine composition. A work written for the layer meets three facts in each resource below: whether the work is held there, whether "
-          "its author's name travels with it, and whether anyone can find it there and read it back. This census records which resources show each.")
+          "reading to machine composition. A work meets three steps in the resources below: its address to a receiving apparatus, what that apparatus makes "
+          "from it, and whether its transmission, transformation and provenance can be inspected afterwards. Corpus membership, a matched span of output and "
+          "causal influence are recorded as different things. Revised 2026-11-01 on the operator's ruling, adopting an outside selection review. The full "
+          "entity pages wait for each resource's /non article.")
 
 src = (ROOT / "problem/index.html").read_text(encoding="utf-8")
 SKIN = re.search(r"<style>.*?</style>", src, re.S).group(0)
@@ -60,9 +64,14 @@ def lst(v):
     return "; ".join(str(x) for x in v) if isinstance(v, list) else (v or "")
 
 
+HR_HEAD = [("direct case", "Direct cases"), ("theoretical interlocutor", "Theoretical interlocutors"), ("empirical comparator", "Empirical comparators"),
+           ("infrastructure", "Infrastructure"), ("historical lineage", "Historical lineage"), ("meta-aggregation", "Meta-aggregation"),
+           ("counterposition", "Counterpositions"), ("peripheral comparator", "Peripheral comparators")]
+
+
 def chips(r):
     st = (r.get("lifecycle") or {}).get("state", ""); c = {"active": "live", "ended": "dead"}.get(st, "")
-    return "".join(f'<span class="chip">{e(SHORT.get(a, a))}</span>' for a in r["areas"]) + (f'<span class="chip {c}">{e(st)}</span>' if st else "")
+    return (f'<span class="chip">{e(r["host_relation"])}</span>' if r.get("host_relation") else "") + "".join(f'<span class="chip">{e(SHORT.get(a, a))}</span>' for a in r["areas"]) + (f'<span class="chip {c}">{e(st)}</span>' if st else "")
 
 
 def card(r):
@@ -95,16 +104,16 @@ def anchors():
 def index():
     groups = []
     quoted = lambda r: any((v.get("quote") or "").strip() for v in (r.get("evidence") or {}).values())
-    held = [r for r in ROWS if not quoted(r)]
-    for a in AREAS:
-        rs = [r for r in ROWS if quoted(r) and r["areas"] and r["areas"][0] == a]
+    held = [r for r in ROWS if not quoted(r) or not r.get("areas")]
+    for hr, head in HR_HEAD:
+        rs = [r for r in ROWS if quoted(r) and r.get("areas") and r.get("host_relation") == hr]
         if not rs: continue
-        groups.append(f'<section class="area"><h2>{e(AREAS[a])}</h2>' + "".join(card(r) for r in rs) + "</section>")
+        groups.append(f'<section class="area"><h2>{e(head)}</h2>' + "".join(card(r) for r in rs) + "</section>")
     a0, a1 = anchors()
     un = D.get("unread_sources") or {}
     unread = ("<p>Pages that could not be read on fetch, each recorded with its status, and their fields left unquoted: "
               + "; ".join(f'{e(k)} (http {e(v["http"])})' for k, v in sorted(un.items())) + ".</p>") if un else ""
-    hl = ("<p>Resources listed and held for the next batch, none of whose pages could be read on fetch, so nothing of theirs is quoted: "
+    hl = ("<p>Resources listed and held for the next batch, whose own pages could not be read on fetch: "
           + "; ".join(f'<a href="{PATH}{e(r["slug"])}">{e(r["name"])}</a>' for r in held) + ".</p>") if held else ""
     body = (f'<div class="fam">{e(D["family"])}</div><h1>{e(TITLE)}</h1>'
             f'<p>{LEDE} Every field is quoted from a saved copy of the resource\'s own pages, with the date read and a hash of the copy. Compiled {e(D["compiled"])}; editor Lee Sharks.</p>'
@@ -137,7 +146,7 @@ def rel_li(x):
 
 def rec_page(r):
     rec = r.get("record") or {}
-    rows = [("Kind", r["kind"]), ("Operator", r["operator"]), ("Evidence", lst(r.get("evidence_kind"))), ("Unit of record", r["unit"]), ("What it records", r["record_object"])]
+    rows = [("Relation to this census", r.get("host_relation")), ("Record type", r.get("record_type")), ("The question it answers", r.get("question")), ("Kind", r["kind"]), ("Operator", r["operator"]), ("Evidence", lst(r.get("evidence_kind"))), ("Unit of record", r["unit"]), ("What it records", r["record_object"])]
     rows += [(lab, rec.get(k)) for k, lab in REC]
     rows += [("Method", r.get("method")), ("Coverage", kv(r.get("coverage") or {})), ("Count", kv(r.get("count") or {})), ("Holdings", lst(r.get("holdings"))),
              ("Stated limits", lst(r.get("stated_limits"))), ("Data access", r.get("data_access")), ("Licence", r.get("license")),

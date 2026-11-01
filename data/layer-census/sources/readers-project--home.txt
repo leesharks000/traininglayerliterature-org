@@ -1,0 +1,74 @@
+the readers project 
+
+ You are using an outdated browser. Please upgrade your browser to improve your experience.
+
+![endif]-->
+
+ Overview 
+
+ Readers 
+
+ Artist Statement 
+
+ Artists Bio 
+
+ Citing the Readers 
+
+ Readers LIVE 
+
+ Video 
+
+ Overview
+
+ The Readers Project is a collection of distributed, performative, quasi-autonomous poetic 'readers' — active, procedural entities with distinct reading behaviors and strategies.
+
+ We release these readers onto inscribed surfaces that are explicitly or implicitly, visibly or invisibly, constituted by their texts. The readers address themselves to a wide range of material — from conventional found texts, through poetic reconfigurations
+ of appropriated sources, to original compositions by the project's collaborators.
+
+ Each reader follows traces of linguistic and poetic structure — symbolic idealities — that define their specific focus of attention. Since their behaviors are derived from a necessarily partial, aesthetically implicated analysis of human reading,
+ they explore and reveal certain contours and outlines of linguistic materiality's 'other dimensions', in work that we propose to be significant, affective, and literary.
+
+ Readers
+
+ Many readers are under development. At the time of writing, half a dozen readers have been regularly deployed on various texts.
+
+ Generally speaking, the readers we build are driven by processes coded to perform reading behaviors that are meaning-generative, at least in so far as they relate to an aesthetics of human reading while also, perhaps, challenging our reading to embrace
+ and comprehend expressive process. The texts that our readers produce as they read, we claim, are worth rereading, a quality that is often cited as a mark of the literary.
+
+ Simple Reader
+
+ Perigram Reader
+
+ Spawning Reader
+
+ Mesostic Reader
+
+ Grammatical Reader
+
+ Artist Statement
+
+ Programmatic or computational art is often related to art in other media: visual, performative, conceptual, and so on. The art systems of The Readers Project relate to writing and to reading, to our encounters with literary language. This project
+ is an essay in digital language art. The Readers Project visualizes reading, although it does not do this in the sense of miming conventional human reading. Rather, the project explores and visualizes existing and alternative vectors of reading,
+ vectors that are motivated by the properties and methods of language as such and linguistic aesthetics.
+
+ Visualization, especially as a function of computation, is now quite commonplace in artistic practice, but it has little culture moment unless it provides critique, and it is not art unless it conveys an aesthetic. The Readers Project is implicitly critical
+ of conventional reading habits. Further, because the project’s readers move within and are thus composed by the words within which they move, they also, effectively, write. They generate texts and the traces of their writings are offered to
+ the project’s human readers as such, as writing, as literary art; published as real-time streams of live-writing, available to anyone with internet access.
+
+ Computationally-engaged text generation has a significant, if marginal, history in literary art practice. The Readers Project is innovative, however, in having found a number of ways to display the primary source of a text generator’s inputs within this
+ source’s typographically structured literary environment. A less obvious but equally important aspect of the project is its use of current natural language information—especially concerning the relative frequencies of words and phrases considered
+ by the readers—culled from the largest corpus of human language that has ever existed, a universe of language no longer deep within or distant from us, but now made visible to all by the free demons of web indexing and, more recently, by active
+ cells of the Natural Language Liberation Front.
+
+ Artists Bio
+
+ John Cayley makes digital language art, particularly in the domain of poetry and poetics. Recent and ongoing projects include imposition with Giles Perring, riverIsland, and what we will... Information on these and other
+ works may be consulted here . Cayley is Professor of Literary Arts at Brown University.
+
+ Daniel C. Howe is an artist, writer, and critical technologist, whose work focuses on networked systems for text and sound, and on the social and political implications of computational technologies. He resides in New
+ York and Hong Kong, where he teaches at the School of Creative Media. .
+
+ Citing the readers
+
+ Howe, Daniel C., and Cayley, John. Reading, Writing, Resisting: Literary Appropriation in the Readers Project. In Proceedings of the 19th International Symposium
+ of Electronic Art, ISEA2013. University of Sydney, Australia. 2013.

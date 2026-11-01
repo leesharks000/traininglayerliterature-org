@@ -1,0 +1,297 @@
+The Xenotext - Wikipedia 
+
+ Jump to content 
+
+ Main menu 
+
+ Main menu
+
+ move to sidebar 
+ hide 
+
+ Navigation
+
+ Main page 
+ Contents 
+ Current events 
+ Random article 
+ About Wikipedia 
+ Contact us 
+
+ Contribute
+
+ Help 
+ Learn to edit 
+ Community portal 
+ Recent changes 
+ Upload file 
+ Special pages 
+
+ Search 
+
+ Search 
+
+ Appearance 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Personal tools 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Contents
+
+ move to sidebar 
+ hide 
+
+ (Top)
+
+ 1 
+ Inspiration 
+
+ 2 
+ The Poems 
+
+ Toggle The Poems subsection 
+
+ 2.1 
+ The Xenocode 
+
+ 2.2 
+ "Orpheus" and "Eurydice" 
+
+ 3 
+ Progress on The Xenotext 
+
+ 4 
+ References 
+
+ 5 
+ See also 
+
+ 6 
+ External links 
+
+ Toggle the table of contents 
+
+ The Xenotext 
+
+ Add languages 
+
+ Add links 
+
+ Article 
+
+ Talk 
+
+ English 
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ Tools 
+
+ Tools
+
+ move to sidebar 
+ hide 
+
+ Actions
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ General
+
+ What links here 
+ Related changes 
+ Upload file 
+ Permanent link 
+ Page information 
+ Cite this page 
+ Get shortened URL 
+ Switch to legacy parser 
+
+ Print/export
+
+ Download as PDF 
+ Printable version 
+
+ In other projects
+
+ Wikidata item 
+
+ Appearance
+
+ move to sidebar 
+ hide 
+
+ From Wikipedia, the free encyclopedia
+
+ Ongoing work of BioArt by Christian Bök
+
+ The Xenotext is an ongoing work of BioArt by experimental Canadian poet Christian Bök . The primary goal of the project is twofold: first, a poem, encoded as a strand of DNA , is implanted into the bacterium Deinococcus radiodurans ; second, the bacterium reads this strand of DNA and produces a protein which is also an intelligible poem. Bök himself describes the project as "a literary exercise that explores the aesthetic potential of genetics in the modern milieu". By using the extremophile D. radiodurans as a host for this work, the ambition is that the two poems may even outlive human civilization. [ 1 ] [ 2 ] 
+
+ Inspiration
+ [ edit ] 
+
+ Bök cites three main sources of inspiration for The Xenotext . The first is a project by Pak Chung Wong (a scientist at the Pacific Northwest National Library), in which he and his team enciphered the lyrics to " It's A Small World After All " as a plasmid of DNA and successfully implanted it in Deinococcus radiodurans . [ 3 ] Wong's goal was to demonstrate the potential of information encoded into DNA and stored in microorganisms ; Bök borrowed this goal of long-term storage and was likely influenced by Wong in his decision to host his poems in D. radiodurans . [ 4 ] 
+
+ The second is the speculation, put forth by Paul Davies (a professor for SETI at the Australian Centre for Astrobiology in Sydney) and others that there may be messages already encoded in DNA that are extraterrestrial in origin. Davies believed that DNA-encoded information may be the most efficient way for distant civilizations to make contact with one another. Bök, rather than "waiting" for such extraterrestrial transmission, seeks to take advantage of DNA's potential for communication in the present. [ 4 ] 
+
+The third is the work of pioneering bioartist Eduardo Kac , who enciphered a sentence from the Biblical story of Genesis into a strand of DNA, implanted it into E. coli , and subjected the microbe to large doses of radiation , thereby introducing "edits" to the text. [ 4 ] [ 5 ] However, Bök has expressed dismissal towards this experiment of Kac's, arguing that:
+
+it does not seem radically different from the act of inserting a copy of the Bible into the saddlebag of a donkey, and then letting the donkey wander on its own through a minefield. I think that, if possible, the inserted text must change the behavior of the donkey in some profound way, perhaps converting it to Christianity, if you like. [ 5 ] 
+
+ The Poems
+ [ edit ] 
+
+ Bök seeks to distinguish The Xenotext from its predecessors by going beyond the faithful transmission of information via DNA-encoding. [ 5 ] In summary, Bök hopes to not only store his poem as a strand of DNA embedded in a living microorganism, but also to enlist the microorganism as a co-author of the poem: when the microbe transcribes the DNA-poem into a strand of complementary RNA, the nucleotides that constitute the strand of RNA — and, by extension, the amino acid sequence that the RNA encodes — will also encode a legible poem. Bök further hopes that the microbe will then translate the RNA-poem into a protein that reflects the full nucleotide sequence and exists as a protein-poem. [ 6 ] 
+
+ The Xenocode
+ [ edit ] 
+
+ To accomplish this feat, Bök needed to develop two poems "that [were] mutual ciphers of each other", such that the first poem could be translated from English into DNA nucleotides, from DNA nucleotides into RNA nucleotides, from RNA nucleotides into a protein, and finally the RNA/protein back into another legible English poem. [ 5 ] [ 6 ] 
+
+ Thus, Bök's cipher — the "Xenocode" — required several internal codes relating what he termed the "plaintext", the codons , and the "ciphertext". The "plaintext" was the first poem, written in English, to be translated into DNA. Bök had arbitrarily assigned a letter of the alphabet to each of 26 codons, these being chosen out of the total of 64. These DNA codons would then be transcribed into the complementary RNA codons, which would then be translated into an amino acid sequence. The second poem, the "ciphertext", is created by translating this RNA/amino acid sequence back into English using Bök's substitution cipher . This substitution cipher consists of mutually pairing off every letter in the alphabet, thus mimicking the way that DNA and RNA codons are mutually "paired". [ 6 ] 
+
+ "Orpheus" and "Eurydice"
+ [ edit ] 
+
+ Determining the makeup of this substitution cipher — such that the two poems could be written simultaneously — proved to be very difficult, as there are "7 trillion, 905 billion, 853 million, 580 thousand, 6 hundred and 25 (7,905,853,580,625) ways to pair up all of the letters in the alphabet so that they mutually refer to each other". [ 5 ] Bök, to expedite the process, wrote a Perl program into which he could input a cipher and in return get a list of English word pairs that exist in each cipher. Bök churned through several such ciphers, keeping track of working word pairs on the way, such as "abased" into "iciest" or "binary" into "caring" for cipher ING-ARY 786. He also sought, however, to write poems that meditated on the relationship between creation and language, hence another creative constraint that made the task even more challenging. [ 5 ] 
+
+It took Bök four years to find a suitable cipher and complete the two poems, which he dubbed "Orpheus" and "Eurydice", taking inspiration from the ancient legend . [ 1 ] The two poems are each fourteen lines, making them sonnets . As for the meaning of the poems, Bök explains:
+ ["Orpheus"] is written by me as a kind of masculine assertion about the aesthetic creation of life, while ["Eurydice"] is written by the microbe as a kind of feminine refutation about the woebegone absence of life. The two poems resemble Petrarchan sonnets in dialogue with each other, much like poems written in the elegiac pastoral tradition of the herd boy addressing the nymphet. [ 1 ] 
+
+ Further, the gene sequence is coded such that the resultant protein is tagged by the red fluorescent protein " mcherry "; thus, a red fluorescence by the microbe will signify the successful creation of the protein, a circumstance self-reflexively noted by the word "rosy" in "Eurydice".
+
+ Progress on The Xenotext 
+ [ edit ] 
+
+ Bök finished writing "Orpheus" and "Eurydice" in the spring of 2011 after four years of work, though he conceived of the project as early as 2002 and was in conversation with Stuart A. Kauffman (a MacArthur Fellow , then the iCore Chair for the Institute of Biocomplexity and Informatics at the University of Calgary where Bök teaches) as early as 2006. [ 1 ] [ 4 ] During this period, Bök taught himself computer programming skills, genetics, and proteomics so as to fully understand his research. [ 7 ] 
+
+ Thus, after nine years of research and conceptual trial and error, Bök finally set to work on making his experiment a reality. First, he simulated the protein encoded by his DNA-poem on a supercomputer at the University of Calgary's Institute for Biocomplexity and Informatics (IBI). AlphaFold had yet to be developed, so Bök used the available Rosetta software to predict the protein folding . Then, he sent his specifications to a gene design and synthesis company, DNA 2.0, which manufactured his DNA-poem in the form of a plasmid and sent it back to IBI. In March 2011, biologists at IBI implanted the plasmid into a strain of E. coli . [ 5 ] 
+
+ At first, the experiment appeared successful: IBI informed Bök that the E. coli were fluorescing red, signifying that the DNA to RNA (translation) and RNA to protein (transcription) conversions had taken place. Bök celebrated this apparent success with a series of tweets on March 31, 2011, and an article in Poetry Foundation. [ 8 ] In early April 2011, Bök exhibited a model of the protein, constructed out of MolyMod components, at the Bury Art Gallery in Manchester. [ 5 ] 
+
+ However, in the third week of April 2011, Bök was notified by IBI that the protein-poem produced by the E. coli , despite fluorescing, had not been formed properly. The lab had run an electrophoresis and determined that the protein-poem was only half of the expected size. Dr. Sui Huang — Bök's partner at IBI after Dr. Stuart Kaufman retired — was unsure why exactly the protein-poem was being destroyed, but hypothesized that issues had arisen due to the repetitive nature of the DNA sequence — that is, the bacterium might have mistaken the DNA-poem for a virus and attacked it. [ 5 ] Bök, recounting this setback, quipped: "I had, in effect, engineered not the first microbial writer, but the first microbial critic." [ 1 ] 
+
+ After months of failed attempts, on October 3, 2012, Bök received word from DNA 2.0 that the company's labs had gotten E. coli to successfully express the protein-poem in full, making Bök "the first person in history to design a microorganism capable of writing a meaningful text in response to an enciphered gene". In 2013, Bök announced that he was collaborating with a lab at the University of Wyoming to implant the DNA-poem into the true target bacterium, the extremophile D. radiodurans . [ 1 ] 
+
+However, working with D. radiodurans has proved more challenging. In a 2015 interview, Bök expressed frustration with the bacterium's lack of cooperation:
+ The extremophile is more difficult to engineer and the protein that is produced is not fully expressed. It’s either destroying it too quickly for us to characterize it, or it’s censoring it during its production. We can’t really tell but it’s not making the entire protein stably. [ 9 ] 
+
+ By 2015, The Xenotext had been ongoing for 14 years and had required over $150,000 in grant money. [ 9 ] Wanting to release something tangible for the public, Bök published The Xenotext: Book I , a "demonic grimoire" that "[provides] a scientific framework for the project with a series of poems, texts, and illustrations." [ 9 ] [ 10 ] Though Book I does not document the history or the science behind The Xenotext , it seeks to "[set] the conceptual groundwork for the second volume, which will document the experiment itself." [ 10 ] 
+
+ Several articles and interviews in 2015 and 2016 followed the publication of Book I ; [ 11 ] [ 12 ] The Xenotext: Book II was published on June 3, 2025. The project was referenced in the Peter Watts novel Echopraxia , appearing towards the end of the novel.
+
+ References
+ [ edit ] 
+
+ 1 2 3 4 5 6 What is Xenotext? | Christian Bök | Walrus Talks , retrieved 2022-05-02 
+
+ ↑ Zala, Krista (March 2009). "Q&A: Poetry in the genes" . Nature . 458 (7234): 35. Bibcode : 2009Natur.458...35Z . doi : 10.1038/458035a . ISSN   1476-4687 . PMID   19262657 . 
+
+ ↑ Foote, Pak Chung Wong, Kwong-kwok Wong, Harlan. "Organic Data Memory -sing the Dna Approach | January 2003 | Communications of the ACM" . cacm.acm.org . Retrieved 2022-05-02 . {{ cite web }} : CS1 maint: multiple names: authors list ( link ) 
+
+ 1 2 3 4 "The Xenotext Experiment: An Interview with Christian Bök" . pmc.iath.virginia.edu . Retrieved 2022-05-03 . 
+
+ 1 2 3 4 5 6 7 8 9 Wershler, Darren S. (2012-03-29). "The Xenotext Experiment, So Far" . Canadian Journal of Communication . 37 (1): 43– 60. doi : 10.22230/cjc.2012v37n1a2526 . ISSN   1499-6642 . 
+
+ 1 2 3 "The Making of a Xenotext" . American Scientist . 2017-01-03 . Retrieved 2022-05-03 . 
+
+ ↑ Murakami, Sachiko (2011-06-01). "The SLS Interviews: Christian Bök" . Maisonneuve . Retrieved 2022-05-03 . 
+
+ ↑ Foundation, Poetry (2022-05-02). "The Xenotext Works by Christian Bök" . Poetry Foundation . Retrieved 2022-05-03 . 
+
+ 1 2 3 "Weird Science: Christian Bok releases Xenotext: Book 1, outlining his attempts to create the world's first living poem" . calgaryherald . Retrieved 2022-05-03 . 
+
+ 1 2 Bök, Christian (2015-10-05). The Xenotext: Book 1 . Coach House Books. ISBN   978-1-77056-434-3 . 
+
+ ↑ "Poetry for the Apocalypse" . American Scientist . 2017-02-06 . Retrieved 2022-05-03 . 
+
+ ↑ "The prose at the end of the universe" . Engadget . Retrieved 2022-05-03 . 
+
+ See also
+ [ edit ] 
+
+ The Preserving Machine (short story) by Philip K. Dick 
+
+ DNA digital data storage 
+
+ External links
+ [ edit ] 
+
+ The Xenotext: Book I PDF 
+
+ Christian Bök Twitter 
+
+ Christian Bök Website 
+
+ Could We Store Our Data in DNA? New Yorker 
+
+ Storing Data in Everyday Objects 
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=The_Xenotext&oldid=1363507454 "
+
+ Categories : Canadian poetry books 
+ Bioart 
+ Conceptual art 
+ 2015 poetry books 
+
+ Hidden categories: Articles with short description 
+ Short description matches Wikidata 
+ CS1 maint: multiple names: authors list 
+
+ This page was last edited on 10 July 2026, at 17:02  (UTC) .
+
+ Page was rendered with Parsoid .
+
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+ Privacy policy 
+
+ About Wikipedia 
+
+ Disclaimers 
+
+ Contact Wikipedia 
+
+ Legal & safety contacts 
+
+ Code of Conduct 
+
+ Developers 
+
+ Statistics 
+
+ Cookie statement 
+
+ Mobile view 
+
+ Search 
+
+ Search 
+
+ Toggle the table of contents 
+
+ The Xenotext 
+
+ Add languages 
+
+ Add topic

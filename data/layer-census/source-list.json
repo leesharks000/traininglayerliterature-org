@@ -69,5 +69,42 @@
   "org": "https://github.com/NaNoGenMo",
   "home": "https://nanogenmo.github.io/",
   "wikipedia": "https://en.wikipedia.org/wiki/National_Novel_Generation_Month"
+ },
+ "readers-project": {
+  "home": "https://thereadersproject.org/",
+  "readers": "https://thereadersproject.org/readers.html",
+  "writings": "https://thereadersproject.org/writings.html",
+  "hiiict": "https://thereadersproject.org/hiiict2012.html",
+  "elc3": "https://collection.eliterature.org/3/work.html?work=the-readers-project"
+ },
+ "rerites": {
+  "books": "https://www.anteism.com/shop/rerites-david-jhave-johnston",
+  "responses": "https://www.anteism.com/shop/rerites-raw-output-responses-david-jhave-johnston"
+ },
+ "technelegy": {
+  "info": "https://www.sashastiles.com/info",
+  "fourcoretexts": "https://www.sashastiles.com/projects/fourcoretexts-thereadersguide",
+  "paperback": "https://www.sashastiles.com/technelegypaperback"
+ },
+ "output-anthology": {
+  "mit": "https://cmsw.mit.edu/output-an-anthology-of-computer-generated-text-1953-2023/",
+  "counterpath": "https://counterpathpress.org/output-an-anthology-of-computer-generated-text-1953-2023-edited-by-lillian-yvonne-bertram-and-nick-montfort"
+ },
+ "data-portraits": {
+  "arxiv": "https://arxiv.org/abs/2303.03919"
+ },
+ "olmotrace": {
+  "ai2": "https://allenai.org/blog/olmotrace",
+  "arxiv": "https://arxiv.org/abs/2504.07096"
+ },
+ "copyright-traps": {
+  "icml": "https://proceedings.mlr.press/v235/meeus24a.html"
+ },
+ "literary-ai": {
+  "about": "https://literaryai.library.columbia.edu/about/"
+ },
+ "xenotext": {
+  "bok2011": "https://www.poetryfoundation.org/blog/uncategorized/60436/the-xenotext-works",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Xenotext"
  }
 }
