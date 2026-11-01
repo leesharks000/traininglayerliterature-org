@@ -1,0 +1,73 @@
+{
+ "common-crawl": {
+  "home": "https://commoncrawl.org/",
+  "overview": "https://commoncrawl.org/overview",
+  "wikipedia": "https://en.wikipedia.org/wiki/Common_Crawl"
+ },
+ "project-gutenberg": {
+  "about": "https://www.gutenberg.org/about/",
+  "policy": "https://www.gutenberg.org/policy/terms_of_use.html",
+  "wikipedia": "https://en.wikipedia.org/wiki/Project_Gutenberg"
+ },
+ "internet-archive": {
+  "about": "https://archive.org/about/",
+  "wikipedia": "https://en.wikipedia.org/wiki/Internet_Archive"
+ },
+ "hathitrust": {
+  "about": "https://www.hathitrust.org/about/",
+  "wikipedia": "https://en.wikipedia.org/wiki/HathiTrust"
+ },
+ "htrc": {
+  "home": "https://analytics.hathitrust.org/",
+  "about": "https://htrc.illinois.edu/"
+ },
+ "the-pile": {
+  "home": "https://pile.eleuther.ai/",
+  "paper": "https://arxiv.org/abs/2101.00027",
+  "wikipedia": "https://en.wikipedia.org/wiki/The_Pile_(dataset)"
+ },
+ "dolma": {
+  "card": "https://huggingface.co/datasets/allenai/dolma",
+  "paper": "https://arxiv.org/abs/2402.00159"
+ },
+ "spawning-hibt": {
+  "home": "https://haveibeentrained.com/",
+  "spawning": "https://spawning.ai/",
+  "faq": "https://haveibeentrained.com/faq"
+ },
+ "books3-search": {
+  "atlantic": "https://www.theatlantic.com/technology/archive/2023/09/books3-database-generative-ai-training-copyright-infringement/675363/",
+  "wikipedia": "https://en.wikipedia.org/wiki/Books3"
+ },
+ "min-k-prob": {
+  "paper": "https://arxiv.org/abs/2310.16789",
+  "repo": "https://github.com/swj0419/detect-pretrain-code"
+ },
+ "speak-memory": {
+  "paper": "https://arxiv.org/abs/2305.00118"
+ },
+ "elc": {
+  "home": "https://collection.eliterature.org/",
+  "wikipedia": "https://en.wikipedia.org/wiki/Electronic_Literature_Organization"
+ },
+ "elmcip": {
+  "home": "https://elmcip.net/knowledgebase",
+  "about": "https://elmcip.net/about",
+  "root": "https://elmcip.net/"
+ },
+ "cell": {
+  "home": "https://cellproject.net/"
+ },
+ "ebr": {
+  "home": "https://electronicbookreview.com/",
+  "about": "https://electronicbookreview.com/about/"
+ },
+ "taper": {
+  "home": "https://taper.badquar.to/"
+ },
+ "nanogenmo": {
+  "org": "https://github.com/NaNoGenMo",
+  "home": "https://nanogenmo.github.io/",
+  "wikipedia": "https://en.wikipedia.org/wiki/National_Novel_Generation_Month"
+ }
+}

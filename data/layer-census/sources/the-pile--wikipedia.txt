@@ -1,0 +1,337 @@
+The Pile (dataset) - Wikipedia 
+
+ Jump to content 
+
+ Main menu 
+
+ Main menu
+
+ move to sidebar 
+ hide 
+
+ Navigation
+
+ Main page 
+ Contents 
+ Current events 
+ Random article 
+ About Wikipedia 
+ Contact us 
+
+ Contribute
+
+ Help 
+ Learn to edit 
+ Community portal 
+ Recent changes 
+ Upload file 
+ Special pages 
+
+ Search 
+
+ Search 
+
+ Appearance 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Personal tools 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Contents
+
+ move to sidebar 
+ hide 
+
+ (Top)
+
+ 1 
+ Training on copyrighted works or derivatives 
+
+ 2 
+ Common Pile v0.1 
+
+ 3 
+ See also 
+
+ 4 
+ References 
+
+ Toggle the table of contents 
+
+ The Pile (dataset) 
+
+ 3 languages 
+
+ Català 
+ Español 
+ Português 
+
+ Edit links 
+
+ Article 
+
+ Talk 
+
+ English 
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ Tools 
+
+ Tools
+
+ move to sidebar 
+ hide 
+
+ Actions
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ General
+
+ What links here 
+ Related changes 
+ Upload file 
+ Permanent link 
+ Page information 
+ Cite this page 
+ Get shortened URL 
+ Switch to legacy parser 
+
+ Print/export
+
+ Download as PDF 
+ Printable version 
+
+ In other projects
+
+ Wikidata item 
+
+ Appearance
+
+ move to sidebar 
+ hide 
+
+ From Wikipedia, the free encyclopedia
+
+ Training dataset for large language models
+
+ This article is about the dataset. For other uses, see Pile (disambiguation) .
+
+ The Pile
+
+ Size
+ 886.03 GB
+
+ Type
+ Open-source
+
+ Language
+ English
+
+ Creator(s)
+ EleutherAI 
+
+ Date of release
+ December   31, 2020 ; 5 years ago   ( 2020-12-31 ) 
+
+ Main application(s)
+ Training large language models 
+
+ The Pile is an 886 GB diverse, open-source dataset of English text created to train large language models (LLMs). It was constructed by EleutherAI in 2020 and publicly released on December 31 of that year. [ 1 ] [ 2 ] It is composed of 22 sub-datasets, including books, movie transcripts, and scientific papers, among other media. [ 3 ] The Pile and Common Crawl had been, as of 2024, the two main training datasets being used to train AI models. [ 4 ] [ 5 ] 
+
+ Copyright disputes centering around use of The Pile escalated in 2023, prompting Eleuther to start removing some datasets. Eleuther partnered with various organizations to release Common Pile v0.1 in 2025 in order to have a large curated training dataset without the copyright issues. [ 6 ] 
+
+ Training on copyrighted works or derivatives
+ [ edit ] 
+
+ The Books3 component of the dataset contains copyrighted material compiled from Bibliotik, a piracy website. [ 7 ] [ 8 ] 
+In July 2023, the Danish anti-piracy group Rights Alliance took down Books3 through DMCA notices. [ 3 ] Books3 was removed from the Pile before a class action lawsuit was filed in 2024 by three authors seeking damages as copies of the original dataset were still copied and available on the web. [ 8 ] By 2024, The Pile also was taken down from its original site, though was accessible from other file sharing services. [ 4 ] 
+
+ OpenSubtitles is another dataset used in the Pile that created controversy over the use of copyrighted works, this time from documentaries, movies, television and online videos. [ 9 ] 
+
+ Tens of thousands of YouTube videos had their subtitles scraped directly from YouTube and included in the Pile, which YouTube argued is against its terms of service. [ 10 ] [ 4 ] 
+
+ Sub-datasets of The Pile [ 1 ] [ 11 ] (*denotes works with copyright disputes) 
+
+ Component
+ Original size, GB
+
+ Pile-CC
+ 243.87
+
+ PubMed Central *
+ 96.93
+
+ Books3
+ 108.40
+
+ OpenWebText2*
+ 67.40
+
+ arXiv *
+ 60.36
+
+ GitHub *
+ 102.18
+
+ Free Law *
+ 54.92
+
+ Stack Exchange *
+ 34.57
+
+ USPTO Backgrounds*
+ 24.59
+
+ PubMed Abstracts*
+ 20.68
+
+ Gutenberg (PG-19) 
+ 11.68
+
+ OpenSubtitles 
+ 13.94
+
+ Wikipedia [ 4 ] 
+ 6.85
+
+ DeepMind Mathematics
+ 8.32
+
+ Ubuntu Freenode IRC logs*
+ 5.93
+
+ BookCorpus 2*
+ 6.76
+
+ EuroParl [ 4 ] 
+ 4.93
+
+ Hacker News *
+ 4.19
+
+ YouTube Subtitles* [ 4 ] 
+ 4.01
+
+ PhilPapers *
+ 2.56
+
+ NIH ExPorter*
+ 2.03
+
+ Enron Emails [ 4 ] 
+ 0.95
+
+ Total
+ 886.03
+
+ Common Pile v0.1
+ [ edit ] 
+
+ In June 2025, EleutherAI, in partnership with the Poolside , Hugging Face , and the US Library of Congress and over two dozen researchers at 14 institutions including the University of Toronto , MIT , CMU , the Vector Institute and the Allen Institute for AI , released Common Pile v0.1, a training dataset that contains only works where the licenses permit their use for training AI models. [ 6 ] [ 12 ] [ 13 ] The intent was to show what is possible if ethically training AI systems while respecting copyright. [ 13 ] They found that the process of gathering the data was time-consuming as it could not be fully automated, with humans verifying and annotating every entry, and that resulting models could achieve results that exceeded their expectations even though they were still not comparable with frontier models. [ 13 ] The creators compared the results generated from Common Pile as similar to Llama 2 , a model released two years before the creation of Common Pile. [ 14 ] The model should provide less legal risk to those who use its output if there are fewer copyright issues with the underlying training data. [ 14 ] 
+
+ See also
+ [ edit ] 
+
+ List of chatbots 
+
+ List of datasets for machine-learning research 
+
+ References
+ [ edit ] 
+
+ 1 2 Gao, Leo; Biderman, Stella; Black, Sid; Golding, Laurence; Hoppe, Travis; Foster, Charles; Phang, Jason; He, Horace; Thite, Anish; Nabeshima, Noa; Presser, Shawn; Leahy, Connor (31 December 2020). "The Pile: An 800GB Dataset of Diverse Text for Language Modeling". arXiv : 2101.00027 [ cs.CL ]. 
+
+ ↑ "The Pile: An 800GB Dataset of Diverse Text for Language Modeling" . EleutherAI Website . EleutherAI . 13 February 2020. Archived from the original on 28 February 2023 . Retrieved 4 June 2023 . 
+
+ 1 2 Barr, Kyle (2023-08-18). "Anti-Piracy Group Takes Massive AI Training Dataset 'Books3′ Offline" . Gizmodo . Retrieved 2025-12-10 . 
+
+ 1 2 3 4 5 6 7 Gilbertson, Annie (July 16, 2024). "Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train AI" . Wired . ISSN   1059-1028 . Retrieved 2026-01-29 . 
+
+ ↑ Anthony, Aubra; Sharma, Lakshmee; Noor, Elina (2024-04-30). "Advancing a More Global Agenda for Trustworthy Artificial Intelligence" . Carnegie Endowment for International Peace . Retrieved 2026-01-29 . 
+
+ 1 2 Wiggers, Kyle (2025-06-06). "EleutherAI releases massive AI training dataset of licensed and open domain text" . TechCrunch . Retrieved 2025-12-10 . 
+
+ ↑ Knibbs, Kate (September 4, 2023). "The Battle Over Books3 Could Change AI Forever" . WIRED . Retrieved 13 October 2023 . 
+
+ 1 2 Roth, Emma (2024-08-20). "Authors sue Anthropic for training AI using pirated books" . The Verge . Retrieved 2025-12-10 . 
+
+ ↑ Deck, Andrew (January 7, 2025). "Thousands of documentaries are fueling AI models built by Apple, Meta, and Nvidia" . Nieman Lab . Archived from the original on 2025-07-01 . Retrieved 2025-12-10 . 
+
+ ↑ Sato, Mia (2024-07-16). "Apple, Anthropic, and other companies used YouTube videos to train AI" . The Verge . Retrieved 2025-12-10 . 
+
+ ↑ "},"date":{"wt":"15 June 2021"},"title":{"wt":"The Pile Replication Code"},"url":{"wt":"https://github.com/EleutherAI/the-pile"},"access-date":{"wt":"29 October 2024"},"website":{"wt":"github.com"},"publisher":{"wt":""}},"i":0}}]}'/> "The Pile Replication Code" . github.com . 15 June 2021 . Retrieved 29 October 2024 . 
+
+ ↑ Eriksson, Viktor (June 9, 2025). "Eleuther AI releases 8TB collection of licensed and open training data" . Computerworld . Retrieved 2025-12-10 . 
+
+ 1 2 3 Tiku, Nitasha; Jiménez, Andrea; Oremus, Will (June 5, 2025). "Analysis: AI firms say they can't respect copyright. These researchers tried" . Washington Post . 
+
+ 1 2 Schuman, Evan (July 21, 2025). "It might be time for IT to consider AI models that don't steal" . Computerworld (Contributor) . Retrieved 2026-08-20 . 
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=The_Pile_(dataset)&oldid=1370243365 "
+
+ Categories : Datasets in machine learning 
+ Statistical data sets 
+ Large language models 
+ Open-source artificial intelligence 
+
+ Hidden categories: Articles with short description 
+ Short description matches Wikidata 
+
+ This page was last edited on 20 August 2026, at 00:18  (UTC) .
+
+ Page was rendered with Parsoid .
+
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+ Privacy policy 
+
+ About Wikipedia 
+
+ Disclaimers 
+
+ Contact Wikipedia 
+
+ Legal & safety contacts 
+
+ Code of Conduct 
+
+ Developers 
+
+ Statistics 
+
+ Cookie statement 
+
+ Mobile view 
+
+ Search 
+
+ Search 
+
+ Toggle the table of contents 
+
+ The Pile (dataset) 
+
+ 3 languages 
+
+ Add topic

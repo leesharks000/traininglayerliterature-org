@@ -1,0 +1,1242 @@
+Project Gutenberg - Wikipedia 
+
+ Jump to content 
+
+ Main menu 
+
+ Main menu
+
+ move to sidebar 
+ hide 
+
+ Navigation
+
+ Main page 
+ Contents 
+ Current events 
+ Random article 
+ About Wikipedia 
+ Contact us 
+
+ Contribute
+
+ Help 
+ Learn to edit 
+ Community portal 
+ Recent changes 
+ Upload file 
+ Special pages 
+
+ Search 
+
+ Search 
+
+ Appearance 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Personal tools 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Contents
+
+ move to sidebar 
+ hide 
+
+ (Top)
+
+ 1 
+ History 
+
+ 2 
+ Scope of collection 
+
+ 3 
+ Ideals 
+
+ 4 
+ Copyright 
+
+ 5 
+ Criticism 
+
+ 6 
+ Project Gutenberg Literary Archive Foundation 
+
+ 7 
+ Partners 
+
+ 8 
+ Sister projects 
+
+ Toggle Sister projects subsection 
+
+ 8.1 
+ List of sister projects 
+
+ 9 
+ Affiliates 
+
+ 10 
+ CD and DVD project 
+
+ 11 
+ See also 
+
+ 12 
+ References 
+
+ 13 
+ Further reading 
+
+ 14 
+ External links 
+
+ Toggle the table of contents 
+
+ Project Gutenberg 
+
+ 75 languages 
+
+ Afrikaans 
+ Aragonés 
+ العربية 
+ Asturianu 
+ Azərbaycanca 
+ Boarisch 
+ Беларуская 
+ Български 
+ বাংলা 
+ Bosanski 
+ Català 
+ کوردی 
+ Čeština 
+ Чӑвашла 
+ Dansk 
+ Deutsch 
+ Ελληνικά 
+ Esperanto 
+ Español 
+ Euskara 
+ فارسی 
+ Suomi 
+ Français 
+ Frysk 
+ Galego 
+ עברית 
+ हिन्दी 
+ Hrvatski 
+ Magyar 
+ Հայերեն 
+ Interlingua 
+ Bahasa Indonesia 
+ Interlingue 
+ Ido 
+ Íslenska 
+ Italiano 
+ 日本語 
+ ქართული 
+ Tyap 
+ Қазақша 
+ 한국어 
+ Lietuvių 
+ Latviešu 
+ Македонски 
+ മലയാളം 
+ Bahasa Melayu 
+ Nederlands 
+ Norsk nynorsk 
+ Norsk bokmål 
+ ਪੰਜਾਬੀ 
+ Kapampangan 
+ Polski 
+ Piemontèis 
+ Português 
+ Română 
+ Русский 
+ Scots 
+ Srpskohrvatski / српскохрватски 
+ Simple English 
+ Slovenčina 
+ Slovenščina 
+ Shqip 
+ Српски / srpski 
+ Svenska 
+ தமிழ் 
+ ไทย 
+ Türkçe 
+ Українська 
+ اردو 
+ Tiếng Việt 
+ 吴语 
+ მარგალური 
+ 閩南語 / Bân-lâm-gí 
+ 粵語 
+ 中文 
+
+ Edit links 
+
+ Article 
+
+ Talk 
+
+ English 
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ Tools 
+
+ Tools
+
+ move to sidebar 
+ hide 
+
+ Actions
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ General
+
+ What links here 
+ Related changes 
+ Upload file 
+ Permanent link 
+ Page information 
+ Cite this page 
+ Get shortened URL 
+ Switch to legacy parser 
+
+ Print/export
+
+ Download as PDF 
+ Printable version 
+
+ In other projects
+
+ Abstract Wikipedia 
+ Wikimedia Commons 
+ Wikidata item 
+
+ Appearance
+
+ move to sidebar 
+ hide 
+
+ From Wikipedia, the free encyclopedia
+
+ Online digital book library
+
+ For other uses, see Project Gutenberg (disambiguation) .
+
+ (first document posted)<ref name=\"gut1\"/>"},"specialization":{"wt":"Public domain works"},"collection_size":{"wt":"Over {{Num PG books}} documents"},"criteria":{"wt":"Works not protected by copyright in the United States"},"pop_served":{"wt":""},"members":{"wt":""},"parent_organization":{"wt":"Project Gutenberg Literary Archive Foundation"},"director":{"wt":"Eric Hellman (acting CEO of Project Gutenberg Literary Archive Foundation)<ref name=\"globe-2025\">{{Cite news |date=2025-10-31 |title=Project Gutenberg CEO Greg Newby helped put a trove of literature online |url=https://www.theglobeandmail.com/canada/article-greg-newby-project-gutenberg-ceo-literature-public-domain-hacker/ |access-date=2026-08-28 |work=The Globe and Mail |language=en-CA}}</ref>"},"num_employees":{"wt":""},"website":{"wt":"{{URL|https://gutenberg.org}}"}},"i":0}}]}'> Project Gutenberg
+
+ Type
+ Digital library 
+
+ Established
+ December   1971 ; 54   years ago   ( 1971-12 ) 
+(first document posted) [ 1 ] 
+
+ Collection
+
+ Specialization
+ Public domain works
+
+ Size
+ Over 77,500 documents
+
+ Criteria for collection
+
+ Works not protected by copyright in the United States
+
+ Other information
+
+ Director
+ Eric Hellman (acting CEO of Project Gutenberg Literary Archive Foundation) [ 2 ] 
+
+ Parent organization
+
+ Project Gutenberg Literary Archive Foundation
+
+ Website
+ gutenberg .org 
+
+ Project Gutenberg ( PG ) is a volunteer effort to digitize and archive cultural works, as well as to "encourage the creation and distribution of eBooks ." [ 3 ] It was founded in 1971 by American writer Michael S. Hart and is the oldest digital library . [ 4 ] Most items in its collection are full texts of books or individual stories in the public domain . All files are free to access in an open format , available on almost any computer. As of 22   March   2026 [ update ] , Project Gutenberg had reached nearly 78,000 items in its collection of free eBooks. [ 5 ] 
+
+ The releases are available in plain text as well as other formats, such as HTML , EPUB , and MOBI . Most releases are in English , but many non-English works are also available. There are multiple affiliated projects that provide additional content, including region- and language-specific works. Project Gutenberg is closely affiliated with Distributed Proofreaders , an Internet-based community for proofreading scanned texts.
+
+ Project Gutenberg is named after the inventor Johannes Gutenberg , whose works in developing printing technology led to an increase in the mass availability of books and other text.
+
+ History
+ [ edit ] 
+
+ Teletype used by Michael S. Hart in 1971 to transcribe the first texts for what would become Project Gutenberg 
+ Michael S. Hart began Project Gutenberg in 1971 by digitizing the United States Declaration of Independence . Hart, a student at the University of Illinois , obtained access to a Xerox Sigma V mainframe computer in the university's Materials Research Lab. Through friendly operators, he received an account with a virtually unlimited amount of computer time ; its value at that time has since been variously estimated at $100,000 or $100,000,000. [ 6 ] Hart explained he wanted to "give back" this gift by doing something one could consider to be of great value. His initial goal was to make the 10,000 most consulted books available to the public at little or no charge by the end of the 20th century. [ 7 ] 
+
+ In 1971, he transcribed the U.S. Declaration of Independence into a computer, one of the 15 nodes on ARPANET , the computer network that would become the Internet and shared it with other users on the network. [ 8 ] Hart believed the general public would one day be able to access computers and decided to make works of literature available in electronic form for free. He used a copy of the United States Declaration of Independence in his backpack, and this became the first Project Gutenberg e-text . He named the project after Johannes Gutenberg , the fifteenth century German printer who propelled the movable-type printing-press revolution.
+
+ By the mid-1990s, Hart was running Project Gutenberg from Illinois Benedictine College . More volunteers had joined the effort. He manually entered all of the text until 1989 when image scanners and optical character recognition software improved and became more available, making book scanning more feasible. [ 9 ] Hart later reached an agreement with Carnegie Mellon University , which agreed to administer Project Gutenberg's finances. As the volume of e-texts increased, volunteers began to take over the project's day-to-day operations that Hart had run.
+
+ Italian volunteer Pietro Di Miceli developed and administered the first Project Gutenberg website and began developing the Project online Catalog. [ 10 ] 
+
+ Starting in 2004, an improved online catalog made Project Gutenberg content easier to browse, access, and hyperlink . Project Gutenberg is now hosted by ibiblio at the University of North Carolina at Chapel Hill .
+
+ Hart died on 6 September 2011 at his home in Urbana, Illinois, at the age of 64. [ 11 ] 
+
+ Scope of collection
+ [ edit ] 
+
+ Growth of Project Gutenberg publications 
+
+ As of May   2025 [ update ] , Project Gutenberg claimed over 75,999 items in its collection, with an average of over 30 new e-books being added each week. [ 12 ] These are primarily works of literature from the Western cultural tradition . In addition to literature such as novels, poetry, short stories and drama, Project Gutenberg also has cookbooks , reference works and issues of periodicals. [ 13 ] The Project Gutenberg collection also has a few non-text items such as audio files, movies, and music-notation files. [ 14 ] Most releases are in English, but there are also significant numbers in many other languages.
+
+ Whenever possible, Gutenberg releases are available in plain text , mainly using US-ASCII character encoding but frequently extended to ISO-8859-1 (needed to represent accented characters in French and Scharfes s in German, for example). Besides being copyright-free, the requirement for a Latin ( character set ) text version of the release had been a criterion of Michael Hart's since the founding of Project Gutenberg, as he believed it was the format most likely to be readable in the extended future. [ 15 ] Out of necessity, this criterion has had to be extended further for the sizable collection of texts in East Asian languages such as Chinese and Japanese now in the collection, where UTF-8 is used instead.
+
+ Other formats may be released as well when submitted by volunteers. The most common non-ASCII format is HTML , which allows markup and illustrations to be included. Some project members and users have requested more advanced formats, believing them to be easier to read. But some formats that are not easily editable, such as PDF , are generally not considered to fit with the goals of Project Gutenberg.
+
+ Previously Project Gutenberg supported two other source formats: customized versions of the Text Encoding Initiative standard (beginning in 2005) [ 16 ] and reStructuredText (beginning in 2011). [ 17 ] 
+
+ Beginning in 2009, the Project Gutenberg catalog began offering auto-generated alternate file formats, including HTML (when not already provided), EPUB and plucker . [ 18 ] 
+
+ Ideals
+ [ edit ] 
+
+ Michael Hart said in 2004, "The mission of Project Gutenberg is simple: 'To encourage the creation and distribution of ebooks ' " . [ 3 ] His goal was "to provide as many e-books in as many formats as possible for the entire world to read in as many languages as possible". [ 4 ] Likewise, a project slogan is to "break down the bars of ignorance and illiteracy", [ 19 ] because its volunteers aim to continue spreading public literacy and appreciation for the literary heritage just as public libraries began to do in the late 19th century. [ 20 ] [ 21 ] 
+
+ Project Gutenberg is intentionally decentralized; there is no selection policy dictating what texts to add. Instead, individual volunteers work on what they are interested in or have available. The Project Gutenberg collection is intended to preserve items for the long term, so they cannot be lost by any one localized accident. In an effort to ensure this, the entire collection is backed-up regularly and mirrored on servers in many different locations. [ 22 ] 
+
+ Copyright
+ [ edit ] 
+
+ Project Gutenberg is careful to verify the status of its eBooks according to United States copyright law . Material is added to the Project Gutenberg archive only after it has received a copyright clearance, and records of these clearances are saved for future reference. Project Gutenberg does not claim new copyright on titles it publishes. Instead, it encourages their free reproduction and distribution. [ 4 ] 
+
+ Most books in the Project Gutenberg collection are distributed as public domain under United States copyright law. There are also a few copyrighted texts, such as those of science fiction author Cory Doctorow , that Project Gutenberg distributes with permission. These are subject to further restrictions as specified by the copyright holder, although they generally tend to be licensed under Creative Commons .
+
+ "Project Gutenberg" is a trademark of the organization, and the mark cannot be used in commercial or modified redistributions of public domain texts from the project. There is no legal impediment to the reselling of works in the public domain if all references to Project Gutenberg are removed, but Gutenberg contributors have questioned the appropriateness of directly and commercially reusing content that has been formatted by volunteers. There have been instances of books being stripped of attribution to the project and sold for profit in the Kindle Store and other booksellers, one being the 1906 book Fox Trapping . [ 23 ] 
+
+ From 2018 to 2021, the Project Gutenberg website was not accessible within Germany , as a result of a court order from S. Fischer Verlag regarding the works of Heinrich Mann , Thomas Mann and Alfred Döblin . Although they were in the public domain in the United States, the German court (Frankfurt am Main Regional Court) recognized the infringement of copyrights still active in Germany, and asserted that the Project Gutenberg website was under German jurisdiction because it hosts content in the German language and is accessible in Germany. [ 24 ] This judgment was confirmed by the Frankfurt Court of Appeal on 30 April 2019 (11 U 27/18 [ 25 ] ). The Frankfurt Court of Appeal has not given permission for a further appeal to the Federal Court of Justice (Bundesgerichtshof), however, an application for permission to appeal has been filed with the Federal Court of Justice. As of 4 October 2020 that application was still pending (Federal Court of Justice I ZR 97/19). According to Project Gutenberg Literary Archive Foundation, [ 26 ] "In October 2021, the parties reached a settlement agreement. Under the terms of the agreement, Project Gutenberg eBooks by the three authors will be blocked from Germany until their German copyright expires. Under the terms of the settlement, the all-Germany block is no longer in place. Other terms of the settlement are confidential."
+
+ The Project Gutenberg website has been blocked in Italy since May 2020, as part of a larger effort to block websites that publish newspapers and journals that are protected by copyright in Italy. [ 27 ] 
+
+ Criticism
+ [ edit ] 
+
+ This section needs to be updated . Please help update this article to reflect recent events or newly available information. ( December 2019 ) 
+
+ The text files use the format of plain text encoded in UTF-8 and are typically wrapped at 65–70 characters, with paragraphs separated by a double line break. In 2000, this presentation was criticized as "bland and difficult to read on screen". [ 28 ] Project Gutenberg attempts to address this by making many texts available in HTML, ePub, and PDF versions as well. HTML versions of older texts are autogenerated versions. Another not-for-profit project, Standard Ebooks , aims to address these issues with its collection of public domain titles that are formatted and styled. It corrects issues related to design and typography. [ 29 ] 
+
+ In December 1994, Project Gutenberg was criticized by the Text Encoding Initiative for failing to include documentation or discussion of the decisions unavoidable in preparing a text, or in some cases, not documenting which of several (conflicting) versions of a text has been the one digitized. [ 30 ] 
+
+ The selection of works (and editions) available has been determined by popularity, ease of scanning, being out of copyright, and other factors; this would be difficult to avoid in any crowd-sourced project. [ 31 ] 
+
+ In March 2004, an initiative was begun by Michael Hart and John S. Guagliardo [ 32 ] to provide low-cost distribution of intellectual properties. The initiative evolved into a "self-publishing portal" now located at self.gutenberg.org. (The initial name for this project was Project Gutenberg 2 (PG II), which created controversy among PG volunteers. [ 33 ] )
+
+ Project Gutenberg Literary Archive Foundation
+ [ edit ] 
+
+ In 2000, a 501(c)(3) non-profit corporation , the Project Gutenberg Literary Archive Foundation, Inc. ( EIN : 64–6221541) was chartered in Mississippi , United States , to handle the project's legal needs. [ 34 ] [ 35 ] [ 36 ] Donations to it are tax-deductible . [ 37 ] 
+
+ Gregory B. Newby , while assistant professor at UNC School of Information and Library Science , and a long-time Project Gutenberg volunteer, in 2001, became the foundation's first CEO . [ 33 ] [ 38 ] After Newby died in 2025, Eric Hellman became acting CEO of the foundation. [ 2 ] 
+
+ Partners
+ [ edit ] 
+
+ Project Gutenberg Consortia Center specializes in collections of collections. These do not have the editorial oversight or consistent formatting of the main Project Gutenberg. Thematic collections, as well as numerous languages, are featured. [ 39 ] This is sponsored by worldlibrary.net , which hosts self.gutenberg.org , a self-publishing portal. [ 40 ] 
+
+ ibiblio , at the University of North Carolina at Chapel Hill , now hosts Project Gutenberg [ 40 ] 
+
+ Distributed Proofreaders: In 2000, Charles Franks founded Distributed Proofreaders (DP), which allowed the proofreading of scanned texts to be distributed among many volunteers over the Internet. This effort increased the number and variety of texts being added to Project Gutenberg, as well as making it easier for new volunteers to start contributing. DP became officially affiliated with Project Gutenberg in 2002. [ 41 ] As of 2018 [ update ] , the 36,000+ DP-contributed books comprised almost two-thirds of the nearly 77,500 books in Project Gutenberg. [ 40 ] 
+
+ Sister projects
+ [ edit ] 
+
+ All sister projects are independent organizations that share the same ideals and have been given permission to use the Project Gutenberg trademark. [ 40 ] They often have a particular national or linguistic focus. [ 42 ] 
+
+ List of sister projects
+ [ edit ] 
+
+ Distributed Proofreaders Canada , a separate entity, launched in December 2007, by David Jones and Michael Shepard.
+
+ Faded Page Distributed Proofreaders Canada public domain book archive
+
+ Project Gutenberg Australia hosts many texts that are public domain according to copyright law of Australia , but still under copyright (or of uncertain status) in the United States, with a focus on Australian writers and books about Australia. [ 43 ] [ 40 ] 
+
+ Project Gutenberg Canada is a digital library for Canadian public domain texts. [ 44 ] [ 40 ] 
+
+ Projekt Gutenberg-DE   [ de ] claims copyright for its product and limits access to browsable web-versions of its texts. [ 45 ] [ 40 ] [ 46 ] [ 47 ] [ 48 ] 
+
+ Project Gutenberg Europe is run by Project Rastko in Serbia . It aims at being a Project Gutenberg for all of Europe, and began posting projects in 2005. It uses the Distributed Proofreaders software to quickly produce etexts. [ 49 ] 
+
+ Project Gutenberg Luxembourg publishes mostly, but not exclusively, books that are written in Luxembourgish . [ 50 ] 
+
+ Project Lönnrot   [ fi ] , started by Finnish Project Gutenberg volunteers, derives its name from the Finnish philologist Elias Lönnrot (1802–1884) [ 51 ] 
+
+ Project Gutenberg of the Philippines aims to "make as many books available to as many people as possible, with a special focus on the Philippines and Philippine languages". [ 52 ] 
+
+ Project Gutenberg Russia (Rutenberg) aims to collect public domain books in Slavic languages, particularly in Russian. The discussion of the project and its legal side began in April 2012. The word Rutenberg is a combination of words "Russia" and "Gutenberg". [ 53 ] 
+
+ Project Gutenberg Self Publishing Portal also known as Project Gutenberg Self-Publishing Press , by the Project Gutenberg Consortia Center [ 40 ] [ 54 ] Unlike the Gutenberg Project itself, Project Gutenberg Self-Publishing allows submission of texts never published before, including self-published ebooks. [ 55 ] Launched in 2012, [ 54 ] [ 56 ] also owns the "gutenberg.us" domain. [ 57 ] 
+
+ Project Gutenberg of Taiwan seeks to archive copyright free books with a special focus on Taiwan in English, Mandarin and Taiwan-based languages. It is a special project of Forumosa.com [ 58 ] 
+
+ Projekt Runeberg , specializes in Nordic literature [ 40 ] 
+
+ ReadingRoo.ms , the home of the Project Gutenberg PrePrints [ 40 ] 
+
+ Affiliates
+ [ edit ] 
+
+ The Internet Archive , previous long-time backup distribution site, and previous main host site. [ 40 ] 
+
+ Librivox.org , new audiobooks main partner [ 40 ] 
+
+ CD and DVD project
+ [ edit ] 
+
+ In August 2003, Project Gutenberg created a CD containing approximately 600 of the "best" e-books from the collection. The CD was available for download as an ISO image . [ 59 ] When users were unable to download the CD, they could request to have a copy sent to them, free of charge.
+
+ In December 2003, a DVD was created containing nearly 10,000 items. [ 60 ] At the time, this represented almost the entire collection. In early 2004, the DVD also became available by mail.
+
+ In July 2007, a new edition of the DVD was released containing over 17,000 books, [ 60 ] and in April 2010, a dual-layer DVD was released, containing nearly 30,000 items. [ 61 ] 
+
+ The majority of the DVDs, and all of the CDs mailed by the project, were recorded on recordable media by volunteers. However, the new dual layer DVDs were manufactured, as it proved more economical than having volunteers burn them. As of October   2010 [ update ] , the project has mailed approximately 40,000 discs. [ 62 ] As of 2017, the delivery of free CDs had been discontinued, though the ISO image was still available for download. [ 63 ] [ needs update ] 
+
+ See also
+ [ edit ] 
+
+ Aozora Bunko 
+
+ Miguel de Cervantes Virtual Library 
+
+ Chinese Text Project 
+
+ Google Books 
+
+ HathiTrust 
+
+ Internet Archive 
+
+ LibriVox —free online audiobook library, with many texts used from Project Gutenberg
+
+ List of digital library projects 
+
+ On-line Guitar Archive 
+
+ Open Content Alliance 
+
+ Project Runeberg , for books significant to the culture and history of the Nordic countries.
+
+ Runivers , for Russian historical documents
+
+ Sefaria , for Jewish texts
+
+ Standard Ebooks 
+
+ Virtual volunteering 
+
+ Wikisource 
+
+ References
+ [ edit ] 
+
+ \n{{cite book|first=Michael S.|last=Hart|url=https://www.gutenberg.org/ebooks/1|title=United States Declaration of Independence by United States|publisher=Project Gutenberg|access-date=17 February 2007|archive-url=https://web.archive.org/web/20070126065920/http://www.gutenberg.org/etext/1|archive-date=26 January 2007|url-status=live}}<br/>\"The Declaration of Independence of the United States of America by Thomas Jefferson\" is the bold heading of the linked webpage twelve years later (6 June 2019). No author but Jefferson is identified, nor is Hart otherwise named. Officially this is Project Gutenberg Ebook #1 (assigned December 1993?), or the current index to multiple formats of the same.\n<br>What Ebook #1 actually contains is heavily annotated re-release of the first two e-texts that were released in December 1971 (as by Michael S. Hart?). For more information, open the HTML format, for instance, and search for \"December\" or \"Michael\".</ref>"}},"i":0}}]}'> 
+ ↑ 
+ Hart, Michael S. United States Declaration of Independence by United States . Project Gutenberg. Archived from the original on 26 January 2007 . Retrieved 17 February 2007 . "The Declaration of Independence of the United States of America by Thomas Jefferson" is the bold heading of the linked webpage twelve years later (6 June 2019). No author but Jefferson is identified, nor is Hart otherwise named. Officially this is Project Gutenberg Ebook #1 (assigned December 1993?), or the current index to multiple formats of the same.
+ What Ebook #1 actually contains is heavily annotated re-release of the first two e-texts that were released in December 1971 (as by Michael S. Hart?). For more information, open the HTML format, for instance, and search for "December" or "Michael". 
+
+ 1 2 "Project Gutenberg CEO Greg Newby helped put a trove of literature online" . The Globe and Mail . 31 October 2025 . Retrieved 28 August 2026 . 
+
+ 1 2 
+ Hart, Michael S. (23 October 2004). "Gutenberg Mission Statement by Michael Hart" . Project Gutenberg. Archived from the original on 14 July 2007 . Retrieved 15 August 2007 . 
+
+ 1 2 3 Thomas, Jeffrey (20 July 2007). "Project Gutenberg Digital Library Seeks To Spur Literacy" . US Department of State, Bureau of International Information Programs. Archived from the original on 14 March 2008 . Retrieved 20 August 2007 . 
+
+ ↑ "Project Gutenberg" . Project Gutenberg . 22 March 2026 . Retrieved 22 March 2026 . 
+
+ ↑ 
+ Hart, Michael S. (August 1992). "Gutenberg:The History and Philosophy of Project Gutenberg" . Archived from the original on 29 November 2006 . Retrieved 5 December 2006 . 
+
+ ↑ 
+ Day, B. H.; Wortman, W. A. (2000). Literature in English: A Guide for Librarians in the Digital Age . Chicago: Association of College and Research Libraries. p.   170 . ISBN   0-8389-8081-3 . 
+
+ ↑ "BBC Audio | Witness History | The 'father of e-books' " . www.bbc.com . Retrieved 29 September 2026 . 
+
+ ↑ Vara, Vauhini (5 December 2005). "Project Gutenberg Fears No Google" . The Wall Street Journal . Archived from the original on 9 August 2017 . Retrieved 15 August 2007 . 
+
+ ↑ "credit" . gutenberg.net . Archived from the original on 2 June 2004 . Retrieved 5 August 2026 . 
+
+ ↑ "Michael_S._Hart" . Project Gutenberg. 6 September 2011. Archived from the original on 17 September 2011 . Retrieved 25 September 2011 . 
+
+ ↑ "Project Gutenberg" . Project Gutenberg . Retrieved 29 May 2025 . 
+
+ ↑ For a listing of the categorized books, see: "},"date":{"wt":"28 April 2007"},"url":{"wt":"https://www.gutenberg.org/wiki/Category:Bookshelf"},"title":{"wt":"Category:Bookshelf"},"publisher":{"wt":"Project Gutenberg"},"access-date":{"wt":"18 August 2007"},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20070711034456/http://www.gutenberg.org/wiki/Category%3ABookshelf"},"archive-date":{"wt":"11 July 2007"}},"i":0}}]}'/> "Category:Bookshelf" . Project Gutenberg. 28 April 2007. Archived from the original on 11 July 2007 . Retrieved 18 August 2007 . 
+
+ ↑ "Project Gutenberg Sheet Music | Manchester-by-the-Sea Public Library" . Manchesterpl.org. Archived from the original on 14 July 2014 . Retrieved 14 July 2014 . 
+
+ ↑ Various Project Gutenberg FAQs allude to this. See, for example: "},"quote":{"wt":"You can view or edit ASCII text using just about every text editor or viewer in the world. [...] Unicode is steadily gaining ground, with at least some support in every major operating system, but we're nowhere near the point where everyone can just open a text based on Unicode and read and edit it."},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20121102071414/http://www.gutenberg.org/wiki/Gutenberg%3AFile_Formats_FAQ"},"archive-date":{"wt":"2 November 2012"}},"i":0}}]}'/> "File Formats FAQ" . Archived from the original on 2 November 2012 . Retrieved 2 November 2012 . You can view or edit ASCII text using just about every text editor or viewer in the world. [...] Unicode is steadily gaining ground, with at least some support in every major operating system, but we're nowhere near the point where everyone can just open a text based on Unicode and read and edit it. 
+
+ ↑ "The Guide to PGTEI" . Project Gutenberg. 12 April 2005. Archived from the original on 18 May 2013 . Retrieved 7 February 2013 . 
+
+ ↑ The Project Gutenberg RST Manual . Project Gutenberg. 25 November 2010. Archived from the original on 26 January 2013 . Retrieved 8 February 2013 . 
+
+ ↑ "Help on Bibliographic Record" . Project Gutenberg. 4 April 2010. Archived from the original on 17 September 2011 . Retrieved 3 September 2011 . 
+
+ ↑ "The Project Gutenberg Weekly Newsletter" . Project Gutenberg. 10 December 2003. Archived from the original on 11 May 2011 . Retrieved 8 June 2008 . 
+
+ ↑ Perry, Ruth (2007). "Postscript about the Public Libraries" . Modern Language Association. Archived from the original on 9 August 2007 . Retrieved 20 August 2007 . 
+
+ ↑ Lorenzen, Michael (2002). "Deconstructing the Philanthropic Library: The Sociological Reasons Behind Andrew Carnegie's Millions to Libraries" . Modern Language Association. Archived from the original on 13 August 2007 . Retrieved 20 August 2007 . 
+
+ ↑ Walker, Joseph (30 November 2013). Information Technology and Collection Management for Library User Environments . IGI Global. ISBN   9781466647404 . 
+
+ ↑ Pegoraro, Rob (30 November 2010). "Amazon charges Kindle users for free Project Gutenberg e-books" . The Washington Post . Archived from the original on 5 May 2017 . Retrieved 3 March 2018 . 
+
+ ↑ "Court Order to Block Access in Germany" . Project Gutenberg Library Archive Foundation. Archived from the original on 4 March 2018 . Retrieved 4 March 2018 . 
+
+ ↑ "OLG Frankfurt judgment of 30 April 2019" . 
+
+ ↑ "Lawsuit is Settled" . Project Gutenberg Literary Archive Foundation . Retrieved 6 December 2021 . 
+
+ ↑ Caranti, Niccolò. "Project Gutenberg blocked in Italy: many doubts, few certainties" . OBC Transeuropa . Retrieved 10 January 2022 . 
+
+ ↑ Boumphrey, Frank (July 2000). "European Literature and Project Gutenberg" . Cultivate Interactive. Archived from the original on 14 July 2007 . Retrieved 15 August 2007 . 
+
+ ↑ Partick Lucas Austin (20 June 2017). "Standard eBooks is a Gutenberg Project You'll Actually Use" . LifeHacker.com . Retrieved 20 October 2020 . 
+
+ ↑ Michael Sperberg-McQueen , "Textual Criticism and the Text Encoding Initiative", 1994, "Textual Criticism and the Text Encoding Initiative" . Archived from the original on 4 March 2016 . Retrieved 25 July 2015 . 
+
+ ↑ Hoffmann, Sebastian (2005). Grammaticalization And English Complex Prepositions: A Corpus-based Study (1st   ed.). Routledge. ISBN   0-415-36049-8 . OCLC   156424479 . 
+
+ ↑ Executive director of the World eBook Library. 
+
+ 1 2 Hane, Paula (2004). "Project Gutenberg Progresses" . Information Today . 21 (5). Archived from the original on 30 September 2007 . Retrieved 20 August 2007 . 
+
+ ↑ Schwencke, Ken; Tigas, Mike; Wei, Sisi; Glassford, Alec; Suozzo, Andrea; Roberts, Brandon (9 May 2013). "Project Gutenberg Literary Archive Foundation Inc Tr" . Nonprofit Explorer . ProPublica. 
+
+ ↑ Stroube, Bryan (September 2003). "Literary freedom" . XRDS: Crossroads, the ACM Magazine for Students . 10 (1): 3. doi : 10.1145/973381.973384 . ISSN   1528-4972 . S2CID   12606524 . 
+
+ ↑ "Cease and Desist Responses" . Project Gutenberg Literary Archive Foundation . Retrieved 13 February 2022 . 
+
+ ↑ "donate" . Project Gutenberg . Retrieved 13 February 2022 . 
+
+ ↑ "Gregory B. Newby" . Open Source Research People . ibiblio . Retrieved 13 February 2022 . 
+
+ ↑ 
+ "},"year":{"wt":"2004"},"url":{"wt":"http://www.gutenberg.us/"},"title":{"wt":"Project Gutenberg Consortia Center"},"access-date":{"wt":"20 August 2007"},"url-status":{"wt":"live"},"archive-url":{"wt":"https://web.archive.org/web/20070809212335/http://www.gutenberg.us/"},"archive-date":{"wt":"9 August 2007"}},"i":0}}]}'/> "Project Gutenberg Consortia Center" . 2004. Archived from the original on 9 August 2007 . Retrieved 20 August 2007 . 
+
+ 1 2 3 4 5 6 7 8 9 10 11 12 "Partners, Sister Projects, Affiliates and Resources" . Project Gutenberg . Retrieved 13 February 2022 . 
+
+ ↑ "},"date":{"wt":"August 2007"},"url":{"wt":"http://www.pgdp.net/c/faq/dpf.php"},"title":{"wt":"The Distributed Proofreaders Foundation"},"publisher":{"wt":"Distributed proofreaders"},"access-date":{"wt":"10 August 2007"},"url-status":{"wt":"live"},"archive-url":{"wt":"https://web.archive.org/web/20070821001333/http://www.pgdp.net/c/faq/dpf.php"},"archive-date":{"wt":"21 August 2007"}},"i":0}}]}'/> "The Distributed Proofreaders Foundation" . Distributed proofreaders. August 2007. Archived from the original on 21 August 2007 . Retrieved 10 August 2007 . 
+
+ ↑ "},"date":{"wt":"17 July 2007"},"url":{"wt":"https://www.gutenberg.org/wiki/Gutenberg:Partners,_Affiliates_and_Resources"},"title":{"wt":"Gutenberg:Partners, Affiliates and Resources"},"publisher":{"wt":"Project Gutenberg"},"access-date":{"wt":"20 August 2007"},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20070926222113/http://www.gutenberg.org/wiki/Gutenberg%3APartners%2C_Affiliates_and_Resources"},"archive-date":{"wt":"26 September 2007"}},"i":0}}]}'/> "Gutenberg:Partners, Affiliates and Resources" . Project Gutenberg. 17 July 2007. Archived from the original on 26 September 2007 . Retrieved 20 August 2007 . 
+
+ ↑ "},"date":{"wt":"24 January 2007"},"url":{"wt":"http://gutenberg.net.au/"},"title":{"wt":"Project Gutenberg of Australia"},"access-date":{"wt":"10 August 2006"},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20060814093840/http://www.gutenberg.net.au/"},"archive-date":{"wt":"14 August 2006"}},"i":0}}]}'/> "Project Gutenberg of Australia" . 24 January 2007. Archived from the original on 14 August 2006 . Retrieved 10 August 2006 . 
+
+ ↑ "Project Gutenberg Canada" . Archived from the original on 18 January 2016 . Retrieved 20 August 2007 . 
+
+ ↑ "},"year":{"wt":"1994"},"url":{"wt":"http://gutenberg.spiegel.de/"},"title":{"wt":"Projekt Gutenberg-DE"},"work":{"wt":"Spiegel Online"},"access-date":{"wt":"20 August 2007"},"url-status":{"wt":"live"},"archive-url":{"wt":"https://web.archive.org/web/20070630055250/http://gutenberg.spiegel.de/"},"archive-date":{"wt":"30 June 2007"}},"i":0}}]}'/> "Projekt Gutenberg-DE" . Spiegel Online . 1994. Archived from the original on 30 June 2007 . Retrieved 20 August 2007 . 
+
+ ↑ "Startseite" . www.projekt-gutenberg.org . Retrieved 4 July 2025 . 
+
+ ↑ "gutenberg.spiegel.de" . gutenberg.spiegel.de . Archived from the original on 8 April 2002 . Retrieved 4 July 2025 . 
+
+ ↑ "Informationen" . gutenberg.spiegel.de . Archived from the original on 3 August 2002 . Retrieved 4 July 2025 . 
+
+ ↑ "},"year":{"wt":"2005"},"url":{"wt":"http://pge.rastko.net/"},"title":{"wt":"Project Gutenberg Europe"},"publisher":{"wt":"EUnet Yugoslavia"},"access-date":{"wt":"20 August 2007"},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20070820234835/http://pge.rastko.net/"},"archive-date":{"wt":"20 August 2007"}},"i":0}}]}'/> "Project Gutenberg Europe" . EUnet Yugoslavia. 2005. Archived from the original on 20 August 2007 . Retrieved 20 August 2007 . 
+
+ ↑ Kirps, Jos (22 May 2007). "Project Gutenberg Luxembourg" . Archived from the original on 29 September 2007 . Retrieved 20 August 2007 . 
+
+ ↑ Riikonen, Tapio (28 February 2005). "Projekti Lönnrot" . Archived from the original on 10 August 2007 . Retrieved 20 August 2007 . 
+
+ ↑ "},"url":{"wt":"http://www.gutenberg.ph/"},"title":{"wt":"Project Gutenberg of the Philippines"},"access-date":{"wt":"20 August 2007"},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20070824002901/http://www.gutenberg.ph/"},"archive-date":{"wt":"24 August 2007"}},"i":0}}]}'/> "Project Gutenberg of the Philippines" . Archived from the original on 24 August 2007 . Retrieved 20 August 2007 . 
+
+ ↑ 
+ "Project Gutenberg Russia" . Archived from the original on 24 May 2012 . Retrieved 5 April 2012 . 
+
+ 1 2 "Partners, Affiliates and Resources" . Archived from the original on 13 November 2012 . Retrieved 27 February 2016 . 
+
+ ↑ "Project Gutenberg Self-Publishing Press" . Archived from the original on 2 March 2016 . Retrieved 27 February 2016 . 
+
+ ↑ "Project Gutenberg launches self-publishing library" . RT Book Reviews . Archived from the original on 4 March 2016 . Retrieved 27 February 2016 . 
+
+ ↑ "Domain Availability – Registration Information" . GoDaddy . Archived from the original on 3 March 2016 . Retrieved 27 February 2016 . 
+
+ ↑ "},"url":{"wt":"http://www.gutenberg.tw/"},"title":{"wt":"Project Gutenberg of Taiwan"},"access-date":{"wt":"5 April 2009"},"url-status":{"wt":"dead"},"archive-url":{"wt":"https://web.archive.org/web/20110511102835/http://www.gutenberg.tw/"},"archive-date":{"wt":"11 May 2011"}},"i":0}}]}'/> "Project Gutenberg of Taiwan" . Archived from the original on 11 May 2011 . Retrieved 5 April 2009 . 
+
+ ↑ "cdproject" . gutenberg.net . Archived from the original on 4 April 2004 . Retrieved 5 August 2026 . 
+
+ 1 2 Project Gutenberg (March 2007), Project Gutenberg: The March 2007 Science Fiction Bookshelf CD , retrieved 29 May 2025 
+
+ ↑ Project Gutenberg (April 2010), Project Gutenberg: The April 2010 (Dual Layer) DVD , retrieved 29 May 2025 
+
+ ↑ "The CD and DVD Project" . Gutenberg. 24 July 2012. Archived from the original on 5 October 2012 . Retrieved 7 October 2012 . 
+
+ ↑ Project Gutenberg "10K" DVD . 1 February 2004. 
+
+ Further reading
+ [ edit ] 
+
+ Marie Lebert . Project Gutenberg (1971-2009) , 2009 ( Net des Etudes Francaises , University of Toronto ) via: Project Gutenberg 
+
+ Marie Lebert . A History of EBooks , 26 August 2009 ( Net des Etudes Francaises , University of Toronto ) via: Project Gutenberg 
+
+ Newby, Gregory B. (18 October 2019). Forty-Five Years of Digitizing Ebooks: Project Gutenberg's Practices . Project Gutenberg. 
+
+ External links
+ [ edit ] 
+
+ Project Gutenberg at Wikipedia's sister projects 
+
+ Media from Commons 
+ Texts from Wikisource 
+ Data from Wikidata 
+
+ Listen to this article ( 17 minutes )
+
+ This audio file is based on a version from this article dated 23   July   2007   ( 2007-07-23 ) , and does not reflect subsequent edits.
+ ( Audio help   · More spoken articles )
+
+ Official website 
+ https://www.gutenberg.org/files/1/old/1.txt 
+
+ Distributed Proofreaders   – a worldwide group of volunteer editors that is now the main source of eBooks for Project Gutenberg
+ DP wiki - Distributed Proofreaders
+
+ Project Gutenberg News   – Official News for Gutenberg.org. Includes the Newsletter Archives , 1989–present.
+
+ Project Gutenberg Monthly Newsletter . Archived 7 April 2022 at the Wayback Machine .
+
+ Works by Project Gutenberg at Project Gutenberg 
+
+ Works by or about Project Gutenberg at the Internet Archive 
+
+ v 
+ t 
+ e 
+
+ Ebooks 
+
+ Formats 
+
+ ePub 
+
+ FictionBook 
+
+ CBR/CBZ 
+
+ Kindle File Format 
+
+ Mobipocket 
+
+ PDF 
+
+ Plain text 
+
+ IBA 
+
+ Reading
+
+ Devices 
+
+ Amazon Kindle 
+
+ Barnes & Noble Nook 
+
+ Bookeen 
+
+ Elonex ebook 
+
+ enTourage eDGe 
+
+ Hanlin eReader 
+
+ iPad 
+
+ iRiver Story 
+
+ Kobo eReader 
+
+ Onyx Boox 
+
+ Plastic Logic Reader 
+
+ PocketBook eReader 
+
+ Rocket eBook 
+
+ SoftBook 
+
+ Smartphones 
+
+ Tablets 
+
+ Software
+
+ Adobe Acrobat 
+
+ Adobe Digital Editions 
+
+ Aldiko 
+
+ Apple Books (iBooks) 
+
+ Aquafadas 
+
+ Blio 
+
+ Bluefire Reader 
+
+ Calibre 
+
+ FBReader 
+
+ Foliate 
+
+ Google Play Books 
+
+ Kindle app 
+
+ Kitabu 
+
+ Kobo 
+
+ Lector 
+
+ Lektz 
+
+ Lucifox 
+
+ Microsoft Reader 
+
+ MuPDF 
+
+ Okular 
+
+ OverDrive Media Console 
+
+ Snapplify 
+
+ STDU Viewer 
+
+ Sumatra PDF 
+
+ Editing
+
+ ABBYY FineReader 
+
+ AbiWord 
+
+ Adobe InDesign 
+
+ Adobe RoboHelp 
+
+ Aquafadas 
+
+ Atlantis Word Processor 
+
+ Booktype 
+
+ Calibre 
+
+ Calligra Author 
+
+ Collabora Online 
+
+ eXeLearning 
+
+ HelpNDoc 
+
+ iBooks Author 
+
+ iStudio Publisher 
+
+ LaTeX 
+
+ LibreOffice 
+
+ Oxygen XML Editor 
+
+ PagePlus 
+
+ Pages 
+
+ QuarkXPress 
+
+ Scrivener 
+
+ Sigil 
+
+ Writer2epub 
+
+ Vendors 
+
+ Commercial
+
+ Apple Books Store 
+
+ Amazon Kindle Store 
+
+ Baen Free Library 
+
+ Barnes & Noble 
+
+ Booktrack 
+
+ BookWalker 
+
+ Feedbooks 
+
+ Google 
+ Google Play 
+
+ Google Books 
+
+ Jarir.com 
+
+ Kobo Bookstore 
+
+ Rokomari 
+
+ Sony Reader Store 
+
+ Smashwords 
+
+ Noncommercial
+
+ Aozora Bunko 
+
+ Faded Page 
+
+ HathiTrust 
+
+ Internet Archive 
+
+ Project Gutenberg 
+ Australia 
+
+ Canada 
+
+ Standard Ebooks 
+
+ Wikisource 
+
+ Related
+
+ Academic journal publishing reform 
+
+ Books 
+
+ Braille e-book 
+
+ Comparison of ebook readers 
+
+ Comparison of iOS ebook reader software 
+
+ Comparison of Android ebook reader software 
+
+ E-book lending 
+
+ Electronic publishing 
+
+ iBooks Author Conference 
+
+ International Digital Publishing Forum 
+
+ Kindle single 
+
+ OPDS 
+
+ Reflowable document 
+
+ Self-publishing 
+
+ Semantic publishing 
+
+ Timeline of ebooks 
+
+ v 
+ t 
+ e 
+
+ Ebook digital distribution platforms 
+
+ Active
+
+ Archive of Our Own 
+
+ FanFiction.Net 
+
+ Internet Archive 
+
+ Project Gutenberg 
+
+ Standard Ebooks 
+
+ Wikibooks 
+
+ Commercial
+
+ Amazon Kindle 
+
+ Apple Books 
+
+ Barnes & Noble Nook 
+
+ BookWalker 
+
+ cloudLibrary 
+
+ DLsite 
+
+ DMM.com 
+
+ Google Play Books 
+
+ Hoopla Digital 
+
+ Jinjiang Literature City 
+
+ Kindle Direct Publishing 
+
+ Kindle Store 
+
+ Kobo 
+
+ Lulu 
+
+ OverDrive, Inc. 
+
+ Perlego 
+
+ PocketBook Reader 
+
+ Qidian 
+
+ Rokomari.com 
+
+ Scribd 
+
+ Shōsetsuka ni Narō 
+
+ Smashwords 
+
+ Wattpad 
+
+ Discontinued
+
+ NoiseTrade 
+
+ OkadaBooks 
+
+ Oyster 
+
+ Pronoun 
+
+ Sony Reader 
+
+ v 
+ t 
+ e 
+
+ Books 
+
+ Production
+
+ Binding 
+
+ Covers 
+ dust jackets 
+
+ Design 
+
+ Editing 
+
+ Illustration 
+ Illuminated manuscripts 
+
+ Printing 
+ edition 
+
+ history 
+
+ incunabula 
+
+ instant book 
+
+ limited edition 
+
+ Publishing 
+ advance copy 
+
+ hardcover 
+
+ paperback 
+
+ Size 
+
+ Typesetting 
+
+ Volume (bibliography) 
+
+ Collection (publishing) 
+
+ Book series 
+
+ Consumption
+
+ Awards 
+
+ Bestsellers 
+ list 
+
+ Bibliography 
+
+ Bibliomania ( tsundoku )
+
+ Bibliophilia 
+
+ Bibliotherapy 
+
+ Bookmarks 
+
+ Bookselling 
+ blurbs 
+
+ book towns 
+
+ history 
+
+ used 
+
+ Censorship 
+
+ Clubs 
+
+ Collecting 
+
+ Digitizing 
+
+ Bookworm (insect) 
+
+ Furniture
+ bookcases 
+
+ bookends 
+
+ Library 
+
+ Print culture 
+
+ Reading 
+ literacy 
+
+ Reviews 
+
+ By country
+
+ Brazil 
+
+ China 
+
+ France 
+
+ Germany 
+
+ Italy 
+
+ Japan 
+
+ Netherlands 
+
+ Pakistan 
+
+ Spain 
+
+ United Kingdom 
+
+ United States 
+
+ Other
+
+ Genres
+ non-fiction 
+
+ novel 
+
+ imaginary 
+
+ miniature 
+
+ pop-up 
+
+ textbook 
+
+ Grimoire 
+
+ Formats
+ audiobooks 
+
+ Ebooks 
+
+ Folio 
+
+ Coffee table book 
+
+ Related
+
+ Banned books 
+
+ Book burning 
+ incidents 
+
+ Nazi 
+
+ Book curses 
+
+ Book packaging 
+
+ Book swapping 
+
+ Book tour 
+
+ Conservation and restoration 
+
+ Dog ears 
+
+ History of books 
+ scroll 
+
+ codex 
+
+ Intellectual property 
+
+ ISBN 
+
+ Outline 
+
+ Preservation 
+
+ The Philobiblon 
+
+ World Book Day 
+
+ World Book Capital 
+
+ Outline 
+
+ Category 
+
+ Portal 
+
+ Authority control databases 
+
+ International
+ VIAF 
+ GND 
+ FAST 
+
+ National
+ United States 
+ France 
+ BnF data 
+ Israel 
+
+ People
+ Trove 
+ LibraryThing 
+
+ Other
+ Open Library 
+ Yale LUX 
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Project_Gutenberg&oldid=1379930713 "
+
+ Categories : 1971 establishments in the United States 
+ Accessible information 
+ American book websites 
+ American digital libraries 
+ Benedictine University 
+ Ebook suppliers 
+ Educational projects 
+ Full-text scholarly online databases 
+ Johannes Gutenberg 
+ Mass digitization 
+ Multilingual websites 
+ Open access projects 
+ Organizations established in 1971 
+ Public domain 
+
+ Hidden categories: Articles with short description 
+ Short description is different from Wikidata 
+ Use dmy dates from October 2024 
+ Pages using infobox mapframe with missing coordinates 
+ Articles containing potentially dated statements from March 2026 
+ All articles containing potentially dated statements 
+ Articles containing potentially dated statements from May 2025 
+ Wikipedia articles in need of updating from December 2019 
+ All Wikipedia articles in need of updating 
+ Articles containing potentially dated statements from 2018 
+ Articles containing potentially dated statements from October 2010 
+ Wikipedia articles in need of updating from May 2025 
+ Pages using Sister project links with hidden wikidata 
+ Articles with hAudio microformats 
+ Spoken articles 
+ Webarchive template wayback links 
+ Articles with Project Gutenberg links 
+ Articles with Internet Archive links 
+
+ This page was last edited on 12 October 2026, at 19:23  (UTC) .
+
+ Page was rendered with Parsoid .
+
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+ Privacy policy 
+
+ About Wikipedia 
+
+ Disclaimers 
+
+ Contact Wikipedia 
+
+ Legal & safety contacts 
+
+ Code of Conduct 
+
+ Developers 
+
+ Statistics 
+
+ Cookie statement 
+
+ Mobile view 
+
+ Search 
+
+ Search 
+
+ Toggle the table of contents 
+
+ Project Gutenberg 
+
+ 75 languages 
+
+ Add topic

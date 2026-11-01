@@ -1,0 +1,223 @@
+[2305.00118] Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4 
+
+ Skip to main content 
+
+ Search 
+
+ Submit 
+ Donate 
+
+ Log in 
+
+ Search arXiv 
+
+ Press Enter to search · Advanced search 
+
+--> 
+
+ Computer Science > Computation and Language
+
+ arXiv:2305.00118 (cs)
+
+ [Submitted on 28 Apr 2023 ( v1 ), last revised 20 Oct 2023 (this version, v2)]
+
+ Title: Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4
+
+ Authors: Kent K. Chang , Mackenzie Cramer , Sandeep Soni , David Bamman 
+ View a PDF of the paper titled Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4, by Kent K. Chang and 2 other authors
+
+ View PDF 
+ HTML (experimental) 
+
+ Abstract: In this work, we carry out a data archaeology to infer books that are known to ChatGPT and GPT-4 using a name cloze membership inference query. We find that OpenAI models have memorized a wide collection of copyrighted materials, and that the degree of memorization is tied to the frequency with which passages of those books appear on the web. The ability of these models to memorize an unknown set of books complicates assessments of measurement validity for cultural analytics by contaminating test data; we show that models perform much better on memorized books than on non-memorized books for downstream tasks. We argue that this supports a case for open models whose training data is known.
+
+ Comments:
+
+ EMNLP 2023 camera-ready (16 pages, 4 figures)
+
+ Subjects:
+
+ Computation and Language (cs.CL) 
+
+ Cite as:
+
+ arXiv:2305.00118 [cs.CL] 
+
+ (or 
+ arXiv:2305.00118v2 [cs.CL] for this version)
+
+ https://doi.org/10.48550/arXiv.2305.00118 
+
+ Focus to learn more 
+
+ arXiv-issued DOI via DataCite
+
+ Submission history
+ From: Kent Chang [ view email ] 
+ [v1] 
+ Fri, 28 Apr 2023 22:35:03 UTC (6,906 KB)
+
+ [v2] 
+ Fri, 20 Oct 2023 21:23:21 UTC (44 KB)
+
+ Full-text links: 
+ Access Paper:
+
+View a PDF of the paper titled Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4, by Kent K. Chang and 2 other authors
+ View PDF 
+ HTML (experimental) 
+ TeX Source
+
+ view license 
+
+ Additional Features
+
+ Audio Summary 
+
+ Current browse context:
+
+ cs.CL
+
+ < prev 
+
+   |   
+ next > 
+
+ new 
+ | 
+ recent 
+ | 2023-05 
+
+ Change to browse by:
+
+ cs 
+
+ References & Citations
+
+ SciX 
+ Google Scholar 
+
+ Semantic Scholar 
+
+ export BibTeX citation 
+ Loading... 
+
+ BibTeX formatted citation
+
+ × 
+
+ loading... 
+
+ Data provided by: 
+
+ Bookmark
+
+ Bibliographic Tools 
+
+ Bibliographic and Citation Tools
+
+ Bibliographic Explorer Toggle 
+
+ Bibliographic Explorer ( What is the Explorer? ) 
+
+ Connected Papers Toggle 
+
+ Connected Papers ( What is Connected Papers? ) 
+
+ Litmaps Toggle 
+
+ Litmaps ( What is Litmaps? ) 
+
+ scite.ai Toggle 
+
+ scite Smart Citations ( What are Smart Citations? ) 
+
+ Code, Data, Media 
+
+ Code, Data and Media Associated with this Article
+
+ alphaXiv Toggle 
+
+ alphaXiv ( What is alphaXiv? ) 
+
+ Links to Code Toggle 
+
+ CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) 
+
+ DagsHub Toggle 
+
+ DagsHub ( What is DagsHub? ) 
+
+ GotitPub Toggle 
+
+ Gotit.pub ( What is GotitPub? ) 
+
+ Huggingface Toggle 
+
+ Hugging Face ( What is Huggingface? ) 
+
+ ScienceCast Toggle 
+
+ ScienceCast ( What is ScienceCast? ) 
+
+ Demos 
+
+ Demos
+
+ Replicate Toggle 
+
+ Replicate ( What is Replicate? ) 
+
+ Spaces Toggle 
+
+ Hugging Face Spaces ( What is Spaces? ) 
+
+ Spaces Toggle 
+
+ TXYZ.AI ( What is TXYZ.AI? ) 
+
+ Related Papers 
+
+ Recommenders and Search Tools
+
+ Link to Influence Flower 
+
+ Influence Flower ( What are Influence Flowers? ) 
+
+ Core recommender toggle 
+
+ CORE Recommender ( What is CORE? ) 
+
+ Author 
+
+ Venue 
+
+ Institution 
+
+ Topic 
+
+ About arXivLabs
+
+ arXivLabs: experimental projects with community collaborators
+
+ arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+ Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+
+ Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .
+
+ Which authors of this paper are endorsers? |
+ Disable MathJax ( What is MathJax? )
+
+ We gratefully acknowledge support from our major funders ,
+ member institutions , ,
+ and all contributors.
+
+ About · 
+ Help · 
+ Contact · 
+ Subscribe · 
+ Copyright · 
+ Privacy · 
+ Accessibility · 
+ Operational Status (opens in new tab)

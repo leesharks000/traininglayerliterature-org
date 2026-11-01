@@ -1,0 +1,337 @@
+Common Crawl - Wikipedia 
+
+ Jump to content 
+
+ Main menu 
+
+ Main menu
+
+ move to sidebar 
+ hide 
+
+ Navigation
+
+ Main page 
+ Contents 
+ Current events 
+ Random article 
+ About Wikipedia 
+ Contact us 
+
+ Contribute
+
+ Help 
+ Learn to edit 
+ Community portal 
+ Recent changes 
+ Upload file 
+ Special pages 
+
+ Search 
+
+ Search 
+
+ Appearance 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Personal tools 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Contents
+
+ move to sidebar 
+ hide 
+
+ (Top)
+
+ 1 
+ History 
+
+ 2 
+ Organization 
+
+ 3 
+ Refined versions 
+
+ Toggle Refined versions subsection 
+
+ 3.1 
+ Colossal Clean Crawled Corpus 
+
+ 4 
+ See also 
+
+ 5 
+ References 
+
+ 6 
+ External links 
+
+ Toggle the table of contents 
+
+ Common Crawl 
+
+ 12 languages 
+
+ Català 
+ Čeština 
+ Deutsch 
+ Esperanto 
+ Español 
+ فارسی 
+ Français 
+ 日本語 
+ Русский 
+ Svenska 
+ ไทย 
+ Türkçe 
+
+ Edit links 
+
+ Article 
+
+ Talk 
+
+ English 
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ Tools 
+
+ Tools
+
+ move to sidebar 
+ hide 
+
+ Actions
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ General
+
+ What links here 
+ Related changes 
+ Upload file 
+ Permanent link 
+ Page information 
+ Cite this page 
+ Get shortened URL 
+ Switch to legacy parser 
+
+ Print/export
+
+ Download as PDF 
+ Printable version 
+
+ In other projects
+
+ Wikidata item 
+
+ Appearance
+
+ move to sidebar 
+ hide 
+
+ From Wikipedia, the free encyclopedia
+
+ Nonprofit web crawling and archive organization
+
+ Common Crawl 
+
+ Company   type
+ 501(c)(3) non-profit
+
+ Founded
+ 2007
+
+ Headquarters
+ San Francisco, California ; Los Angeles, California , United States 
+
+ Founder 
+ Gil Elbaz 
+
+ Managing director
+
+ Rich Skrenta 
+
+ Website
+ commoncrawl .org 
+
+ Content license
+
+ Apache 2.0 (software) [ clarification needed ] 
+
+ The Common Crawl Foundation ( Common Crawl ) is a nonprofit 501(c)(3) organization that crawls the web and freely provides its archives and datasets to the public. [ 1 ] [ 2 ] Access to the data is free on Amazon Web Services , but users may incur storage and compute costs. [ 3 ] 
+
+ Common Crawl was founded by Gil Elbaz . [ 1 ] [ 2 ] 
+
+ The data had mostly been primarily used by researchers and some startups until the 2020s, when AI companies started training large language models using the data. [ 4 ] In November 2025, an investigation by The Atlantic revealed that Common Crawl misled publishers when it claimed it respected paywalls in its scraping and it was not honoring requests from publishers to have their content removed from its databases. [ 4 ] 
+
+ History
+ [ edit ] 
+
+ Common Crawl was founded in 2007 in San Francisco, and started archiving websites that year. [ 5 ] [ 6 ] It began publishing its crawls in 2011. [ 7 ] [ 8 ] 
+
+ By 2013, sites like TinEye were building their products off of Common Crawl. [ 9 ] [ 10 ] The crawl reduces the reliance of companies and researchers on Google, which has the biggest dataset. [ 9 ] [ 10 ] Common Crawl was designed to have more and fresher data that was more efficient to analyze and utilize than the Wayback Machine created by the Internet Archive . [ 10 ] [ 9 ] 
+
+ By 2015, 1.8 billion webpages were on the Common Crawl, which started by crawling a list of URLs donated by the search engine Blekko . [ 11 ] They use Amazon Web Services , which provides some of its services for free, allowing computing costs to average $2–4000/month. [ 11 ] The Common Crawl website listed 30 studies based on Common Crawl data. [ 11 ] 
+
+ Before 2023, Common Crawl was not very well known outside of academic researchers who utilize the data. [ 5 ] Common Crawl received its first requests to redact information in 2023 and increasingly started seeing its crawler, CCBot, blocked. [ 5 ] In 2023, it began receiving significant financial support from AI companies, including Anthropic and OpenAI , each of which donated $250,000. [ 4 ] ChatGPT , as of 2023, was largely trained on Common Crawl, [ 12 ] as were other LLMs including Gemini . [ 13 ] By April 2023, Common Crawl was capturing 3.1 billion webpages, with an estimated 5% of pages before 2021 containing hate speech or slurs. [ 14 ] 
+
+ As of 2024, Common Crawl had been cited in more than 10,000 academic studies. [ 15 ] By 2024, The Pile and Common Crawl had been the two main training datasets being used to train AI models. [ 16 ] [ 17 ] 
+
+ In November 2025, an investigation by technology journalist Alex Reisner for The Atlantic revealed that Common Crawl misled publishers when it claimed it respected paywalls in its scraping and when it said that it was honoring requests from publishers to have their content removed from its databases. [ 4 ] It included misleading results in the public search function on its website that showed no entries for websites that had requested their archives be removed, when in fact those sites were still included in its scrapes used by AI companies. [ 4 ] As of 2025, Reisner found that CCBot was the most widely-blocked bot by the top 1000 websites. [ 4 ] 
+
+ A 2026 article in LWN.net discussed an advantage to services like Common Crawl being that it can limit the scraping costs to websites by allowing companies and researchers to download the data from Common Crawl instead of scraping it themselves. [ 18 ] 
+
+ In April 2026, Common Crawl experimentally began to distribute its data through Hugging Face Storage Bucket , in addition to its standard storage on Amazon S3 . [ 19 ] 
+
+ Organization
+ [ edit ] 
+
+ Peter Norvig and Joi Ito have served on the advisory board. [ 10 ] Rich Skrenta is the executive director. [ 4 ] 
+
+ It has received funding almost exclusively from the Elbaz Family Foundation Trust until 2023 when it started receiving donations from the AI industry. [ 4 ] 
+
+ Refined versions
+ [ edit ] 
+
+ A number of organizations take raw Common Crawl data and refine it into datasets that exclude edgy content or are otherwise higher-quality for their purposes, such as FineWeb, DCLM and C4. [ 4 ] 
+
+ Colossal Clean Crawled Corpus
+ [ edit ] 
+
+ The Colossal Clean Crawled Corpus , or C4 for short was created by Google . It was constructed for the training of the T5 language model series in 2019. [ 20 ] As of 2023, there were some concerns over copyrighted content in the C4 as well as racist content. [ 21 ] [ 20 ] A 2024 study found that 45% of the content was explicitly restricted by websites' terms of service to be used for purposes like AI training by for-profit companies. [ 15 ] 
+
+ See also
+ [ edit ] 
+
+ List of datasets for machine learning research 
+
+ Open-source artificial intelligence 
+
+ References
+ [ edit ] 
+
+ 1 2 Rosanna Xia (February 5, 2012). "Tech entrepreneur Gil Elbaz made it big in L.A." Los Angeles Times . Retrieved July 31, 2014 . his nonprofit Common Crawl Foundation 'seeks to make a copy of the Web accessible to a data scientist, or to a start-up or to a researcher or to an analyst that just wants to improve the world.' 
+
+ 1 2 "Gil Elbaz and Common Crawl" . NBC News . April 4, 2013. Archived from the original on April 13, 2013 . Retrieved July 31, 2014 . 
+
+ ↑ "Common Crawl - Overview" . commoncrawl.org . Retrieved June 18, 2026 . 
+
+ 1 2 3 4 5 6 7 8 9 Reisner, Alex (November 4, 2025). "The Company Quietly Funneling Paywalled Articles to AI Developers" . The Atlantic . Retrieved November 14, 2025 . 
+
+ 1 2 3 Knibbs, Kate (June 13, 2024). "Publishers Target Common Crawl In Fight Over AI Training Data" . Wired . ISSN   1059-1028 . Retrieved December 10, 2025 . 
+
+ ↑ Maxwell, Thomas (December 30, 2024). "Mother of Deceased OpenAI Whistleblower Alleges Potential Murder Plot, Calls for FBI Investigation" . Gizmodo . Retrieved August 20, 2026 . 
+
+ ↑ Potts, Jason; Torrance, Andrew; Harhoff, Dietmar; von Hippel, Eric (March 2024). "Profiting from Data Commons: Theory, Evidence, and Strategy Implications" . Strategy Science . 9 (1): 1– 17. doi : 10.1287/stsc.2021.0080 . ISSN   2333-2050 . 
+
+ ↑ Steele, Chandra (February 1, 2023). "ChatGPT: Is It Going to Take Your Job?" . PCMAG . Retrieved August 20, 2026 . 
+
+ 1 2 3 Brandom, Russell (March 1, 2013). "Common Crawl: going after Google on a non-profit budget" . The Verge . Retrieved December 10, 2025 . 
+
+ 1 2 3 4 Tom Simonite (January 23, 2013). "A Free Database of the Entire Web May Spawn the Next Google" . MIT Technology Review. Archived from the original on June 26, 2014 . Retrieved July 31, 2014 . 
+
+ 1 2 3 Hayes, Brian (2015). "Computing Science: Crawling toward a Wiser Web" . American Scientist . 103 (3): 184– 187. ISSN   0003-0996 . 
+
+ ↑ Fabre, Benjamin (August 21, 2023). "Generative AI Is Scraping Your Data. So, Now What?" . Dark Reading . Retrieved August 20, 2026 . 
+
+ ↑ Cuesta, Albert (November 15, 2025). "L'FBI, a la caça del web arxivat que incomoda els mitjans" . Ara (in Catalan). Archived from the original on November 17, 2025 . Retrieved March 2, 2026 . 
+
+ ↑ Soos, Carlin; Haroutunian, Levon (2024). "On the Question of Authorship in Large Language Models" . Knowledge Organization . 51 (2): 83– 95. doi : 10.5771/0943-7444-2024-2-83 . ISSN   0943-7444 . 
+
+ 1 2 Roose, Kevin (July 19, 2024). "The Data That Powers A.I. Is Disappearing Fast" . New York Times . 
+
+ ↑ Gilbertson, Annie (July 16, 2024). "Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train AI" . Wired . ISSN   1059-1028 . Retrieved January 29, 2026 . 
+
+ ↑ Anthony, Aubra; Sharma, Lakshmee; Noor, Elina (April 30, 2024). "Advancing a More Global Agenda for Trustworthy Artificial Intelligence" . Carnegie Endowment for International Peace . Retrieved January 29, 2026 . 
+
+ ↑ Alden, Daroc (February 12, 2026). "Poisoning scraperbots with iocaine" . LWN.net . Retrieved May 9, 2026 . 
+
+ ↑ "Common Crawl - Blog - April 2026 Crawl Archive Now Available in a Hugging Face Storage Bucket" . commoncrawl.org . Retrieved May 24, 2026 . 
+
+ 1 2 Quach, Katyanna (April 20, 2023). "Google's C4 ML training data drew from 4chan, racist sources" . theregister . Retrieved May 9, 2026 . 
+
+ ↑ Hern, Alex (April 20, 2023). "Fresh concerns raised over sources of training material for AI systems" . The Guardian . ISSN   0261-3077 . Retrieved April 21, 2023 . 
+
+ External links
+ [ edit ] 
+
+ Official website 
+
+ Common Crawl GitHub Repository with the crawler, libraries and example code
+
+ ProPublica Nonprofit Explorer page - houses 990 filings
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Common_Crawl&oldid=1376544662 "
+
+ Categories : Internet-related organizations 
+ Web archiving 
+ Web archiving initiatives 
+ Open-source artificial intelligence 
+
+ Hidden categories: Articles with short description 
+ Short description is different from Wikidata 
+ Use American English from September 2026 
+ All Wikipedia articles written in American English 
+ Use mdy dates from September 2026 
+ Wikipedia articles needing clarification from November 2024 
+ CS1 Catalan-language sources (ca) 
+
+ This page was last edited on 24 September 2026, at 20:45  (UTC) .
+
+ Page was rendered with Parsoid .
+
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+ Privacy policy 
+
+ About Wikipedia 
+
+ Disclaimers 
+
+ Contact Wikipedia 
+
+ Legal & safety contacts 
+
+ Code of Conduct 
+
+ Developers 
+
+ Statistics 
+
+ Cookie statement 
+
+ Mobile view 
+
+ Search 
+
+ Search 
+
+ Toggle the table of contents 
+
+ Common Crawl 
+
+ 12 languages 
+
+ Add topic

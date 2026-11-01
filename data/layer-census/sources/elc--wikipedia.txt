@@ -1,0 +1,789 @@
+Electronic Literature Organization - Wikipedia 
+
+ Jump to content 
+
+ Main menu 
+
+ Main menu
+
+ move to sidebar 
+ hide 
+
+ Navigation
+
+ Main page 
+ Contents 
+ Current events 
+ Random article 
+ About Wikipedia 
+ Contact us 
+
+ Contribute
+
+ Help 
+ Learn to edit 
+ Community portal 
+ Recent changes 
+ Upload file 
+ Special pages 
+
+ Search 
+
+ Search 
+
+ Appearance 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Personal tools 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Contents
+
+ move to sidebar 
+ hide 
+
+ (Top)
+
+ 1 
+ History 
+
+ Toggle History subsection 
+
+ 1.1 
+ Founding and early years (1999-2002) 
+
+ 1.2 
+ Transition to academic hosts (2002-2008) 
+
+ 1.3 
+ 2008-present 
+
+ 2 
+ Leadership 
+
+ 3 
+ Conferences 
+
+ 4 
+ Publications 
+
+ Toggle Publications subsection 
+
+ 4.1 
+ Electronic Literature Collections 
+
+ 5 
+ Awards 
+
+ Toggle Awards subsection 
+
+ 5.1 
+ The 2001 Electronic Literature Awards 
+
+ 5.2 
+ ELO Awards (2014-) 
+
+ 5.2.1 
+ Robert Coover Award for a Work of Electronic Literature 
+
+ 5.2.2 
+ N. Katherine Hayles Award for Criticism of Electronic Literature 
+
+ 5.2.3 
+ Marjorie C. Luesebrink Career Achievement Award 
+
+ 5.2.4 
+ Maverick Award 
+
+ 6 
+ References 
+
+ 7 
+ External links 
+
+ Toggle the table of contents 
+
+ Electronic Literature Organization 
+
+ Add languages 
+
+ Add links 
+
+ Article 
+
+ Talk 
+
+ English 
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ Tools 
+
+ Tools
+
+ move to sidebar 
+ hide 
+
+ Actions
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ General
+
+ What links here 
+ Related changes 
+ Upload file 
+ Permanent link 
+ Page information 
+ Cite this page 
+ Get shortened URL 
+ Switch to legacy parser 
+
+ Print/export
+
+ Download as PDF 
+ Printable version 
+
+ In other projects
+
+ Wikidata item 
+
+ Appearance
+
+ move to sidebar 
+ hide 
+
+ From Wikipedia, the free encyclopedia
+
+ Electronic Literature Organization 
+
+ Formation
+ 1999 ; 27   years ago   ( 1999 ) 
+
+ Founder
+ Scott Rettberg , Robert Coover , Jeff Ballowe
+
+ President
+
+ Anastasia Salter
+
+ Vice President
+
+ N/A
+
+ Treasurer
+
+ Dene Grigar 
+
+ Managing Director of CELL
+
+ Davin Heckman
+
+ Website
+ https://eliterature.org/ 
+
+ The Electronic Literature Organization ( ELO ) is a nonprofit organization "established in 1999 to promote and facilitate the writing, publishing, and reading of electronic literature ". [ 1 ] It hosts annual conferences, awards annual prizes for works of and criticism of electronic literature, hosts online events and has published a series of collections of electronic literature.
+
+ History
+ [ edit ] 
+
+ Founding and early years (1999-2002)
+ [ edit ] 
+
+ The ELO was founded in 1999 in Chicago by Scott Rettberg , Robert Coover , and Jeff Ballowe. Rettberg took the role as CEO, and Ballowe was president. In a book chapter about this early phase, Rettberg describes the first three years as a "turbulent and exciting period". [ 2 ] 
+
+ An article in the Los Angeles Times describes the first reading organised by the ELO in July 2000, "a recent evening at the home of Microsoft executive Richard Bangs", with "trays of light finger food and delicately chilled Chardonnay" with "guests from high-tech east side Seattle mingled with representatives of the old-guard arts establishment and half a dozen writers of new fiction who had come to read from their work". [ 3 ] 
+
+ The new organization was able to ride the excitement of the tech industry during the dot-com bubble , but also suffered from the subsequent crash. [ 2 ] 
+
+ Transition to academic hosts (2002-2008)
+ [ edit ] 
+
+ The ELO had early successes in obtaining funding from individuals in the technology industry and the Ford Foundation (which funded the Electronic Literature Symposium at UCLA in 2002) and the Rockefeller Foundation (which funded work on the Electronic Literature Directory). [ 2 ] However, the dot com crash made funding dry up, and despite some local funding in Chicago, the organization had to transition from having full-time staff and an office to being hosted by universities. In 2001 the ELO moved to UCLA , supported by the English department. [ 2 ] Marjorie Luesebrink became president, N. Katherine Hayles was faculty advisor, and Jessica Pressman was the managing director. [ 2 ] The organization has since been hosted by universities, including the University of Maryland, College Park in 2006 where it was supported by the Maryland Institute for Technology in the Humanities (under the direction of Matthew Kirschenbaum), and MIT under the leadership of Nick Montfort . The ELO is currently hosted at York University , Toronto, Canada, under the leadership of Caitlin Fisher , [ 4 ] marking the first time this international organization has moved its headquarters outside of the United States.
+
+ 2008-present
+ [ edit ] 
+
+ Since the 2007 conference, the ELO has grown annually and by 2015 was gathering hundreds of people at each of its conferences.
+
+ Leadership
+ [ edit ] 
+
+ Past presidents of the ELO include Jeff Ballowe, Scott Rettberg (as Executive Director), Marjorie Luesebrink , Matthew Kirschenbaum, Joseph Tabbi , Nick Montfort , Dene Grigar , [ 5 ] and Leonardo Flores. [ 6 ] [ 7 ] Caitlin Fisher became president in July 2022. [ 8 ] [ 9 ] 
+
+ The Literary Advisory Board includes many writers and critics such as Carolina Gainza .
+
+ Conferences
+ [ edit ] 
+
+ The ELO holds annual conferences that include both scholarly presentations and exhibitions and performances of electronic literature. The ELO website contains an archive of past conference websites. [ 10 ] 
+
+ ELO Conferences 
+ Year
+
+ Theme
+
+ Location
+
+ 2002
+
+ State of the Arts Symposium
+
+ Los Angeles, California
+
+ 2007
+
+ The Future of Electronic Literature
+
+ College Park, Maryland
+
+ 2008
+
+ Visionary Landscapes
+
+ Vancouver, Washington
+
+ 2010
+
+ ELO_AI: Archive & Innovate
+
+ Providence, Rhode Island
+
+ 2012
+
+ Electrifying Literature: Affordances and Constraints
+
+ Morgantown, West Virginia
+
+ 2013
+
+ Chercher le texte
+
+ Paris, France
+
+ 2014
+
+ Hold the Light
+
+ Milwaukee, Wisconsin
+
+ 2015
+
+ The End(s) of Electronic Literature
+
+ Bergen, Norway
+
+ 2016
+
+ Next Horizons
+
+ Victoria, BC
+
+ 2017
+
+ Electronic Literature: Affiliations, Comm, Translations
+
+ Porto, Portugal
+
+ 2018
+
+ Attention á la marche / Mind the gap! [ 11 ] 
+
+ Montreal, Canada
+
+ 2019
+
+ Peripheries [ 12 ] 
+
+ Cork, Ireland
+
+ 2020
+
+ (un)continuity [ 13 ] 
+
+ Orlando, Florida (virtual)
+
+ 2021
+
+ Platform (Post?) Pandemic [ 14 ] 
+
+ Bergen, Norway; Aarhus, Denmark & virtual
+
+ 2022
+
+ Education and Electronic Literature [ 15 ] 
+
+ Como, Italy
+
+ 2023
+
+ Overcoming Divides: Electronic Literature and Social Change [ 16 ] 
+
+ Coimbra, Portugal
+
+ 2024
+
+ ELO (Un)linked [ 17 ] 
+
+ Online/University of Central Florida
+
+ 2025
+
+ ELO@25: Love Letters to the Past and Future [ 18 ] 
+
+ Toronto and Waterloo, Ontario, Canada
+
+ Publications
+ [ edit ] 
+
+ The Electronic Literature Directory [ 19 ] is a database of works of electronic literature.
+
+ Two reports on the preservation of electronic literature were published in 2004 and 2005 by the ELO as part of the Preservation, Archiving, and Dissemination (PAD) project. [ 20 ] [ 21 ] [ 22 ] 
+
+ A book series called Electronic Literature with Bloomsbury . [ 23 ] 
+
+ Pathfinders , a documentation of the experience of early digital literature. [ 24 ] 
+
+ Electronic Literature Collections
+ [ edit ] 
+
+ The ELO has curated and edited four volumes of electronic literature. [ 25 ] [ 26 ] [ 27 ] 
+
+ Volume 1 (October 2006). Mark Marino noted in the Digital Humanities Quarterly , "Amidst the collection, there are some works that transcend the collection itself and stand out as pillars of electronic writing. Such pieces have already garnered much critical attention. Most notable among these would be Judd Morrissey ’s The Jew’s Daughter , Michael Joyce ’s Twelve Blue , Stuart Moulthrop ’s Reagan Library , Talan Memmott ’s Lexia to Perplexia , and Kate Pullinger ’s Inanimate Alice . [ 28 ] 
+
+ Volume 2 (February 2011) Tim Wright explains that "the process of gathering, archiving and tagging the works to make them more easily available to a wider audience, also freezes (necessarily) what may have been otherwise ephemeral or in situ." [ 29 ] 
+
+ Volume 3 (February 2016) Urszula Anna Pawlicka noted that ELC3 represents a "post" code range of literature. [ 30 ] This work also includes Qianxun Chen 's Shan Shui , Porpentine 's With Those We Love Alive, Borsuk 's Between Page and Screen , Illya Szilak 's Queerskins , Emily Short and Liza Daly 's First Draft of the Revolution , Jeremy Height 's 34 North 118 West , J.R. Carpenter 's Along the Briny Beach , Mark Marino and Rob Wittig 's Being@Spencer Pratt , Caitlin Fisher 's Everyone at This Party is Dead, Anna Anthropy 's Hunt for the Gay Planet, N. Katherine Hayle ' s Speculation. [ 31 ] 
+
+ Volume 4 (June 2022). ELC4 presents the largest and most diverse group yet of elit authors writing in Afrikaans , Ancient Chinese, Arabic, Catalan, Chinese, Danish, Dutch, English, French, German, Greek, Hungarian, Indonesian, isiXhosa, Italian, Japanese, Korean, Mezangelle , Norwegian, Polish, Portuguese, Romanian, Russian, Setswana, Simplified Chinese, Slovak, South African Sign Language, Spanish, Swedish, Turkish, Yoruba. [ 32 ] This volume contains a reprise of Meghadutam by Priti Pandurangan .
+
+ Awards
+ [ edit ] 
+
+ The 2001 Electronic Literature Awards
+ [ edit ] 
+
+ In 2001 the ELO announced the Electronic Literature Awards, with a $10,000 prize (funded by ZDNet ) for the best work of fiction and the best work of poetry. [ 33 ] [ 34 ] 163 works were submitted, and each was reviewed by at least three people on the board, after which the highest scoring works were passed on to judges Larry McCaffery and Heather McHugh . [ 2 ] Rettberg notes that the diversity of works submitted and shortlisted was "an eye-opener (..) in terms of what I might consider 'fiction' and 'poetry' to be in the e-lit context'. [ 2 ] 
+
+ In 2001, These Waves of Girls by Caitlin Fisher won the fiction prize and windsound by John Cayley won the poetry prize. The excitement of the era can be felt in an interview by the cable television channel TechTV with Fisher after the awards gala in New York. [ 35 ] 
+
+ ELO Awards (2014-)
+ [ edit ] 
+
+ After a pause due to a lack of funding, the ELO Awards were rekindled in 2014, and since then an annual award has been given to the best literary work and the best work of scholarship on electronic literature. [ 36 ] Each award comes with a $1000 stipend.
+
+ Robert Coover Award for a Work of Electronic Literature
+ [ edit ] 
+
+ This award honors the year’s best work of electronic literature, of any form or genre.
+
+ Robert Coover Award for a Work of Electronic Literature 
+ Year
+
+ Awarded to
+
+ 2014
+
+ Jason Edward Lewis , Vital to the General Public Welfare 
+
+ 2015
+
+ Samantha Gorman and Danny Cannizzaro, Pry 
+
+ 2016
+
+ Scott Rettberg and Roderick Coover, Hearts and Minds: The Interrogations Project 
+
+ 2017
+
+ Alan Bigelow, How To Rob a Bank 
+
+ 2018
+
+ Will Luers, Hazel Smith , and Roger Dean , Novelling 
+
+ 2019
+
+ Ip Yuk-Yiu, False Words 流/言 
+
+ 2020
+
+ Karen Ann Donnachie and Andy Simionato, The Library of Nonhuman Books
+
+ 2021
+
+ Leise Hook , The Vine and the Fish 
+
+ 2022
+
+ David Jhave Johnston , ReRites [ 37 ] 
+ Honorable Mention: "Al Barrah" by Reham Hosny .
+
+ 2023
+
+ Everest Pipkin , Anonymous Animal . Runner-up: "The (m)Otherhood of Meep (the bat translator)" by Alinta Krauth 
+ Honorable Mention: "The Decameron 2.0" by The Decameron Collective
+
+ 2024
+
+ Halim Madi, Borderline . Runner-up: "Seeing" by Margot Machado
+ Honorable Mentions: "Exocolony" by Lee Tusman; "Unboxing: Mrs. Wobbles and the Tangerine House" by the Marino family; "VideoDreams" by Fernando Montes Vera
+
+ 2025
+
+ benjamin escalonilla godayol, Espejo de Carne [ 38 ] 
+
+ N. Katherine Hayles Award for Criticism of Electronic Literature
+ [ edit ] 
+
+ This award honors the best work of criticism of electronic literature of any length and is named for literary critic N. Katherine Hayles . 
+
+ N. Katherine Hayles Award for Criticism of Electronic Literature 
+ Year
+
+ Awarded to
+
+ 2014
+
+ Johannes Heldén   [ sv ] and Håkan Jonson   [ sv ] , Evolution 
+
+ 2015
+
+ Sandy Baldwin , The Internet Unconscious: On the Subject of Electronic Literature 
+
+ 2016
+
+ Jeremy Douglass , Jessica Pressman , and Mark Marino , Reading Project: A Collaborative Analysis of William Poundstone’s Project for Tachistoscope 
+
+ 2017
+
+ David Jhave Johnston , Aesthetic Animism: Digital Poetry’s Ontological Implications 
+
+ 2018
+
+ Joseph Tabbi , Bloomsbury Handbook of Electronic Literature 
+
+ 2019
+
+ Scott Rettberg , Electronic Literature 
+
+ 2020
+
+ Mark Marino , Critical Code Studies 
+
+ 2021
+
+ Jessica Pressman , Bookishness 
+
+ 2022
+
+ Lai-Tze Fan (editor) “Critical Making, Critical Design,” Issue 01 of The Digital Review [ 37 ] 
+
+ 2023
+
+ Lyle Skains , Neverending Stories: The Popular Emergence of Digital Fiction . Runner up: Opera aperta: Italian Electronic Literature from the 1960s to the Present" by Emanuela Patti . Honorable mention: “Girl Online” by Joanna Walsh 
+
+ 2024
+
+ Hannes Bajohr , "Artificial and Post-Artificial Texts: On Machine Learning and the Reading Expectations Towards Literary and Non-Literary Writing." Runner up: "Machine Mimesis: Electronic Literature at the Intersection of Human and Computer Imitation," by Malthe Stavning Erslev. 
+ Honorable mentions: Alessandro Ludovico , Tactical Publishing: Using Senses, Software, and Archives in the Twenty-First Century ; Simone Murray: “The Short Story in the Age of the Internet.” 
+
+ 2025
+
+ Karel Piorecký and Zuzana Husárová , The Culture of Neural Networks: Synthetic Literature and Art in (not only) the Czech and Slovak Context (University of Chicago Press, 2025) [ 38 ] 
+
+ Marjorie C. Luesebrink Career Achievement Award
+ [ edit ] 
+
+ This award honors a visionary artist and/or scholar who has brought excellence to the field of electronic literature and has inspired others to help create and build the field.
+
+ Marjorie C. Luesebrink Career Achievement Award 
+ Year
+
+ Awarded to
+
+ 2016
+
+ Marjorie C. Luesebrink 
+
+ 2017
+
+ John Cayley 
+
+ 2018
+
+ N. Katherine Hayles 
+
+ 2019
+
+ Mez Breeze 
+
+ 2020
+
+ Judy Malloy 
+
+ 2021
+
+ Kate Pullinger 
+
+ 2022
+
+ Alan Sondheim 
+
+ 2023
+
+ Stephanie Strickland 
+
+ 2024
+
+ Dene Grigar 
+
+ 2025
+
+ Bertrand Gervais [ 38 ] 
+
+ Maverick Award
+ [ edit ] 
+
+ This award "honors an independent spirit: a writer, artist, researcher, programmer, designer, performer, or hybrid creator who does not adhere to a conventional path but creates their own and in so doing makes a singular contribution to the field of electronic literature."
+
+ Maverick Award 
+ Year
+
+ Awarded to
+
+ 2021
+
+ Talan Memmott 
+
+ 2023
+
+ Deena Larsen 
+
+ 2024
+
+ Allison Parrish 
+
+ 2025
+
+ Jason Nelson [ 38 ] 
+
+ References
+ [ edit ] 
+
+ ↑ "Electronic Literature Organization" . ELO. 2008 . Retrieved 2008-05-21 . 
+
+ 1 2 3 4 5 6 7 Rettberg, Scott (2015). "Developing an Identity for the Field of Electronic Literature: Reflections on the Electronic Literature Organization Archives". Electronic literature communities . Scott Rettberg, Patricia Tomaszek, Sandy Baldwin. Morgantown, WV. pp.   81– 112. ISBN   978-1-940425-99-3 . OCLC   944133627 . {{ cite book }} : CS1 maint: location missing publisher ( link ) 
+
+ ↑ Murphy, Kim (2000-07-24). "Electronic Literature: Thinking Outside the Book" . Los Angeles Times . Retrieved 2022-10-15 . 
+
+ ↑ "Professor Caitlin Fisher named president of Electronic Literature Organization" . 22 July 2022. 
+
+ ↑ Flood, Alison (2014-03-12). "Where did the story of ebooks begin?" . The Guardian . Retrieved 2022-10-13 . 
+
+ ↑ Burnette, Ellen Gwin. "Dr. Leonardo Flores named chair of Appalachian's Department of English" . today.appstate.edu . Retrieved 2022-10-13 . 
+
+ ↑ "ELO History – Electronic Literature Organization" . Retrieved 2022-10-13 . 
+
+ ↑ "Professor Caitlin Fisher named president of Electronic Literature Organization – YFile" . 22 July 2022 . Retrieved 2022-10-13 . 
+
+ ↑ Marino, Mark (2022-07-15). "ELO Presidency Transition from Flores to Fisher" . eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ "Electronic Literature Organization Conference Archive" . conference.eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ Marino, Mark (2018). "ELO 2018: Attention Ã la marche / Mind the Gap – Electronic Literature Organization" . Retrieved 2022-10-13 . 
+
+ ↑ O'Sullivan, James (2019-07-10). "ELO2019: Electronic Literature Organization Conference & Media Arts Festival, Programme and Book of Abstracts" . University College Cork. pp.   1– 166. 
+
+ ↑ "ELO2020 Conference and Media Arts Festival – Electronic Literature Organization 2020 conference" . Retrieved 2022-10-13 . 
+
+ ↑ "ELO 2021" . conferences.au.dk . 2021 . Retrieved 2022-10-13 . 
+
+ ↑ "ELO 2022 – Electronic Literature Conference Italy" . Retrieved 2022-10-13 . 
+
+ ↑ "ELO 2022 – Electronic Literature Conference Italy" . Retrieved 2022-01-14 . 
+
+ ↑ "ELO (Un)linked 2024 | University of Central Florida" . stars.library.ucf.edu . Retrieved 2025-05-22 . 
+
+ ↑ "Home" . ELO25 @ 25: Love letters to the Past and the Future . Retrieved 2025-05-22 . 
+
+ ↑ "Home | Electronic Literature Directory" . directory.eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ "PAD – Electronic Literature Organization" . Retrieved 2022-10-13 . 
+
+ ↑ Montfort, Nick; Wardrip-Fruin, Noah (2004-06-14). "Acid-Free Bits: Recommendations for Long-Lasting Electronic Literature" . eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ Liu, Alan; Durand, David; Montfort, Nick; Proffitt, Merrilee; Quin, Liam R.E.; Réty, Jean-Hugues; Wardrip-Fruin, Noah (2005-08-05). "Born-Again Bits: A Framework for Migrating Electronic Literature" . eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ Bloomsbury. "Electronic Literature: Bloomsbury Publishing (US)" . www.bloomsbury.com . Retrieved 2022-10-13 . 
+
+ ↑ Grigar, Dene; Moulthrop, Stuart (2015). Pathfinders . Nouspace Publications. ISBN   978-0-692-14708-5 . Retrieved 2022-10-13 . 
+
+ ↑ "Electronic Literature Collection" . collection.eliterature.org . Retrieved 2024-04-24 . 
+
+ ↑ Hall, María Cristina; Castelán, Silvia; Nepote, Mónica; Gb, Camila (2022). "Electronic Literature Collection Volume 4" . collection.eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ "Electronic Literature Collection" . collection.eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ Marino, Mark (2008). "Review: The Electronic Literature Collection Volume I: A New Media Primer" . DHQ: Digital Humanities Quarterly . 2 (1). 
+
+ ↑ "The Electronic Literature Collection V2" . Cordite Poetry Review . 2011-11-30 . Retrieved 2024-04-24 . 
+
+ ↑ Pawlicka, Urszula Anna (2016). "Visualizing Electronic Literature Collections" . CLCWeb: Comparative Literature and Culture . 18 (1). Purdue University Press. doi : 10.7771/1481-4374.2902 . 
+
+ ↑ "Electronic Literature Collection - Volume 3" . collection.eliterature.org . Retrieved 2024-04-30 . 
+
+ ↑ Berens, Kathi; Murray, John; Skains, Lyle; Torres, Rui; Zamora, Mia (2022-01-01). "Electronic Literature Collection Volume 4" . English Faculty Publications and Presentations . 
+
+ ↑ "The 2001 Electronic Literature Awards" . eliterature.org . Retrieved 2022-10-13 . 
+
+ ↑ Richer, Adam (2000). "Electronic Literature Awards   : $10.000 Prizes For Fiction & Poetry" . University of Bergen Library Collection: Electronic Literature - posters and other historical documents . 
+
+ ↑ Swish, Laura (2001). Grigar, Dene (ed.). TechTV Interview with Caitlin Fisher . TechTV / Vimeo. 
+
+ ↑ "Past ELO Award Winners – Electronic Literature Organization" . Retrieved 2022-10-13 . 
+
+ 1 2 Snyder, R. (2022-10-04). "Announcing the 2022 ELO Prizes – Electronic Literature Organization" . Retrieved 2022-10-13 . 
+
+ 1 2 3 4 "2025 ELO Awards – Electronic Literature Organization" . 2025-07-14 . Retrieved 2026-04-16 . 
+
+ External links
+ [ edit ] 
+
+ Official website 
+
+ Electronic Literature Directory 
+
+ v 
+ t 
+ e 
+
+ Works by Robert Coover 
+
+ Novels
+
+ The Origin of the Brunists (1966) 
+
+ The Universal Baseball Association, Inc., J. Henry Waugh, Prop. (1968) 
+
+ A Political Fable (1968) 
+
+ The Public Burning (1977) 
+
+ Gerald's Party (1986) 
+
+ The Adventures of Lucky Pierre: Director's Cut (2002) 
+
+ The Brunist Day of Wrath (2014) 
+
+ Huck Out West (2017) 
+
+ Short story collections
+
+ Pricksongs & Descants (1969) 
+
+ In Bed One Night & Other Brief Encounters (1983) 
+
+ A Night at the Movies, Or, You Must Remember This: Fictions (1987) 
+
+ Going for a Beer: Selected Short Fictions (2018) 
+
+ Short stories
+
+ " The Brother " (1962) 
+
+ " Shootout at Gentry's Junction " (1967) 
+
+ " The Babysitter " (1969) 
+
+ " In Bed One Night " (1980) 
+
+ " Charlie in the House of Rue " (1980) 
+
+ Related
+
+ Pilar Sans Coover (wife) 
+
+ Sara Caldwell (daughter) 
+
+ Electronic Literature Organization 
+
+ Category 
+
+ Authority control databases 
+
+ International
+ ISNI 
+ VIAF 
+
+ National
+ United States 
+ Israel 
+
+ Other
+ ELMCIP 2 
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Electronic_Literature_Organization&oldid=1369942836 "
+
+ Categories : Literary societies 
+ Electronic literature organizations 
+ Lists of award winners 
+
+ Hidden category: CS1 maint: location missing publisher 
+
+ This page was last edited on 18 August 2026, at 04:01  (UTC) .
+
+ Page was rendered with Parsoid .
+
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+ Privacy policy 
+
+ About Wikipedia 
+
+ Disclaimers 
+
+ Contact Wikipedia 
+
+ Legal & safety contacts 
+
+ Code of Conduct 
+
+ Developers 
+
+ Statistics 
+
+ Cookie statement 
+
+ Mobile view 
+
+ Search 
+
+ Search 
+
+ Toggle the table of contents 
+
+ Electronic Literature Organization 
+
+ Add languages 
+
+ Add topic

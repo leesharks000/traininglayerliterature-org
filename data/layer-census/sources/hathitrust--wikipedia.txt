@@ -1,0 +1,801 @@
+HathiTrust - Wikipedia 
+
+ Jump to content 
+
+ Main menu 
+
+ Main menu
+
+ move to sidebar 
+ hide 
+
+ Navigation
+
+ Main page 
+ Contents 
+ Current events 
+ Random article 
+ About Wikipedia 
+ Contact us 
+
+ Contribute
+
+ Help 
+ Learn to edit 
+ Community portal 
+ Recent changes 
+ Upload file 
+ Special pages 
+
+ Search 
+
+ Search 
+
+ Appearance 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Personal tools 
+
+ Donate 
+
+ Create account 
+
+ Log in 
+
+ Contents
+
+ move to sidebar 
+ hide 
+
+ (Top)
+
+ 1 
+ Etymology 
+
+ 2 
+ History 
+
+ 3 
+ PageTurner 
+
+ 4 
+ Emergency Temporary Access Service 
+
+ 5 
+ See also 
+
+ 6 
+ References 
+
+ 7 
+ Further reading 
+
+ 8 
+ External links 
+
+ Toggle the table of contents 
+
+ HathiTrust 
+
+ 14 languages 
+
+ Deutsch 
+ Español 
+ فارسی 
+ Français 
+ Italiano 
+ 日本語 
+ Македонски 
+ Polski 
+ Português 
+ Русский 
+ Srpskohrvatski / српскохрватски 
+ Svenska 
+ Українська 
+ 中文 
+
+ Edit links 
+
+ Article 
+
+ Talk 
+
+ English 
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ Tools 
+
+ Tools
+
+ move to sidebar 
+ hide 
+
+ Actions
+
+ Read 
+
+ Edit 
+
+ View history 
+
+ General
+
+ What links here 
+ Related changes 
+ Upload file 
+ Permanent link 
+ Page information 
+ Cite this page 
+ Get shortened URL 
+ Switch to legacy parser 
+
+ Print/export
+
+ Download as PDF 
+ Printable version 
+
+ In other projects
+
+ Wikimedia Commons 
+ Wikidata item 
+
+ Appearance
+
+ move to sidebar 
+ hide 
+
+ From Wikipedia, the free encyclopedia
+
+ Digital library
+
+ Not to be confused with HATII .
+
+ "},"logo_alt":{"wt":""},"logo_caption":{"wt":"<!-- or: | logo_caption = -->"},"screenshot":{"wt":""},"collapsible":{"wt":"<!-- set as \"on\", \"y\", etc, otherwise omit/leave blank -->"},"collapse_text":{"wt":"<!-- collapsible area's heading (default \"Screenshot\"); omit/leave blank if collapsible not set -->"},"background":{"wt":"<!-- for collapsetext heading; default grey (gainsboro) -->"},"screenshot_size":{"wt":"<!-- default 300px -->"},"screenshot_alt":{"wt":""},"caption":{"wt":""},"parent":{"wt":"[[University of Michigan]]"},"website":{"wt":"{{URL|https://www.hathitrust.org|hathitrust.org}}"},"commercial":{"wt":"Partially<ref name=\"technology\">{{cite web|url=https://www.hathitrust.org/technology|title=Technological Profile|website=HathiTrust|access-date=12 May 2016|archive-url=https://web.archive.org/web/20160616223555/https://www.hathitrust.org/technology|archive-date=16 June 2016|url-status=live}}</ref><!--Electronic commerce functions: Where users can purchase a copy of a book, a link to \"Buy a copy\" is listed in PageTurner.-->"},"website_type":{"wt":"[[Digital library]]"},"registration":{"wt":""},"language":{"wt":""},"num_users":{"wt":""},"content_license":{"wt":"[[Public domain]] (with restrictions on [[Google]] scans), various<ref>{{cite web|url=https://www.hathitrust.org/access_use|title=Access and Use Policies|website=HathiTrust|access-date=12 May 2016|archive-url=https://web.archive.org/web/20160616225031/https://www.hathitrust.org/access_use|archive-date=16 June 2016|url-status=live}}</ref>"},"written_in":{"wt":"[[Perl]], [[Java (programming language)|Java]]<ref name=\"technology\"/>"},"owner":{"wt":"University consortium"},"creator":{"wt":"<!-- or: creator / authors / creators -->"},"editor":{"wt":"<!-- or: | editor = -->"},"launched":{"wt":"{{start date and age|October 2008}}"},"revenue":{"wt":"{{US$}}3,777,445 (2019 projections for proposal)<ref>{{cite web |title=2018 Member Meeting |url=https://www.hathitrust.org/sites/www.hathitrust.org/files/HT_2018%20Member%20Meeting%20Distribution%20MASTER%20SLIDES.pdf |website=HathiTrust |date=October 2018 |page=56 |access-date=2018-12-31 |archive-url=https://web.archive.org/web/20190118180133/https://www.hathitrust.org/sites/www.hathitrust.org/files/HT_2018%20Member%20Meeting%20Distribution%20MASTER%20SLIDES.pdf |archive-date=2019-01-18 |url-status=live }} Slides in PDF.</ref>"},"current_status":{"wt":"Active"},"footnotes":{"wt":""}},"i":0}}]}'> HathiTrust 
+
+ Website   type
+
+ Digital library 
+
+ Owner
+ University consortium
+
+ Revenue
+ US$ 3,777,445 (2019 projections for proposal) [ 1 ] 
+
+ Parent
+ University of Michigan 
+
+ Website
+ hathitrust.org 
+
+ Commercial
+ Partially [ 2 ] 
+
+ Launched
+ October 2008 ; 18 years ago   ( October 2008 ) 
+
+ Current   status
+ Active
+
+ Content license
+
+ Public domain (with restrictions on Google scans), various [ 3 ] 
+
+ Written   in
+ Perl , Java [ 2 ] 
+
+ HathiTrust Digital Library is a large-scale collaborative repository of digital content from research libraries , administered by the University of Michigan . [ 4 ] Its holdings include content digitized via Google Books and the Internet Archive digitization initiatives, as well as content digitized locally by libraries.
+
+ Etymology
+ [ edit ] 
+
+ Hathi ( / ˈ h ɑː t i / ), derived from the Sanskrit hastin , is the Hindi word for ' elephant ', an animal famed for its long-term memory . [ 5 ] 
+
+ History
+ [ edit ] 
+
+ HathiTrust was founded in October 2008 by the twelve universities of the Committee on Institutional Cooperation and the eleven libraries of the University of California . [ 6 ] As of 2024, members include more than 219 research libraries [ 7 ] across the United States, Canada, and Europe, and is based on a shared governance structure. Costs are shared by the participating libraries and library consortia. [ 8 ] The repository is administered by the University of Michigan . [ 4 ] The executive director of HathiTrust is Mike Furlough, [ 9 ] who succeeded founding director John Wilkin after Wilkin stepped down in 2013. [ 10 ] The HathiTrust Shared Print Program is a distributed collective collection whose participating libraries have committed to retaining almost 18 million monograph volumes for 25 years, representing three-quarters of HathiTrust digital book holdings. [ 11 ] 
+
+ In September 2011, the Authors Guild sued HathiTrust ( Authors Guild, Inc. v. HathiTrust ), alleging massive copyright violation. [ 12 ] A federal court ruled against the Authors Guild in October 2012, finding that HathiTrust's use of books scanned by Google was fair use under US law. [ 13 ] The court's opinion relied on the transformativeness doctrine of federal copyright law, holding that HathiTrust had transformed the copyrighted works without infringing on the copyright holders' rights. That decision was largely affirmed by the Second Circuit on June 10, 2014, which found that providing search and accessibility for the visually impaired were grounds to consider the service transformative and fair use, and remanded to the lower court to reconsider whether the plaintiffs had standing to sue regarding HathiTrust's library preservation copies. [ 14 ] 
+
+ In September 2024, HathiTrust comprised more than 18 million volumes, including 6.7 million in the public domain in the United States. HathiTrust provides a number of discovery and access services, notably, full-text search across the entire repository.
+
+ As of 2021, the copyright policy states that "many works in our collection are protected by copyright law, so we cannot ordinarily publicly display large portions of those protected works unless we have permission from the copyright holder", and thus "if we cannot determine the copyright or permission status of a work, we restrict access to that work until we can establish its status. Because of differences in international copyright laws, access is also restricted for users outside the United States to works published outside the United States after and including 1896." [ 15 ] 
+
+ PageTurner
+ [ edit ] 
+
+ PageTurner is the web application on the HathiTrust website for viewing publications. [ 16 ] From PageTurner readers can navigate through a publication, download a PDF version of it, and view pages in different ways, such as one page at a time, scrolling , flipping , or thumbnail views. [ 16 ] [ 17 ] 
+
+ Emergency Temporary Access Service
+ [ edit ] 
+
+ The Emergency Temporary Access Service [ 18 ] (ETAS) is a service provided by HathiTrust that makes it possible in certain special situations, such as closure of a library for a public health emergency, for users of HathiTrust member libraries to obtain lawful access to copyright digital materials in place of the corresponding physical books held by the same library.
+
+ See also
+ [ edit ] 
+
+ JSTOR 
+
+ References
+ [ edit ] 
+
+ ↑ "2018 Member Meeting" (PDF) . HathiTrust . October 2018. p.   56. Archived (PDF) from the original on 2019-01-18 . Retrieved 2018-12-31 . Slides in PDF. 
+
+ 1 2 "Technological Profile" . HathiTrust . Archived from the original on 16 June 2016 . Retrieved 12 May 2016 . 
+
+ ↑ "Access and Use Policies" . HathiTrust . Archived from the original on 16 June 2016 . Retrieved 12 May 2016 . 
+
+ 1 2 "Governance" . HathiTrust . Archived from the original on 2019-06-21 . Retrieved 2019-06-21 . 
+
+ ↑ "Launch of HathiTrust: Major Library Partners Launch HathiTrust Shared Digital Repository" (Press release). HathiTrust. October 13, 2008. Archived from the original on August 19, 2019 . Retrieved 2019-06-21 . 
+
+ ↑ Karels, Liene (November 2010). "HathiTrust adds new members, goes global" . University of Michigan . Archived from the original on 2014-03-02 . Retrieved 2019-06-21 . 
+
+ ↑ "HathiTrust Partnership Community" . HathiTrust . Archived from the original on 5 September 2015 . Retrieved 28 August 2015 . 
+
+ ↑ "Cost" . HathiTrust . Archived from the original on 2019-01-18 . Retrieved 2019-06-21 . 
+
+ ↑ "HathiTrust Staff" . HathiTrust . Archived from the original on 2019-06-21 . Retrieved 2019-06-21 . 
+
+ ↑ "Update on May 2013 Activities" . HathiTrust . June 14, 2013. Archived from the original on 2023-03-16 . Retrieved 2023-03-16 . 
+
+ ↑ "Shared Print Program" . HathiTrust Digital Library . Archived from the original on 2019-11-27 . Retrieved 2019-12-18 . 
+
+ ↑ Bosman, Julie (September 12, 2011). "Lawsuit Seeks the Removal of a Digital Book Collection" . The New York Times . Archived from the original on December 19, 2012 . Retrieved November 1, 2012 . 
+
+ ↑ Albanese, Andrew (11 October 2012). "Google Scanning Is Fair Use Says Judge" . Publishers Weekly . Archived from the original on 15 October 2012 . Retrieved 11 October 2012 . 
+
+ ↑ "Authors Guild v. HathiTrust" (PDF) . Archived from the original (PDF) on August 8, 2014. 
+
+ ↑ "Trust copyright policy - restrictions on access" . {{ cite web }} : CS1 maint: deprecated archival service ( link ) 
+
+ 1 2 Meltzer, Ellen (May 9, 2011). "Viewing HathiTrust books just got better" . California Digital Library . Archived from the original on June 21, 2019 . Retrieved 2019-06-21 . 
+
+ ↑ "HathiTrust User's Guide" (PDF) . HathiTrust . May 2012. p.   8. Archived (PDF) from the original on 2017-01-09 . Retrieved 2019-06-21 . 
+
+ ↑ "Emergency Temporary Access Service" . HathiTrust Digital Library . 
+
+ Further reading
+ [ edit ] 
+
+ \n",{"template":{"target":{"wt":"Refend","href":"./Template:Refend"},"params":{},"i":5}}]}'> 
+ Christenson, Heather (April 29, 2011). "HathiTrust: A Research Library at Web Scale" . Library Resources & Technical Services . 55 (2): 93– 102. doi : 10.5860/lrts.55n2.93 . ISSN   2159-9610 . 
+
+ Helft, Miguel (October 13, 2008). "An Elephant Backs Up Google's Library" . The New York Times . Retrieved May 12, 2018 . 
+
+ Miller, Matthew; Choi, Gilok; Chell, Lindsay (2012). "Comparison of Three Digital Library Interfaces: Open Library, Google Books, and Hathi Trust". Proceedings of the 12th ACM / IEEE-CS Joint Conference on Digital Libraries . New York: Association for Computing Machinery . pp.   367– 368. doi : 10.1145/2232817.2232894 . ISBN   978-1-4503-1154-0 . 
+
+ Walker, Diane Parr (2012). "HathiTrust: Transforming the Library Landscape" . Indiana Libraries . 31 (1): 58– 64. ISSN   2164-0475 . 
+
+ External links
+ [ edit ] 
+
+ Wikimedia Commons has media related to HathiTrust .
+
+ Wikidata has the property: 
+ HathiTrust ID (P1844) (see uses )
+
+ Official website 
+
+ "Major Library Partners Launch HathiTrust Shared Digital Repository" . HathiTrust . Archived from the original on 2020-08-11 . Retrieved 2019-06-21 . Official press release from 13 October 2008.
+
+ v 
+ t 
+ e 
+
+ Ebooks 
+
+ Formats 
+
+ ePub 
+
+ FictionBook 
+
+ CBR/CBZ 
+
+ Kindle File Format 
+
+ Mobipocket 
+
+ PDF 
+
+ Plain text 
+
+ IBA 
+
+ Reading
+
+ Devices 
+
+ Amazon Kindle 
+
+ Barnes & Noble Nook 
+
+ Bookeen 
+
+ Elonex ebook 
+
+ enTourage eDGe 
+
+ Hanlin eReader 
+
+ iPad 
+
+ iRiver Story 
+
+ Kobo eReader 
+
+ Onyx Boox 
+
+ Plastic Logic Reader 
+
+ PocketBook eReader 
+
+ Rocket eBook 
+
+ SoftBook 
+
+ Smartphones 
+
+ Tablets 
+
+ Software
+
+ Adobe Acrobat 
+
+ Adobe Digital Editions 
+
+ Aldiko 
+
+ Apple Books (iBooks) 
+
+ Aquafadas 
+
+ Blio 
+
+ Bluefire Reader 
+
+ Calibre 
+
+ FBReader 
+
+ Foliate 
+
+ Google Play Books 
+
+ Kindle app 
+
+ Kitabu 
+
+ Kobo 
+
+ Lector 
+
+ Lektz 
+
+ Lucifox 
+
+ Microsoft Reader 
+
+ MuPDF 
+
+ Okular 
+
+ OverDrive Media Console 
+
+ Snapplify 
+
+ STDU Viewer 
+
+ Sumatra PDF 
+
+ Editing
+
+ ABBYY FineReader 
+
+ AbiWord 
+
+ Adobe InDesign 
+
+ Adobe RoboHelp 
+
+ Aquafadas 
+
+ Atlantis Word Processor 
+
+ Booktype 
+
+ Calibre 
+
+ Calligra Author 
+
+ Collabora Online 
+
+ eXeLearning 
+
+ HelpNDoc 
+
+ iBooks Author 
+
+ iStudio Publisher 
+
+ LaTeX 
+
+ LibreOffice 
+
+ Oxygen XML Editor 
+
+ PagePlus 
+
+ Pages 
+
+ QuarkXPress 
+
+ Scrivener 
+
+ Sigil 
+
+ Writer2epub 
+
+ Vendors 
+
+ Commercial
+
+ Apple Books Store 
+
+ Amazon Kindle Store 
+
+ Baen Free Library 
+
+ Barnes & Noble 
+
+ Booktrack 
+
+ BookWalker 
+
+ Feedbooks 
+
+ Google 
+ Google Play 
+
+ Google Books 
+
+ Jarir.com 
+
+ Kobo Bookstore 
+
+ Rokomari 
+
+ Sony Reader Store 
+
+ Smashwords 
+
+ Noncommercial
+
+ Aozora Bunko 
+
+ Faded Page 
+
+ HathiTrust 
+
+ Internet Archive 
+
+ Project Gutenberg 
+ Australia 
+
+ Canada 
+
+ Standard Ebooks 
+
+ Wikisource 
+
+ Related
+
+ Academic journal publishing reform 
+
+ Books 
+
+ Braille e-book 
+
+ Comparison of ebook readers 
+
+ Comparison of iOS ebook reader software 
+
+ Comparison of Android ebook reader software 
+
+ E-book lending 
+
+ Electronic publishing 
+
+ iBooks Author Conference 
+
+ International Digital Publishing Forum 
+
+ Kindle single 
+
+ OPDS 
+
+ Reflowable document 
+
+ Self-publishing 
+
+ Semantic publishing 
+
+ Timeline of ebooks 
+
+ v 
+ t 
+ e 
+
+ Books 
+
+ Production
+
+ Binding 
+
+ Covers 
+ dust jackets 
+
+ Design 
+
+ Editing 
+
+ Illustration 
+ Illuminated manuscripts 
+
+ Printing 
+ edition 
+
+ history 
+
+ incunabula 
+
+ instant book 
+
+ limited edition 
+
+ Publishing 
+ advance copy 
+
+ hardcover 
+
+ paperback 
+
+ Size 
+
+ Typesetting 
+
+ Volume (bibliography) 
+
+ Collection (publishing) 
+
+ Book series 
+
+ Consumption
+
+ Awards 
+
+ Bestsellers 
+ list 
+
+ Bibliography 
+
+ Bibliomania ( tsundoku )
+
+ Bibliophilia 
+
+ Bibliotherapy 
+
+ Bookmarks 
+
+ Bookselling 
+ blurbs 
+
+ book towns 
+
+ history 
+
+ used 
+
+ Censorship 
+
+ Clubs 
+
+ Collecting 
+
+ Digitizing 
+
+ Bookworm (insect) 
+
+ Furniture
+ bookcases 
+
+ bookends 
+
+ Library 
+
+ Print culture 
+
+ Reading 
+ literacy 
+
+ Reviews 
+
+ By country
+
+ Brazil 
+
+ China 
+
+ France 
+
+ Germany 
+
+ Italy 
+
+ Japan 
+
+ Netherlands 
+
+ Pakistan 
+
+ Spain 
+
+ United Kingdom 
+
+ United States 
+
+ Other
+
+ Genres
+ non-fiction 
+
+ novel 
+
+ imaginary 
+
+ miniature 
+
+ pop-up 
+
+ textbook 
+
+ Grimoire 
+
+ Formats
+ audiobooks 
+
+ Ebooks 
+
+ Folio 
+
+ Coffee table book 
+
+ Related
+
+ Banned books 
+
+ Book burning 
+ incidents 
+
+ Nazi 
+
+ Book curses 
+
+ Book packaging 
+
+ Book swapping 
+
+ Book tour 
+
+ Conservation and restoration 
+
+ Dog ears 
+
+ History of books 
+ scroll 
+
+ codex 
+
+ Intellectual property 
+
+ ISBN 
+
+ Outline 
+
+ Preservation 
+
+ The Philobiblon 
+
+ World Book Day 
+
+ World Book Capital 
+
+ Outline 
+
+ Category 
+
+ Portal 
+
+ Authority control databases 
+
+ International
+ VIAF 2 
+
+ National
+ United States 2 
+
+ France 
+ BnF data 
+ Israel 
+
+ People
+ ISIL ISIL : GB-MiAaHDL 
+
+ Other
+ Yale LUX 
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=HathiTrust&oldid=1380986724 "
+
+ Categories : University of Michigan 
+ American digital libraries 
+ Full-text scholarly online databases 
+ Mass digitization 
+ Internet properties established in 2008 
+ American organizations established in 2008 
+
+ Hidden categories: Articles with short description 
+ Short description matches Wikidata 
+ Articles containing Sanskrit-language text 
+ CS1 maint: deprecated archival service 
+ Commons category link from Wikidata 
+
+ This page was last edited on 19 October 2026, at 07:27  (UTC) .
+
+ Page was rendered with Parsoid .
+
+ Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+ Privacy policy 
+
+ About Wikipedia 
+
+ Disclaimers 
+
+ Contact Wikipedia 
+
+ Legal & safety contacts 
+
+ Code of Conduct 
+
+ Developers 
+
+ Statistics 
+
+ Cookie statement 
+
+ Mobile view 
+
+ Search 
+
+ Search 
+
+ Toggle the table of contents 
+
+ HathiTrust 
+
+ 14 languages 
+
+ Add topic

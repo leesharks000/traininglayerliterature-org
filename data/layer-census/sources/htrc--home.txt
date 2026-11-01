@@ -1,0 +1,160 @@
+HTRC Analytics 
+
+ Data 
+
+ Worksets 
+
+ View worksets 
+
+ Recommended
+ worksets 
+
+ Create a workset 
+
+ Validate a workset 
+
+ Workset Builder
+ 2.0 β 
+
+ Datasets 
+
+ Derived datasets 
+
+ Feature Reader 
+
+ Tools 
+
+ Visualize 
+
+ Bookworm β 
+
+ Bookworm Playgound β 
+
+ Gendered
+ Characterizations β 
+
+ Algorithms 
+
+ Run algorithms 
+
+ Algorithm results 
+
+ Data capsules 
+
+ Create a data capsule 
+
+ My data capsule allocations 
+
+ Customized research capsule templates 
+
+ Workset toolkit 
+
+ Learn and support 
+
+ About 
+
+ New to HTRC? 
+
+ HTRC glossary 
+
+ Documentation 
+
+ FAQ 
+
+ Contact 
+
+ Go to
+ HathiTrust 
+
+ HTRC has discontinued its services as of September 30, 2026. HTRC accounts are
+ no longer available. Read
+ about the future of the
+ HathiTrust Research Center . Some links on this page will not be functional. Access to the HathiTrust Digital Library remains
+ open.
+
+ HathiTrust Research Center Analytics 
+
+ Supporting large-scale text analysis of the HathiTrust Digital Library for educational and
+ non-profit research
+
+ The HathiTrust Research Center (HTRC) is a research center dedicated to enabling
+ computational analysis of the HathiTrust Digital Library. Established in 2011 as a
+ partnership between Indiana University, the University of Illinois Urbana-Champaign,
+ and HathiTrust, HTRC developed tools, datasets, and infrastructure that supported
+ scholars using text and data mining methods to study the HathiTrust corpus.
+
+ In October 2024, HathiTrust Executive Director Mike Furlough announced that
+ funding for the Research Center would cease at the end of 2026, at which time the
+ center will be formally closed.
+
+ The HTRC Analytics Portal Has Been
+ Sunsetted 
+
+ As part of its closing, HTRC Analytics services have ended as of
+ September 30, 2026. HTRC accounts and logins are no longer available.
+ HTRC Algorithms and Data Capsule services have also been discontinued.
+
+ Some HTRC resources remain available and can be used without an HTRC Analytics account:
+
+ HathiTrust +
+ Bookworm 
+
+ Derived Datasets 
+
+ Gendered
+ Characterizations visualization 
+
+ Worksets
+
+ What is a workset? 
+
+ Recommended
+ worksets 
+
+ Create a
+ workset 
+
+ View all
+ worksets 
+
+ Datasets
+
+ What are datasets? 
+
+ Extracted Features 
+
+ BookNLP dataset 
+
+ Word frequencies 
+
+ Geographic locations 
+
+ Algorithms
+
+ What are HTRC algorithms? 
+
+ Run
+ algorithms 
+
+ Algorithm
+ results 
+
+ Data Capsules
+
+ What is a data capsule? 
+
+ Create a data
+ capsule 
+
+ View my
+ capsules 
+
+ Resources
+
+ Instructional resources 
+
+ Non-consumptive use research policy 
+
+ HTRC data access 
+
+ Contact

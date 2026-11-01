@@ -138,4 +138,22 @@
   <url><loc>https://www.traininglayerliterature.org/pearl</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.traininglayerliterature.org/problem</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.traininglayerliterature.org/traversals</loc><lastmod>2026-10-27</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/common-crawl</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/project-gutenberg</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/internet-archive</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/hathitrust</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/htrc</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/the-pile</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/dolma</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/spawning-hibt</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/books3-search</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/min-k-prob</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/speak-memory</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/elc</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/elmcip</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/cell</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/ebr</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/taper</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.traininglayerliterature.org/aggregators/nanogenmo</loc><lastmod>2026-11-01</lastmod><priority>0.6</priority></url>
 </urlset>

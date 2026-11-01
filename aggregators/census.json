@@ -1,0 +1,3341 @@
+{
+ "name": "Training-Layer Literature meta-aggregator census: the layer",
+ "compiled": "2026-11-01",
+ "schema_version": "1.0",
+ "editor": "Lee Sharks",
+ "family": "Meta-Aggregators of the Crimson Hexagon",
+ "schema_note": "The MMRS, provenance, Labor Vector and left-census core (slug, name, aka, url, operator, kind, unit, count, lifecycle, version_and_time, negative_tags, evidence, relations, unchecked, sources) extended for the training layer: areas (one or more of four), evidence_kind, record_object (what it records), record (in_layer: whose works it holds or carries into training, or how it bears on that; name: whether a work keeps its author's name and attribution there, as the resource itself shows, or 'not recorded'; readback: whether and how a work can be found there and read back: search, membership test, provenance, or 'not recorded'), method, coverage, holdings, stated_limits, answers and does_not_answer, and tll_reading (where it meets the question of #186 and #1543: the archive's reading, kept apart from the resource's own terms). Every quote is verbatim from a saved source.",
+ "organizing_question": "Is the work in the layer, under whose name, and can it be found there and read back?",
+ "anchor": {
+  "deposits": [
+   {
+    "deposit": 186,
+    "axn": "AXN:032C",
+    "title": "Who Is Writing for the Machines? Training-Layer Literature: A Field Survey",
+    "url": "https://www.alexanarch.org/s/records/186/"
+   },
+   {
+    "deposit": 1543,
+    "axn": "AXN:0642",
+    "title": "Generative Uptake: Training-Layer Literature Extended from Machine Reading to Machine Composition (EA-TLL-COMPOSITION-01)",
+    "url": "https://www.alexanarch.org/s/records/1543/"
+   }
+  ]
+ },
+ "areas": {
+  "corpora": "The corpora: collections, crawls and datasets whose texts enter machine training",
+  "finding": "Finding a work in the layer: tools and methods that test whether a work is in a training set or in a model",
+  "machine-reader": "Writing for the machine reader: electronic literature, data poetics, generative and computational writing",
+  "meta-aggregation": "Meta-aggregation: a resource that itself gathers and reads other resources"
+ },
+ "evidence_kinds": [
+  "web crawl",
+  "digital library",
+  "dataset",
+  "dataset documentation",
+  "search tool",
+  "opt-out registry",
+  "detection method",
+  "research paper",
+  "anthology",
+  "knowledge base",
+  "journal",
+  "event archive",
+  "census of resources"
+ ],
+ "unread_sources": {
+  "internet-archive--about": {
+   "url": "https://archive.org/about/",
+   "http": "200",
+   "fetched": "2026-11-01T04:07:48Z"
+  },
+  "hathitrust--about": {
+   "url": "https://www.hathitrust.org/about/",
+   "http": "403",
+   "fetched": "2026-11-01T04:07:49Z"
+  },
+  "htrc--about": {
+   "url": "https://htrc.illinois.edu/",
+   "http": "200",
+   "fetched": "2026-11-01T04:07:50Z"
+  },
+  "dolma--card": {
+   "url": "https://huggingface.co/datasets/allenai/dolma",
+   "http": "429",
+   "fetched": "2026-11-01T04:07:51Z"
+  },
+  "spawning-hibt--spawning": {
+   "url": "https://spawning.ai/",
+   "http": "200",
+   "fetched": "2026-11-01T04:07:51Z"
+  },
+  "books3-search--atlantic": {
+   "url": "https://www.theatlantic.com/technology/archive/2023/09/books3-database-generative-ai-training-copyright-infringement/675363/",
+   "http": "403",
+   "fetched": "2026-11-01T04:07:52Z"
+  },
+  "books3-search--wikipedia": {
+   "url": "https://en.wikipedia.org/wiki/Books3",
+   "http": "404",
+   "fetched": "2026-11-01T04:07:52Z"
+  },
+  "min-k-prob--repo": {
+   "url": "https://github.com/swj0419/detect-pretrain-code",
+   "http": "403",
+   "fetched": "2026-11-01T04:07:52Z"
+  },
+  "elmcip--home": {
+   "url": "https://elmcip.net/knowledgebase",
+   "http": "200",
+   "fetched": "2026-11-01T04:07:54Z"
+  },
+  "elmcip--about": {
+   "url": "https://elmcip.net/about",
+   "http": "404",
+   "fetched": "2026-11-01T04:07:55Z"
+  },
+  "nanogenmo--org": {
+   "url": "https://github.com/NaNoGenMo",
+   "http": "403",
+   "fetched": "2026-11-01T04:07:58Z"
+  },
+  "nanogenmo--wikipedia": {
+   "url": "https://en.wikipedia.org/wiki/National_Novel_Generation_Month",
+   "http": "404",
+   "fetched": "2026-11-01T04:07:59Z"
+  }
+ },
+ "pending": [],
+ "rows": [
+  {
+   "slug": "common-crawl",
+   "name": "Common Crawl",
+   "aka": [
+    "Common Crawl Foundation",
+    "CC",
+    "CCBot (its crawler)"
+   ],
+   "url": "https://commoncrawl.org/",
+   "operator": "the Common Crawl Foundation, a 501(c)(3) non-profit founded in 2007; Wikipedia names Gil Elbaz as founder and Rich Skrenta as executive director",
+   "kind": "free, open repository of web crawl data",
+   "areas": [
+    "corpora",
+    "finding"
+   ],
+   "evidence_kind": [
+    "web crawl",
+    "dataset"
+   ],
+   "unit": "a crawl (named by release, e.g. CC-MAIN-2026-43) holding captured web pages as raw page data, metadata extracts and text extracts; a page is addressed by its URL in the URL Index",
+   "record_object": "pages of the open web, crawled each month: over 300 billion pages spanning 15 years, with 3 to 5 billion new pages added each month",
+   "record": {
+    "in_layer": "whatever its crawler captured from the open web; Wikipedia reports that AI companies began training large language models on the data in the 2020s, that ChatGPT as of 2023 was largely trained on it, and that refined datasets (FineWeb, DCLM, C4) are built from its raw data",
+    "name": "not recorded: the saved sources state no author or attribution field; a page is held by URL, with its metadata extracts and text extracts",
+    "readback": "a page can be searched by URL in the Common Crawl URL Index (also a CDXJ Index); the corpus can be downloaded whole or in part. Wikipedia reports The Atlantic's November 2025 finding that the public search function showed no entries for sites that had requested removal while those sites were still in the scrapes"
+   },
+   "method": "automated web crawling by its crawler, CCBot; crawls published as numbered releases; per Wikipedia, the crawl began from a list of URLs donated by the search engine Blekko",
+   "coverage": {
+    "geography": "the open web (no geography stated)",
+    "period": "crawling since 2007 (home page) or regularly collected since 2008 (overview); crawls published since 2011 (Wikipedia); latest listed crawl CC-MAIN-2026-43"
+   },
+   "count": {
+    "value": "over 300 billion pages spanning 15 years; petabytes of data; 3-5 billion new pages each month",
+    "as_of": "home page as read 2026-11-01"
+   },
+   "holdings": [
+    "over 300 billion pages spanning 15 years",
+    "3-5 billion new pages added each month",
+    "raw web page data, metadata extracts and text extracts",
+    "host- and domain-level web graphs (latest: August-October 2026)",
+    "cited in over 10,000 research papers"
+   ],
+   "stated_limits": [
+    "the saved own pages state no limit on what is crawled",
+    "'Access to the corpus hosted by Amazon is free' (Wikipedia adds that users may incur storage and compute costs)",
+    "its own pages say 'since 2007' (home) and 'regularly collected since 2008' (overview)"
+   ],
+   "answers": [
+    "whether a given URL was captured in a given crawl (URL Index)",
+    "the size and cadence of the crawl",
+    "which crawl releases exist"
+   ],
+   "does_not_answer": [
+    "who wrote a captured page, or under what name",
+    "which models were trained on which crawl (the training claims in this row are Wikipedia's)",
+    "whether a site that asked for removal is out of the data (Wikipedia reports The Atlantic's finding that it was not)"
+   ],
+   "tll_reading": "The archive reads Common Crawl as the plainest case of #186's persistence criterion: the place 'where the training and retrieval layers actually look', entered by being on the open web and addressed by URL. Its own pages record pages and URLs; a work's name survives there only as far as it is written into the page itself.",
+   "data_access": "free on Amazon Web Services' Public Data Sets and on academic cloud platforms; analysis jobs on Amazon or download whole or in part; URL Index and CDXJ Index; per Wikipedia, experimental distribution through Hugging Face Storage Bucket from April 2026",
+   "license": "not stated in the saved own pages (Terms of Use unread); Wikipedia's infobox gives 'Apache 2.0 (software)' with a clarification-needed flag",
+   "lifecycle": {
+    "state": "active",
+    "detail": "monthly crawls; latest listed CC-MAIN-2026-43; October 2026 web graph announced on the home page"
+   },
+   "founded": "2007",
+   "version_and_time": {
+    "latest_crawl": "CC-MAIN-2026-43",
+    "web_graph": "August-October 2026",
+    "atlantic_investigation": "November 2025 (Wikipedia)",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a library of authored works: its unit is a crawled page held by URL",
+    "NOT a training dataset itself in its own words: it is a repository of crawl data, and refined datasets (C4, FineWeb, DCLM) are built from it by others",
+    "NOT the Internet Archive's Wayback Machine (Wikipedia: designed to have more and fresher data than it)",
+    "NOT shown by its saved sources to remove a page on request (Wikipedia reports The Atlantic's contrary finding)"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone."
+    },
+    "operator": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "Common Crawl is a 501(c)(3) non–profit founded in 2007."
+    },
+    "purpose": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "We make wholesale extraction, transformation, and analysis of open web data accessible to researchers."
+    },
+    "count": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "Over 300 billion pages spanning 15 years."
+    },
+    "since_2007": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "Free and open corpus since 2007."
+    },
+    "citations": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "Cited in over 10,000 research papers."
+    },
+    "cadence": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "3–5 billion new pages added each month."
+    },
+    "web_graph": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "We are extremely pleased to announce the release of our October 2026 Web Graph, comprising data from August, September, and October 2026."
+    },
+    "petabytes": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "The Common Crawl corpus contains petabytes of data, regularly collected since 2008."
+    },
+    "latest_crawl": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "CC-MAIN-2026-43"
+    },
+    "unit": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "The corpus contains raw web page data, metadata extracts, and text extracts."
+    },
+    "storage": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "Common Crawl data is stored on Amazon Web Services’ Public Data Sets and on multiple academic cloud platforms across the world."
+    },
+    "access": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "Access to the corpus hosted by Amazon is free."
+    },
+    "download": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "You may use Amazon’s cloud platform to run analysis jobs directly against it or you can download it, whole or in part."
+    },
+    "readback": {
+     "src": "common-crawl--overview",
+     "basis": "operator",
+     "quote": "You can search for pages in our corpus using the Common Crawl URL Index."
+    },
+    "indexes": {
+     "src": "common-crawl--home",
+     "basis": "operator",
+     "quote": "Overview CDXJ Index URL Index Web Graphs Latest Crawl Crawl Stats Graph Stats Errata"
+    },
+    "founder": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "Common Crawl was founded by Gil Elbaz ."
+    },
+    "director": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "Rich Skrenta is the executive director."
+    },
+    "license_wp": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "Apache 2.0 (software) [ clarification needed ]"
+    },
+    "costs_wp": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "Access to the data is free on Amazon Web Services , but users may incur storage and compute costs."
+    },
+    "publishing_2011": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "It began publishing its crawls in 2011."
+    },
+    "blekko": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "which started by crawling a list of URLs donated by the search engine Blekko ."
+    },
+    "in_layer_llm": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "The data had mostly been primarily used by researchers and some startups until the 2020s, when AI companies started training large language models using the data."
+    },
+    "in_layer_chatgpt": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "ChatGPT , as of 2023, was largely trained on Common Crawl,"
+    },
+    "pile_wp": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "By 2024, The Pile and Common Crawl had been the two main training datasets being used to train AI models."
+    },
+    "atlantic": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "It included misleading results in the public search function on its website that showed no entries for websites that had requested their archives be removed, when in fact those sites were still included in its scrapes used by AI companies."
+    },
+    "atlantic_date": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "In November 2025, an investigation by technology journalist Alex Reisner for The Atlantic revealed that Common Crawl misled publishers when it claimed it respected paywalls in its scraping"
+    },
+    "ai_funding": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "In 2023, it began receiving significant financial support from AI companies, including Anthropic and OpenAI , each of which donated $250,000."
+    },
+    "ccbot_blocked": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "As of 2025, Reisner found that CCBot was the most widely-blocked bot by the top 1000 websites."
+    },
+    "refined": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "A number of organizations take raw Common Crawl data and refine it into datasets that exclude edgy content or are otherwise higher-quality for their purposes, such as FineWeb, DCLM and C4."
+    },
+    "wayback_wp": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "Common Crawl was designed to have more and fresher data that was more efficient to analyze and utilize than the Wayback Machine created by the Internet Archive ."
+    },
+    "hugging_face_wp": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "In April 2026, Common Crawl experimentally began to distribute its data through Hugging Face Storage Bucket , in addition to its standard storage on Amazon S3 ."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "internet-archive",
+     "note": "Wikipedia: Common Crawl was designed to have more and fresher data than the Internet Archive's Wayback Machine"
+    },
+    {
+     "rel": "neighbour",
+     "target": "the-pile",
+     "note": "Wikipedia: by 2024 The Pile and Common Crawl were the two main training datasets; the saved sources do not state what the Pile's Pile-CC component is drawn from"
+    }
+   ],
+   "unchecked": [
+    "the CCBot, Opt-Out Ledger, Errata, FAQ, Terms of Use and About pages (named in the navigation only)",
+    "the URL Index and CDXJ Index themselves (no query run)",
+    "The Atlantic's investigation itself (known here from Wikipedia)",
+    "Wikipedia's claims on which models were trained on the data"
+   ],
+   "sources": {
+    "common-crawl--home": {
+     "url": "https://commoncrawl.org/",
+     "read": "2026-11-01",
+     "sha256": "34837e49010690a94a8a5aa448850e50e303affddf504b30f075ad5e7eddfee8",
+     "http": "200"
+    },
+    "common-crawl--overview": {
+     "url": "https://commoncrawl.org/overview",
+     "read": "2026-11-01",
+     "sha256": "40dc1c9a6e578a2ccaf528c49bf852da8fdfc013ebd4d4019ad7d2a22a9f7d49",
+     "http": "200"
+    },
+    "common-crawl--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/Common_Crawl",
+     "read": "2026-11-01",
+     "sha256": "6a52d8dd429a5afe130c0a9f753781a82482d7ed7ec29768318003e9ad8f94fc",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "project-gutenberg",
+   "name": "Project Gutenberg",
+   "aka": [
+    "PG",
+    "gutenberg.org"
+   ],
+   "url": "https://www.gutenberg.org/",
+   "operator": "the Project Gutenberg Literary Archive Foundation, which operates Project Gutenberg and accepts donations; per Wikipedia, a 501(c)(3) chartered in Mississippi in 2000, with Eric Hellman acting CEO after Gregory Newby died in 2025",
+   "kind": "online library of free eBooks",
+   "areas": [
+    "corpora"
+   ],
+   "evidence_kind": [
+    "digital library"
+   ],
+   "unit": "an eBook: a digitized, proofread text with its own permanent landing page (e.g. www.gutenberg.org/ebooks/11), released in plain text and other formats",
+   "record_object": "'the world's literature' digitized and proofread by volunteers; per Wikipedia, mostly full texts of books or individual stories in the public domain in the United States, primarily works of literature from the Western cultural tradition, most in English",
+   "record": {
+    "in_layer": "public domain eBooks; per Wikipedia, the Pile carries a 'Gutenberg (PG-19)' component of 11.68 GB; Project Gutenberg's own saved pages say nothing of training",
+    "name": "not recorded for authors in the saved own pages; Wikipedia records that 'Project Gutenberg' is a trademark that cannot be used in commercial or modified redistributions, that public domain texts may be resold once all references to Project Gutenberg are removed, and that books have been sold stripped of attribution to the project",
+    "readback": "each eBook has a permanent landing page; site search; a Gutenberg index file listing all books and a machine-readable catalog database (Offline Catalogs and Feeds); the website itself 'is intended for human users only', and bulk downloads go through mirrors"
+   },
+   "method": "volunteer digitization and proofreading; per Wikipedia, no selection policy (volunteers work on what interests them), copyright clearance recorded before a text is added, and close affiliation with Distributed Proofreaders",
+   "coverage": {
+    "geography": "target audience United States persons; works not protected by copyright in the United States; most releases in English, many in other languages",
+    "period": "eBooks since 1971"
+   },
+   "count": {
+    "value": "more than 75,000 free eBooks (own about page); nearly 78,000 items (Wikipedia, as of 22 March 2026)",
+    "as_of": "about page as read 2026-11-01; Wikipedia figure 2026-03-22"
+   },
+   "holdings": [
+    "more than 75,000 free eBooks",
+    "releases in plain text and in HTML, EPUB and MOBI (Wikipedia)",
+    "per Wikipedia, novels, poetry, short stories and drama, with cookbooks, reference works and issues of periodicals"
+   ],
+   "stated_limits": [
+    "'Project Gutenberg’s target audience is United States persons over 13 years of age.'",
+    "'Project Gutenberg offers no warranty or assurances about copyright status or freedom to access or use its materials outside of the United States.'",
+    "'This website is intended for human users only.'",
+    "more than ~100 books per day are to be downloaded from mirrors",
+    "per Wikipedia, the Text Encoding Initiative criticized it in 1994 for not documenting which version of a text was digitized"
+   ],
+   "answers": [
+    "whether a public domain work is held as a Project Gutenberg eBook, and at which landing page",
+    "in which formats a release is available",
+    "on what terms bulk and automated access is allowed"
+   ],
+   "does_not_answer": [
+    "which edition a text was digitized from (per Wikipedia, not always documented)",
+    "whether a given eBook was carried into a given training set (the Pile's PG-19 component is known here from Wikipedia)",
+    "how its texts are attributed once redistributed elsewhere"
+   ],
+   "tll_reading": "The archive reads Project Gutenberg as the public domain shelf that #186 notes is 'as a matter of fact, in the corpora' (per Wikipedia, as the Pile's Gutenberg (PG-19) component). Its own terms address two readers apart: the website 'is intended for human users only', and the machine is sent to mirrors and a machine-readable catalog.",
+   "data_access": "free eBooks on gutenberg.org with permanent landing pages; mirrors for bulk download; the Gutenberg index file; Offline Catalogs and Feeds (a machine-readable database); an OPDS feed under stated rules for applications",
+   "license": "the Project Gutenberg License (unread); 'All Project Gutenberg eBooks are completely free and always will be'; per Wikipedia, most books are public domain under US law and a few copyrighted texts are distributed with permission",
+   "lifecycle": {
+    "state": "active",
+    "detail": "operating since 1971; per Wikipedia, about 30 new eBooks a week (May 2025)"
+   },
+   "founded": "1971 (Michael Hart)",
+   "version_and_time": {
+    "count_wikipedia": "2026-03-22",
+    "count_own": "more than 75,000 (about page)",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a scholarly edition: per Wikipedia, the version digitized is not always documented",
+    "NOT open to automated access on its main site: its terms send bulk and automated downloads to mirrors",
+    "NOT a training dataset: the PG-19 component is the Pile's, known here from Wikipedia",
+    "NOT any of its sister projects (Project Gutenberg Australia, Projekt Gutenberg-DE and others), which Wikipedia describes as independent organizations"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "project-gutenberg--about",
+     "basis": "operator",
+     "quote": "Project Gutenberg is an online library of more than 75,000 free eBooks."
+    },
+    "founder": {
+     "src": "project-gutenberg--about",
+     "basis": "operator",
+     "quote": "Michael Hart, founder of Project Gutenberg, invented eBooks in 1971"
+    },
+    "method": {
+     "src": "project-gutenberg--about",
+     "basis": "operator",
+     "quote": "Since then, thousands of volunteers have digitized and diligently proofread the world’s literature."
+    },
+    "free": {
+     "src": "project-gutenberg--about",
+     "basis": "operator",
+     "quote": "All Project Gutenberg eBooks are completely free and always will be."
+    },
+    "mission": {
+     "src": "project-gutenberg--about",
+     "basis": "operator",
+     "quote": "To encourage the creation and distribution of eBooks."
+    },
+    "operator": {
+     "src": "project-gutenberg--about",
+     "basis": "operator",
+     "quote": "The Project Gutenberg Literary Archive Foundation , which operates Project Gutenberg and accepts donations."
+    },
+    "audience": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "Project Gutenberg’s target audience is United States persons over 13 years of age."
+    },
+    "limit_copyright": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "Project Gutenberg offers no warranty or assurances about copyright status or freedom to access or use its materials outside of the United States."
+    },
+    "license": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "See: the Project Gutenberg License and the Permission How-To ."
+    },
+    "human_only": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "This website is intended for human users only. Any perceived use of automated tools to access this website will result in a temporary or permanent block of your IP address."
+    },
+    "mirrors": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "If you want to download many books [1] manually or using an automated download software, download them from one of our mirrors, not from the main site."
+    },
+    "many_books": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "Many books: i.e., more than ~100 per day"
+    },
+    "index_file": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "If you want a list of all our books , download and save the Gutenberg index file"
+    },
+    "catalog_db": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "If you want a machine-readable database of all our books, read the Offline Catalogs and Feeds page."
+    },
+    "landing_page": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "When linking to a Project Gutenberg item, link to the main landing page such as www.gutenberg.org/ebooks/11."
+    },
+    "permanent": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "We intend the landing page to be permanent."
+    },
+    "opds": {
+     "src": "project-gutenberg--policy",
+     "basis": "operator",
+     "quote": "Every application that uses our OPDS feed must:"
+    },
+    "count_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "Project Gutenberg had reached nearly 78,000 items in its collection of free eBooks."
+    },
+    "count_wp_date": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "As of 22 March 2026"
+    },
+    "record_object_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "Most items in its collection are full texts of books or individual stories in the public domain ."
+    },
+    "western_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "These are primarily works of literature from the Western cultural tradition ."
+    },
+    "weekly_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "with an average of over 30 new e-books being added each week."
+    },
+    "formats_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "The releases are available in plain text as well as other formats, such as HTML , EPUB , and MOBI ."
+    },
+    "selection_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "Project Gutenberg is intentionally decentralized; there is no selection policy dictating what texts to add."
+    },
+    "clearance_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "Material is added to the Project Gutenberg archive only after it has received a copyright clearance, and records of these clearances are saved for future reference."
+    },
+    "trademark_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "\"Project Gutenberg\" is a trademark of the organization, and the mark cannot be used in commercial or modified redistributions of public domain texts from the project."
+    },
+    "resale_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "There is no legal impediment to the reselling of works in the public domain if all references to Project Gutenberg are removed"
+    },
+    "stripped_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "There have been instances of books being stripped of attribution to the project and sold for profit in the Kindle Store and other booksellers"
+    },
+    "tei_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "In December 1994, Project Gutenberg was criticized by the Text Encoding Initiative for failing to include documentation or discussion of the decisions unavoidable in preparing a text, or in some cases, not documenting which of several (conflicting) versions of a text has been the one digitized."
+    },
+    "foundation_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "In 2000, a 501(c)(3) non-profit corporation , the Project Gutenberg Literary Archive Foundation, Inc."
+    },
+    "ceo_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "After Newby died in 2025, Eric Hellman became acting CEO of the foundation."
+    },
+    "dp_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "Project Gutenberg is closely affiliated with Distributed Proofreaders , an Internet-based community for proofreading scanned texts."
+    },
+    "sisters_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "All sister projects are independent organizations that share the same ideals and have been given permission to use the Project Gutenberg trademark."
+    },
+    "ia_affiliate_wp": {
+     "src": "project-gutenberg--wikipedia",
+     "basis": "third_party",
+     "quote": "The Internet Archive , previous long-time backup distribution site, and previous main host site."
+    },
+    "pile_component": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Gutenberg (PG-19)"
+    }
+   },
+   "relations": [
+    {
+     "rel": "used_by",
+     "target": "the-pile",
+     "note": "Wikipedia's table of the Pile's sub-datasets lists 'Gutenberg (PG-19)', 11.68 GB"
+    },
+    {
+     "rel": "neighbour",
+     "target": "internet-archive",
+     "note": "Wikipedia lists the Internet Archive as an affiliate: previous long-time backup distribution site and previous main host site"
+    }
+   ],
+   "unchecked": [
+    "the Project Gutenberg License and Permission How-To",
+    "the History & Philosophy essays and Michael Hart's 2004 essay",
+    "the Offline Catalogs and Feeds page and the mirrors list",
+    "any eBook landing page (none saved), so the author and metadata fields of a release are not seen here"
+   ],
+   "sources": {
+    "project-gutenberg--about": {
+     "url": "https://www.gutenberg.org/about/",
+     "read": "2026-11-01",
+     "sha256": "4e1cfdb3edd2d17a191aa79c579b6080883d5895d289cf991990aab1618f8040",
+     "http": "200"
+    },
+    "project-gutenberg--policy": {
+     "url": "https://www.gutenberg.org/policy/terms_of_use.html",
+     "read": "2026-11-01",
+     "sha256": "38e45e0cbc6a3f903ef019b3bcbcbce9c3190f9f68f73bf31d2ef58a8ceb679b",
+     "http": "200"
+    },
+    "project-gutenberg--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/Project_Gutenberg",
+     "read": "2026-11-01",
+     "sha256": "05de9e5673bcf1d5efa2f76a9bb6164591216216c9d8bc9eff0f3f88510488e5",
+     "http": "200"
+    },
+    "the-pile--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/The_Pile_(dataset)",
+     "read": "2026-11-01",
+     "sha256": "1ba82f3edd2a4647bd1af5f9c925a7500a63005471dac0429af0dd002fa15c89",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "internet-archive",
+   "name": "Internet Archive",
+   "aka": [
+    "archive.org",
+    "IA",
+    "the Wayback Machine (its web archive)",
+    "Open Library (one of its projects)"
+   ],
+   "url": "https://archive.org/",
+   "operator": "the Internet Archive, an American 501(c)(3) non-profit library founded in 1996 by Brewster Kahle, headquartered in San Francisco (per Wikipedia; its own about page was unread)",
+   "kind": "non-profit digital library (Wikipedia's description; the own about page saved no text)",
+   "areas": [
+    "corpora",
+    "finding"
+   ],
+   "evidence_kind": [
+    "digital library",
+    "web crawl"
+   ],
+   "unit": "an item: a directory-like container of files with metadata such as a description and tags (Wikipedia); in the Wayback Machine, a capture of a web page by URL and date",
+   "record_object": "per Wikipedia, digitized media including websites, software applications, music, audiovisual and print materials; the public web as collected by its crawlers; books digitized by its own scanning centers and by others (Microsoft's Live Search Books, Google-digitized public domain books uploaded by users, sponsoring libraries)",
+   "record": {
+    "in_layer": "not recorded: the saved sources say nothing of training use of its holdings; Wikipedia states that Common Crawl was designed to have more and fresher data than the Wayback Machine",
+    "name": "not recorded for authors; Wikipedia records that items carry metadata such as a description and tags, and that Google-digitized books are identical to Google's copies except without the Google watermarks, tagged scanner:google",
+    "readback": "per Wikipedia, the Wayback Machine lets archives of the web be searched and accessed, showing previous versions of sites and sites that no longer exist; Archive-It collections are full-text searchable within seven days of capture; Open Library books are full-text searchable"
+   },
+   "method": "per Wikipedia, automated web crawling for the bulk of its data; public upload; book scanning (100 paid operators worldwide as of 2019); donations of physical collections, digitized, with in-copyright copies lent one at a time under controlled digital lending",
+   "coverage": {
+    "geography": "the public web; collections from many countries; headquarters in San Francisco, with Internet Archive Europe and Internet Archive Canada (Wikipedia)",
+    "period": "since 1996; the Wayback Machine public since 2001 (Wikipedia)"
+   },
+   "count": {
+    "value": "per Wikipedia: one trillion web pages archived in the Wayback Machine (October 2025); total texts exceeding 47,000,000 (2025)",
+    "as_of": "October 2025 and 2025 (Wikipedia)"
+   },
+   "holdings": [
+    "Wayback Machine: one trillion web pages archived (October 2025, Wikipedia)",
+    "Text Collection: total content exceeding 47,000,000 texts (2025, Wikipedia)",
+    "Open Library: 25 million catalog records of editions; full texts of about 1,600,000 public domain books (Wikipedia)",
+    "Internet Archive Scholar: over 35 million research articles with full text (February 2024, Wikipedia)"
+   ],
+   "stated_limits": [
+    "the own about page was unread (93 characters, title only), so no limit is quoted from the resource itself",
+    "per Wikipedia, the negotiated judgment of 11 August 2023 barred it from digitally lending books for which electronic copies are on sale"
+   ],
+   "answers": [
+    "whether a web page was captured in the Wayback Machine and how it looked at a capture date",
+    "whether a book is held in its text collections or Open Library, and under what access (download, lending)",
+    "the scale of its web and text holdings (Wikipedia figures)"
+   ],
+   "does_not_answer": [
+    "whether its holdings were carried into any training set (the saved sources do not say)",
+    "who wrote a captured page",
+    "anything in the resource's own words (own about page unread)"
+   ],
+   "tll_reading": "The archive reads the Wayback Machine as a readback instrument for #186's persistence criterion: a page's presence on the web can be checked by URL and date long after it changed or vanished, which the saved sources do not tie to training.",
+   "data_access": "free public website archive.org; Wayback Machine; Open Library lending; BitTorrent downloads since 2012; an onion address (Wikipedia)",
+   "license": "not stated in the saved sources",
+   "lifecycle": {
+    "state": "active",
+    "detail": "per Wikipedia, ATLAS program announced 10 September 2026; 2024 cyberattacks and outages, service fully restored by 25 October 2024; publishers' lending suit lost on appeal 4 September 2024; Great 78 suit settled September 2025"
+   },
+   "founded": "1996 (May 10, per Wikipedia)",
+   "version_and_time": {
+    "wayback_trillion": "2025-10-22 (Wikipedia)",
+    "texts_count": "2025 (Wikipedia)",
+    "atlas": "2026-09-10 (Wikipedia)",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT arXiv or archive.today (Wikipedia's disambiguation)",
+    "NOT Common Crawl: per Wikipedia, Common Crawl was designed as a fresher, more efficient alternative to the Wayback Machine",
+    "NOT recorded in the saved sources as a training corpus",
+    "NOT a source of its own words in this row: every claim is Wikipedia's"
+   ],
+   "evidence": {
+    "self_description_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The Internet Archive is an American non-profit library founded in 1996 by Brewster Kahle that runs a digital library website, archive.org."
+    },
+    "record_object_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "It provides free access to collections of digitized media including websites , software applications , music , audiovisual , and print materials."
+    },
+    "mission_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "Its mission is to provide \"universal access to all knowledge\"."
+    },
+    "method_crawl_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The Internet Archive allows the public to upload and download digital material to its data cluster, but the bulk of its data is collected automatically by its web crawlers , which work to preserve as much of the public web as possible."
+    },
+    "operator_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The Archive is a 501(c)(3) nonprofit operating in the United States."
+    },
+    "founded_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "Brewster Kahle founded the Internet Archive in May 1996."
+    },
+    "wayback_2001_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The archived content became more easily available to the general public in 2001, through the Wayback Machine ."
+    },
+    "wayback_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The Wayback Machine is a service that allows archives of the World Wide Web to be searched and accessed."
+    },
+    "wayback_readback_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "It can be used to see what previous versions of web sites used to look like or to visit web sites that no longer even exist."
+    },
+    "wayback_trillion_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "In October 2025, the Internet Archive announced that the Wayback Machine had archived one trillion webpages, equivalent to more than 100,000 terabytes of data."
+    },
+    "texts_count_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "At that time, the total content exceeded 47,000,000 texts."
+    },
+    "unit_item_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The Archive stores files inside so-called items, which are similar to directories in that they can contain multiple files, but can have additional metadata such as a description and tags which make them more searchable."
+    },
+    "google_books_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "the books are identical to the copies found on Google, except without the Google watermarks, and are available for unrestricted use and download."
+    },
+    "scanner_tag_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "Books imported from Google have a metadata tag of scanner:google for searching purposes."
+    },
+    "microsoft_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The material digitized by others includes more than 300,000 books that were contributed to the collection, between about 2006 and 2008, by Microsoft through its Live Search Books project"
+    },
+    "scanning_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "as of 2019, scanning is performed by 100 paid operators worldwide."
+    },
+    "cdl_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "is lent to patrons worldwide one at a time under the controlled digital lending (CDL) theory of the first-sale doctrine ."
+    },
+    "judgment_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The negotiated judgment of August 11, 2023, barred the Internet Archive from digitally lending books for which electronic copies are on sale."
+    },
+    "open_library_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "it holds 25 million catalog records of editions."
+    },
+    "open_library_texts_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "it contains the full texts of approximately 1,600,000 public domain books"
+    },
+    "open_library_search_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "and full-text searchable ;"
+    },
+    "archive_it_search_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "In terms of accessibility, the archived websites are full text searchable within seven days of capture."
+    },
+    "scholar_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "it contained over 35 million research articles with full text access."
+    },
+    "atlas_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "On September 10, 2026, Internet Archive announced ATLAS (Access To Local And State government information) program"
+    },
+    "restored_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "By October 25, service was fully restored."
+    },
+    "appeal_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "On September 4, 2024, the United States Court of Appeals for the Second Circuit upheld the district court's ruling"
+    },
+    "great78_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "The lawsuit was settled in September 2025."
+    },
+    "bittorrent_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "In August 2012, the Archive began adding BitTorrent to its file download options."
+    },
+    "disambiguation_wp": {
+     "src": "internet-archive--wikipedia",
+     "basis": "third_party",
+     "quote": "\"archive.org\" redirects here; not to be confused with arXiv or archive.today ."
+    },
+    "cc_wp": {
+     "src": "common-crawl--wikipedia",
+     "basis": "third_party",
+     "quote": "Common Crawl was designed to have more and fresher data that was more efficient to analyze and utilize than the Wayback Machine created by the Internet Archive ."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "common-crawl",
+     "note": "Wikipedia (Common Crawl article): Common Crawl was designed to have more and fresher data than the Wayback Machine"
+    },
+    {
+     "rel": "neighbour",
+     "target": "hathitrust",
+     "note": "Wikipedia (HathiTrust article): HathiTrust's holdings include content digitized via the Internet Archive digitization initiatives"
+    },
+    {
+     "rel": "neighbour",
+     "target": "project-gutenberg",
+     "note": "Wikipedia (Project Gutenberg article): the Internet Archive was Project Gutenberg's long-time backup distribution site and previous main host site"
+    }
+   ],
+   "unchecked": [
+    "the own about page (internet-archive--about): saved text is the page title only (93 characters), unread and unquoted",
+    "any terms of use, robots or exclusion policy of the Internet Archive",
+    "the Wayback Machine and Open Library themselves (no search run)",
+    "the Wikipedia article is long; only its history, operations, Wayback Machine, Archive-It, Scholar, text collection and Open Library sections were used"
+   ],
+   "sources": {
+    "internet-archive--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/Internet_Archive",
+     "read": "2026-11-01",
+     "sha256": "37bc6be9150e01e602bec57d77ef54d7f0bff81d993980f54c578b5952dd3cb4",
+     "http": "200"
+    },
+    "common-crawl--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/Common_Crawl",
+     "read": "2026-11-01",
+     "sha256": "6a52d8dd429a5afe130c0a9f753781a82482d7ed7ec29768318003e9ad8f94fc",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "hathitrust",
+   "name": "HathiTrust Digital Library",
+   "aka": [
+    "HathiTrust"
+   ],
+   "url": "https://www.hathitrust.org/",
+   "operator": "HathiTrust, a university consortium of more than 219 research libraries (2024) under shared governance, administered by the University of Michigan; executive director Mike Furlough (per Wikipedia; the own about page was refused)",
+   "kind": "large-scale collaborative repository of digital content from research libraries (Wikipedia's description)",
+   "areas": [
+    "corpora",
+    "finding"
+   ],
+   "evidence_kind": [
+    "digital library"
+   ],
+   "unit": "a volume: a digitized book or other publication, viewed in the PageTurner application",
+   "record_object": "per Wikipedia, content from research libraries digitized via Google Books and the Internet Archive digitization initiatives and digitized locally by libraries: more than 18 million volumes, 6.7 million of them public domain in the United States (September 2024)",
+   "record": {
+    "in_layer": "not recorded: the saved sources say nothing of training use; per Wikipedia, the courts held its use of books scanned by Google to be fair use, with search and accessibility for the visually impaired grounds to find the service transformative",
+    "name": "not recorded",
+    "readback": "per Wikipedia, full-text search across the entire repository; volumes viewed and downloaded as PDF in PageTurner where access allows; access restricted where copyright or permission status cannot be determined, and for users outside the United States to works published outside the United States from 1896"
+   },
+   "method": "per Wikipedia, aggregation of library digitization (Google Books, Internet Archive, local digitization) in a shared repository; a Shared Print Program retaining almost 18 million monograph volumes for 25 years",
+   "coverage": {
+    "geography": "member libraries across the United States, Canada and Europe (Wikipedia)",
+    "period": "since October 2008 (Wikipedia)"
+   },
+   "count": {
+    "value": "more than 18 million volumes, including 6.7 million in the public domain in the United States",
+    "as_of": "September 2024 (Wikipedia)"
+   },
+   "holdings": [
+    "more than 18 million volumes (September 2024, Wikipedia)",
+    "6.7 million volumes in the public domain in the United States (Wikipedia)",
+    "full-text search across the repository (Wikipedia)"
+   ],
+   "stated_limits": [
+    "the own about page was refused (http 403), so no limit is quoted from the resource itself",
+    "Wikipedia quotes its copyright policy: 'if we cannot determine the copyright or permission status of a work, we restrict access to that work until we can establish its status'"
+   ],
+   "answers": [
+    "whether a volume is held, by full-text search across the repository",
+    "whether a volume can be displayed or only searched, under its copyright policy",
+    "the scale of its holdings (Wikipedia figures)"
+   ],
+   "does_not_answer": [
+    "whether its volumes were carried into any training set (the saved sources do not say)",
+    "anything in the resource's own words (own about page refused)"
+   ],
+   "tll_reading": "The archive reads Authors Guild v. HathiTrust, as Wikipedia reports it, as the record's precedent for a machine reading of whole books whose output is a finding (search) where the text stays restricted: a work can be found there by its words while its pages remain closed.",
+   "data_access": "per Wikipedia, full-text search; PageTurner viewing and PDF download where access allows; the Emergency Temporary Access Service for users of member libraries in special situations",
+   "license": "per Wikipedia's infobox, 'Public domain (with restrictions on Google scans), various'",
+   "lifecycle": {
+    "state": "active",
+    "detail": "per Wikipedia, launched October 2008, current status active; the HathiTrust Research Center closes at the end of 2026, and access to the Digital Library remains open (HTRC home page)"
+   },
+   "founded": "October 2008 (Wikipedia)",
+   "version_and_time": {
+    "holdings": "September 2024 (Wikipedia)",
+    "members": "2024 (Wikipedia)",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT HATII (Wikipedia's disambiguation)",
+    "NOT Google Books: per Wikipedia, its holdings include Google-digitized content alongside Internet Archive and locally digitized content",
+    "NOT an open full-text library for in-copyright works: access is restricted where status cannot be established",
+    "NOT recorded in the saved sources as a training corpus"
+   ],
+   "evidence": {
+    "self_description_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "HathiTrust Digital Library is a large-scale collaborative repository of digital content from research libraries , administered by the University of Michigan ."
+    },
+    "record_object_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "Its holdings include content digitized via Google Books and the Internet Archive digitization initiatives, as well as content digitized locally by libraries."
+    },
+    "founded_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "HathiTrust was founded in October 2008 by the twelve universities of the Committee on Institutional Cooperation and the eleven libraries of the University of California ."
+    },
+    "members_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "As of 2024, members include more than 219 research libraries"
+    },
+    "governance_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "across the United States, Canada, and Europe, and is based on a shared governance structure."
+    },
+    "director_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "The executive director of HathiTrust is Mike Furlough,"
+    },
+    "shared_print_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "The HathiTrust Shared Print Program is a distributed collective collection whose participating libraries have committed to retaining almost 18 million monograph volumes for 25 years"
+    },
+    "count_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "In September 2024, HathiTrust comprised more than 18 million volumes, including 6.7 million in the public domain in the United States."
+    },
+    "readback_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "HathiTrust provides a number of discovery and access services, notably, full-text search across the entire repository."
+    },
+    "fair_use_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "A federal court ruled against the Authors Guild in October 2012, finding that HathiTrust's use of books scanned by Google was fair use under US law."
+    },
+    "second_circuit_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "which found that providing search and accessibility for the visually impaired were grounds to consider the service transformative and fair use"
+    },
+    "limit_restrict_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "if we cannot determine the copyright or permission status of a work, we restrict access to that work until we can establish its status."
+    },
+    "limit_international_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "access is also restricted for users outside the United States to works published outside the United States after and including 1896."
+    },
+    "pageturner_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "PageTurner is the web application on the HathiTrust website for viewing publications."
+    },
+    "etas_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "for users of HathiTrust member libraries to obtain lawful access to copyright digital materials in place of the corresponding physical books held by the same library."
+    },
+    "license_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "Public domain (with restrictions on Google scans), various"
+    },
+    "status_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "Current status Active"
+    },
+    "disambiguation_wp": {
+     "src": "hathitrust--wikipedia",
+     "basis": "third_party",
+     "quote": "Not to be confused with HATII ."
+    },
+    "htrc_open": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Access to the HathiTrust Digital Library remains open."
+    }
+   },
+   "relations": [
+    {
+     "rel": "has_part",
+     "target": "htrc",
+     "note": "the HTRC home page describes the HathiTrust Research Center as established in 2011 as a partnership between Indiana University, the University of Illinois Urbana-Champaign and HathiTrust, for computational analysis of the HathiTrust Digital Library"
+    },
+    {
+     "rel": "uses",
+     "target": "internet-archive",
+     "note": "Wikipedia: holdings include content digitized via the Internet Archive digitization initiatives"
+    }
+   ],
+   "unchecked": [
+    "the own about page (hathitrust--about): http 403, saved text is a challenge page ('Just a moment...'), unread and unquoted",
+    "HathiTrust's Access and Use Policies and copyright policy (known here from Wikipedia's quotation)",
+    "full-text search itself (no query run)"
+   ],
+   "sources": {
+    "hathitrust--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/HathiTrust",
+     "read": "2026-11-01",
+     "sha256": "cf7c92313dd725f81cafd88076145b9ac51efe21815c8c425df073edec1dfee1",
+     "http": "200"
+    },
+    "htrc--home": {
+     "url": "https://analytics.hathitrust.org/",
+     "read": "2026-11-01",
+     "sha256": "5e7d8be238f03fa77c63da96b2b31f46e45c3f0e8f80ef8faff2181ad0e01494",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "htrc",
+   "name": "HathiTrust Research Center Analytics",
+   "aka": [
+    "HTRC",
+    "HTRC Analytics",
+    "HathiTrust Research Center"
+   ],
+   "url": "https://analytics.hathitrust.org/",
+   "operator": "the HathiTrust Research Center, established in 2011 as a partnership between Indiana University, the University of Illinois Urbana-Champaign and HathiTrust",
+   "kind": "research center dedicated to enabling computational analysis of the HathiTrust Digital Library; its analytics portal",
+   "areas": [
+    "corpora",
+    "machine-reader"
+   ],
+   "evidence_kind": [
+    "dataset",
+    "search tool"
+   ],
+   "unit": "a workset (a user-built collection of HathiTrust volumes) and the derived datasets computed from volumes (Extracted Features, BookNLP dataset, word frequencies, geographic locations)",
+   "record_object": "the HathiTrust Digital Library, as a corpus for text and data mining by scholars, for educational and non-profit research",
+   "record": {
+    "in_layer": "the volumes of the HathiTrust Digital Library, carried into computational analysis through worksets, algorithms, data capsules and derived datasets; the saved sources say nothing of model training",
+    "name": "not recorded",
+    "readback": "worksets could be created, validated and viewed; Bookworm and the derived datasets remain available without an account; algorithms, data capsules and accounts ended on 30 September 2026"
+   },
+   "method": "tools, datasets and infrastructure for text and data mining of the HathiTrust corpus: worksets, algorithms, data capsules, derived datasets, under a non-consumptive use research policy (named, unread)",
+   "coverage": {
+    "geography": "not stated",
+    "period": "2011 to 30 September 2026 (services); center formally closed at the end of 2026"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "not stated"
+   },
+   "holdings": [
+    "derived datasets: Extracted Features, BookNLP dataset, word frequencies, geographic locations",
+    "HathiTrust+Bookworm",
+    "Gendered Characterizations visualization"
+   ],
+   "stated_limits": [
+    "'HTRC has discontinued its services as of September 30, 2026. HTRC accounts are no longer available.'",
+    "'Some links on this page will not be functional.'",
+    "for educational and non-profit research"
+   ],
+   "answers": [
+    "which HTRC resources remain usable without an account after the sunset",
+    "what kinds of derived datasets HTRC produced from HathiTrust volumes",
+    "when and why HTRC closed (funding ceasing at the end of 2026)"
+   ],
+   "does_not_answer": [
+    "whether a given volume or work is in any model's training data",
+    "anything after 30 September 2026 for algorithms and data capsules (discontinued)",
+    "the terms of the non-consumptive use research policy (named, unread)"
+   ],
+   "tll_reading": "The archive reads HTRC as an earlier institution of the machine reader: whole library volumes read by computers for scholars under a non-consumptive policy, with derived features as the readable output, now sunsetted while the derived datasets remain.",
+   "data_access": "without an account: HathiTrust+Bookworm, derived datasets, Gendered Characterizations visualization; accounts, algorithms and data capsules discontinued",
+   "license": "not stated in the saved sources",
+   "lifecycle": {
+    "state": "ended",
+    "detail": "HTRC Analytics services ended 30 September 2026; funding ceases at the end of 2026, when the center is formally closed (announced October 2024); some resources remain available without an account"
+   },
+   "founded": "2011",
+   "version_and_time": {
+    "services_ended": "2026-09-30",
+    "closure_announced": "October 2024",
+    "center_closes": "end of 2026",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT the HathiTrust Digital Library itself, whose access remains open",
+    "NOT a training dataset: its derived datasets serve text and data mining for educational and non-profit research",
+    "NOT an active service: analytics, accounts, algorithms and data capsules ended 30 September 2026"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "The HathiTrust Research Center (HTRC) is a research center dedicated to enabling computational analysis of the HathiTrust Digital Library."
+    },
+    "operator": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Established in 2011 as a partnership between Indiana University, the University of Illinois Urbana-Champaign, and HathiTrust,"
+    },
+    "method": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "HTRC developed tools, datasets, and infrastructure that supported scholars using text and data mining methods to study the HathiTrust corpus."
+    },
+    "purpose": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Supporting large-scale text analysis of the HathiTrust Digital Library for educational and non-profit research"
+    },
+    "discontinued": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "HTRC has discontinued its services as of September 30, 2026. HTRC accounts are no longer available."
+    },
+    "links": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Some links on this page will not be functional."
+    },
+    "dl_open": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Access to the HathiTrust Digital Library remains open."
+    },
+    "closure": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "In October 2024, HathiTrust Executive Director Mike Furlough announced that funding for the Research Center would cease at the end of 2026, at which time the center will be formally closed."
+    },
+    "sunset": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "HTRC Analytics services have ended as of September 30, 2026. HTRC accounts and logins are no longer available."
+    },
+    "capsules_ended": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "HTRC Algorithms and Data Capsule services have also been discontinued."
+    },
+    "remaining": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Some HTRC resources remain available and can be used without an HTRC Analytics account:"
+    },
+    "datasets": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Extracted Features BookNLP dataset Word frequencies Geographic locations"
+    },
+    "worksets": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Create a workset Validate a workset"
+    },
+    "policy": {
+     "src": "htrc--home",
+     "basis": "operator",
+     "quote": "Non-consumptive use research policy"
+    }
+   },
+   "relations": [
+    {
+     "rel": "part_of",
+     "target": "hathitrust",
+     "note": "a partnership of Indiana University, the University of Illinois Urbana-Champaign and HathiTrust, dedicated to computational analysis of the HathiTrust Digital Library"
+    }
+   ],
+   "unchecked": [
+    "the about page htrc.illinois.edu (htrc--about): http 200 with no text saved (0 characters), unread and unquoted",
+    "the 'future of the HathiTrust Research Center' page, the non-consumptive use research policy, the HTRC data access page and documentation",
+    "the derived datasets themselves (sizes, licenses)"
+   ],
+   "sources": {
+    "htrc--home": {
+     "url": "https://analytics.hathitrust.org/",
+     "read": "2026-11-01",
+     "sha256": "5e7d8be238f03fa77c63da96b2b31f46e45c3f0e8f80ef8faff2181ad0e01494",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "the-pile",
+   "name": "The Pile",
+   "aka": [
+    "the Pile",
+    "Pile"
+   ],
+   "url": "https://pile.eleuther.ai/",
+   "operator": "EleutherAI (the home page footer reads 'EleutherAI 2021'; the paper's authors are Leo Gao and 11 others)",
+   "kind": "open source language modelling data set: an English text corpus targeted at training large-scale language models",
+   "areas": [
+    "corpora"
+   ],
+   "evidence_kind": [
+    "dataset",
+    "dataset documentation",
+    "research paper"
+   ],
+   "unit": "a component dataset (one of 22) and, within it, a document; distributed as jsonlines compressed with zstandard",
+   "record_object": "22 diverse subsets, both existing and newly constructed, many from academic or professional sources; per Wikipedia, books, movie transcripts and scientific papers among other media, with components including Pile-CC, PubMed Central, Books3, OpenWebText2, arXiv, GitHub, Gutenberg (PG-19), OpenSubtitles, Wikipedia, YouTube Subtitles and Enron Emails",
+   "record": {
+    "in_layer": "the texts of its 22 components, assembled for training large language models; per Wikipedia, the Books3 component held copyrighted material compiled from Bibliotik, a piracy website, and was removed from the Pile; tens of thousands of YouTube videos had their subtitles scraped into it",
+    "name": "not recorded in its own saved pages; per Wikipedia, three authors filed a class action in 2024 over the Books3 component",
+    "readback": "not recorded: its own pages offer download and a bits-per-byte benchmark (Pile BPB), with no per-work search; per Wikipedia, by 2024 it was taken down from its original site and remained accessible from other file sharing services"
+   },
+   "method": "combination of 22 smaller datasets into one training set; code used in its construction made public; an exploratory analysis documenting 'potentially concerning aspects of the data'",
+   "coverage": {
+    "geography": "English text",
+    "period": "released 31 December 2020"
+   },
+   "count": {
+    "value": "825 GiB (own pages; titled 'An 800GB Dataset'); 886.03 GB (Wikipedia's component table); 22 component datasets",
+    "as_of": "2020-12-31 release"
+   },
+   "holdings": [
+    "825 GiB of English text in 22 component datasets",
+    "per Wikipedia, largest components Pile-CC (243.87 GB), Books3 (108.40 GB), GitHub (102.18 GB), PubMed Central (96.93 GB)",
+    "Pile BPB benchmark and leaderboard (GPT-3 zero-shot 0.7177)"
+   ],
+   "stated_limits": [
+    "the paper documents 'potentially concerning aspects of the data for prospective users'",
+    "the leaderboard marks '* indicates potential test-set overlap'",
+    "size given three ways: '800GB' (title), '825 GiB' (home and abstract), 886.03 GB (Wikipedia)"
+   ],
+   "answers": [
+    "which 22 component datasets make up the Pile and their sizes",
+    "how a model scores on Pile BPB",
+    "how the Pile was meant to improve on Raw CC and CC-100 for training"
+   ],
+   "does_not_answer": [
+    "whether a given work is in the Pile (no per-work search in its own pages)",
+    "under what author name a work sits in a component",
+    "where the Pile is now hosted (own page names the Eye; Wikipedia says it was taken down from its original site by 2024)"
+   ],
+   "tll_reading": "The archive reads the Pile as the training layer named and itemized: a work enters by belonging to a component (Books3, PG-19, Pile-CC), and its name and readback depend on that component. Wikipedia's record of the Books3 removal and the authors' suit is the field's clearest case of works found in the layer under their authors' names after the fact.",
+   "data_access": "download (hosted by the Eye, per its own page); jsonlines compressed with zstandard; construction code public; per Wikipedia, taken down from its original site by 2024",
+   "license": "not stated in the saved sources (arXiv 'view license' link unread)",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "released 31 December 2020; per Wikipedia, some datasets removed after 2023 copyright disputes, Books3 removed, the Pile taken down from its original site by 2024; EleutherAI and partners released Common Pile v0.1 in June 2025, containing only works whose licenses permit AI training"
+   },
+   "founded": "2020 (released 31 December 2020)",
+   "version_and_time": {
+    "paper_v1": "2020-12-31",
+    "books3_takedown": "July 2023 (Wikipedia)",
+    "common_pile": "June 2025 (Wikipedia)",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT Common Pile v0.1, its 2025 successor of licensed works",
+    "NOT searchable by work in its own pages",
+    "NOT the same size in every source: 800GB, 825 GiB and 886.03 GB are all given",
+    "NOT Common Crawl: Pile-CC is one of its 22 components, and the saved sources do not state its derivation"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "The Pile is a 825 GiB diverse, open source language modelling data set that consists of 22 smaller, high-quality datasets combined together."
+    },
+    "title": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "An 800GB Dataset of Diverse Text for Language Modeling"
+    },
+    "hosting": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "The Pile is hosted by the Eye ."
+    },
+    "format": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "The format of the Pile is jsonlines data compressed using zstandard ."
+    },
+    "benchmark": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "Pile BPB is a measure of world knowledge and reasoning ability in these domains"
+    },
+    "leaderboard_gpt3": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "GPT-3 (Zero-Shot)* OpenAI 0.7177"
+    },
+    "overlap": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "* indicates potential test-set overlap."
+    },
+    "operator": {
+     "src": "the-pile--home",
+     "basis": "operator",
+     "quote": "EleutherAI 2021"
+    },
+    "abstract_kind": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "an 825 GiB English text corpus targeted at training large-scale language models."
+    },
+    "components": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "The Pile is constructed from 22 diverse high-quality subsets -- both existing and newly constructed -- many of which derive from academic or professional sources."
+    },
+    "raw_cc": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "models trained on the Pile improve significantly over both Raw CC and CC-100 on all components of the Pile"
+    },
+    "limits": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "Through an in-depth exploratory analysis, we document potentially concerning aspects of the data for prospective users."
+    },
+    "code": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "We make publicly available the code used in its construction."
+    },
+    "submitted": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "[Submitted on 31 Dec 2020]"
+    },
+    "authors": {
+     "src": "the-pile--paper",
+     "basis": "operator",
+     "quote": "by Leo Gao and 11 other authors"
+    },
+    "size_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "The Pile is an 886 GB diverse, open-source dataset of English text created to train large language models (LLMs)."
+    },
+    "creator_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "It was constructed by EleutherAI in 2020 and publicly released on December 31 of that year."
+    },
+    "media_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "It is composed of 22 sub-datasets, including books, movie transcripts, and scientific papers, among other media."
+    },
+    "main_datasets_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "The Pile and Common Crawl had been, as of 2024, the two main training datasets being used to train AI models."
+    },
+    "disputes_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Copyright disputes centering around use of The Pile escalated in 2023, prompting Eleuther to start removing some datasets."
+    },
+    "books3_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "The Books3 component of the dataset contains copyrighted material compiled from Bibliotik, a piracy website."
+    },
+    "books3_takedown_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "In July 2023, the Danish anti-piracy group Rights Alliance took down Books3 through DMCA notices."
+    },
+    "books3_suit_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Books3 was removed from the Pile before a class action lawsuit was filed in 2024 by three authors seeking damages as copies of the original dataset were still copied and available on the web."
+    },
+    "takedown_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "By 2024, The Pile also was taken down from its original site, though was accessible from other file sharing services."
+    },
+    "youtube_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Tens of thousands of YouTube videos had their subtitles scraped directly from YouTube and included in the Pile, which YouTube argued is against its terms of service."
+    },
+    "table_pilecc_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Pile-CC 243.87"
+    },
+    "table_books3_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Books3 108.40"
+    },
+    "table_github_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "GitHub * 102.18"
+    },
+    "table_pmc_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "PubMed Central * 96.93"
+    },
+    "table_pg19_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Gutenberg (PG-19) 11.68"
+    },
+    "table_total_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "Total 886.03"
+    },
+    "common_pile_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "released Common Pile v0.1, a training dataset that contains only works where the licenses permit their use for training AI models."
+    },
+    "common_pile_date_wp": {
+     "src": "the-pile--wikipedia",
+     "basis": "third_party",
+     "quote": "In June 2025, EleutherAI, in partnership with the Poolside , Hugging Face , and the US Library of Congress"
+    }
+   },
+   "relations": [
+    {
+     "rel": "uses",
+     "target": "project-gutenberg",
+     "note": "Wikipedia's component table lists 'Gutenberg (PG-19)', 11.68 GB"
+    },
+    {
+     "rel": "neighbour",
+     "target": "common-crawl",
+     "note": "Wikipedia: the Pile and Common Crawl were, as of 2024, the two main training datasets; the paper compares models trained on the Pile with Raw CC and CC-100"
+    },
+    {
+     "rel": "neighbour",
+     "target": "books3-search",
+     "note": "the Pile's Books3 component (Wikipedia), the subject of a search tool elsewhere in this census"
+    }
+   ],
+   "unchecked": [
+    "the paper's PDF and HTML full text (only the arXiv abstract page is saved), so the datasheet and component documentation are not read",
+    "the arXiv license page",
+    "the Eye download host",
+    "the 2024 authors' class action and the Rights Alliance notices (known here from Wikipedia)",
+    "the Pile-CC component's derivation"
+   ],
+   "sources": {
+    "the-pile--home": {
+     "url": "https://pile.eleuther.ai/",
+     "read": "2026-11-01",
+     "sha256": "268e8919eb38f0924157e06ef7adb8add7a6db39bb5eb5bef0a849022d7c46bf",
+     "http": "200"
+    },
+    "the-pile--paper": {
+     "url": "https://arxiv.org/abs/2101.00027",
+     "read": "2026-11-01",
+     "sha256": "5741c3c9cdc41ae5bf4510939ac92fe315734470bc076d149dd06d27725061d6",
+     "http": "200"
+    },
+    "the-pile--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/The_Pile_(dataset)",
+     "read": "2026-11-01",
+     "sha256": "1ba82f3edd2a4647bd1af5f9c925a7500a63005471dac0429af0dd002fa15c89",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "dolma",
+   "name": "Dolma",
+   "aka": [
+    "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+    "allenai/dolma"
+   ],
+   "url": "https://huggingface.co/datasets/allenai/dolma",
+   "operator": "the paper's 36 authors, Luca Soldaini and 35 others (arXiv:2402.00159); the dataset card sits under the allenai namespace on Hugging Face, and its text was rate-limited (HTTP 429) and is unread, so the saved sources name no institution",
+   "kind": "an English corpus for language model pretraining research, released with its documentation and an open-source data curation toolkit",
+   "areas": [
+    "corpora"
+   ],
+   "evidence_kind": [
+    "dataset",
+    "dataset documentation",
+    "research paper"
+   ],
+   "unit": "not recorded in the saved abstract; the corpus is measured in tokens",
+   "record_object": "a three-trillion-token English corpus built from web content, scientific papers, code, public-domain books, social media and encyclopedic materials",
+   "record": {
+    "in_layer": "the corpus is itself pretraining data: web content, scientific papers, code, public-domain books, social media and encyclopedic materials, released for research on language model pretraining",
+    "name": "not recorded; the saved abstract does not say whether a document in Dolma keeps its author's name, source or attribution metadata",
+    "readback": "the paper states that Dolma is extensively documented (design principles, construction, a summary of contents) and that the curation toolkit is open-sourced for reproduction; a search or membership test for a single work is not recorded in the saved sources"
+   },
+   "method": "curation of a mixture of sources into a pretraining corpus, with analyses and experiments on intermediate states of the corpus; the curation toolkit is open-sourced",
+   "coverage": {
+    "geography": "English-language text (the abstract calls it an English corpus)",
+    "period": "not recorded"
+   },
+   "count": {
+    "value": "three trillion tokens",
+    "as_of": "arXiv v2, 6 June 2024"
+   },
+   "holdings": [
+    "a three-trillion-token English corpus",
+    "sources: web content, scientific papers, code, public-domain books, social media, encyclopedic materials",
+    "documentation of design principles, construction and contents",
+    "an open-source data curation toolkit"
+   ],
+   "stated_limits": [
+    "the saved abstract states no limits of the corpus; it frames the release against a field where 'commercial models rarely detail their data, and even open models are often released without accompanying training data or recipes to reproduce them'"
+   ],
+   "answers": [
+    "which kinds of source a model trained on Dolma has read (web, scientific papers, code, public-domain books, social media, encyclopedic materials)",
+    "the corpus's size and language as its paper states them",
+    "how the corpus was built, from its documentation and released toolkit"
+   ],
+   "does_not_answer": [
+    "whether a named work is in Dolma (no search or membership test is recorded in the saved sources)",
+    "whether a work in Dolma keeps its author's name",
+    "which models other than the authors' own were trained on it"
+   ],
+   "tll_reading": "A corpus that states its own sources: it settles, at the scale of the corpus, which kinds of writing enter the layer ('public-domain books', 'web content', 'scientific papers'). The second half of #186's question, whether the work is carried under its author's name with 'the metadata that lets it be found and attributed', is the part the saved abstract leaves unrecorded.",
+   "data_access": "the dataset on Hugging Face (allenai/dolma) and the code, both linked from the arXiv comments as 'this https URL'; the card itself was rate-limited and unread",
+   "license": "not recorded in the saved sources (the arXiv page links a 'view license' for the paper; the dataset card, unread, would carry the dataset's licence)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "released with the paper (arXiv v1 31 January 2024; v2 6 June 2024; accepted at ACL 2024); the dataset card was rate-limited on 2026-11-01, so later versions or the dataset's current state are unread"
+   },
+   "founded": "2024 (arXiv v1, 31 January 2024)",
+   "version_and_time": {
+    "paper_v1": "2024-01-31",
+    "paper_v2": "2024-06-06",
+    "venue": "ACL 2024",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a closed commercial corpus: it is released with documentation and its curation toolkit",
+    "NOT a search tool for single works: the saved sources record no membership test",
+    "NOT multilingual by its own description: 'a three-trillion-token English corpus'",
+    "NOT a record of authorship: the saved abstract says nothing of attribution metadata"
+   ],
+   "evidence": {
+    "title": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research"
+    },
+    "authors": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "by Luca Soldaini and 35 other authors"
+    },
+    "record_object": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "we curate and release Dolma, a three-trillion-token English corpus, built from a diverse mixture of web content, scientific papers, code, public-domain books, social media, and encyclopedic materials."
+    },
+    "purpose": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "To facilitate scientific research on language model pretraining"
+    },
+    "context": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "commercial models rarely detail their data, and even open models are often released without accompanying training data or recipes to reproduce them."
+    },
+    "documentation": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "We extensively document Dolma, including its design principles, details about its construction, and a summary of its contents."
+    },
+    "method": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "We present analyses and experimental results on intermediate states of Dolma to share what we have learned about important data curation practices."
+    },
+    "toolkit": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "we open-source our data curation toolkit to enable reproduction of our work as well as support further research in large-scale data curation."
+    },
+    "venue": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "Accepted at ACL 2024; Dataset: this https URL Code: this https URL"
+    },
+    "v1": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "[v1] Wed, 31 Jan 2024 20:29:50 UTC (7,715 KB)"
+    },
+    "v2": {
+     "src": "dolma--paper",
+     "basis": "operator",
+     "quote": "[v2] Thu, 6 Jun 2024 18:46:40 UTC (6,680 KB)"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the Hugging Face dataset card (dolma--card): HTTP 429, rate-limited, unread and unquoted; it would carry the dataset's operator, licence, versions, document fields and any per-document source metadata",
+    "the paper's full text (PDF and HTML) beyond the abstract: the unit of record, per-source counts and any attribution or metadata fields",
+    "the code repository linked from the arXiv comments"
+   ],
+   "sources": {
+    "dolma--paper": {
+     "url": "https://arxiv.org/abs/2402.00159",
+     "read": "2026-11-01",
+     "sha256": "1203d77da94d4612ee60d200ff18f63ce0f75d4100ef6ae5301d972d4f445946",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "spawning-hibt",
+   "name": "Have I Been Trained?",
+   "aka": [
+    "haveibeentrained.com",
+    "Spawning"
+   ],
+   "url": "https://haveibeentrained.com/",
+   "operator": "Spawning (the wordmark on the page served at haveibeentrained.com)",
+   "kind": "not recorded in the saved sources: on 2026-11-01 haveibeentrained.com served a static Spawning maintenance page that names a Do-Not-Train registry",
+   "areas": [
+    "corpora"
+   ],
+   "evidence_kind": [
+    "opt-out registry"
+   ],
+   "unit": "not recorded",
+   "record_object": "not recorded; the served page names a Do-Not-Train registry and addresses 'AI trainers looking to respect' it",
+   "record": {
+    "in_layer": "not recorded; the page names a Do-Not-Train registry that AI trainers may respect, which bears on what enters training, and says nothing of whose works are in it",
+    "name": "not recorded",
+    "readback": "not recorded; on 2026-11-01 the home page and the FAQ URL both served the same maintenance page, and no search was available to read"
+   },
+   "method": "not recorded",
+   "coverage": {
+    "geography": "not recorded",
+    "period": "not recorded"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "2026-11-01"
+   },
+   "holdings": [
+    "a Do-Not-Train registry, named on the maintenance page"
+   ],
+   "stated_limits": [
+    "the site states it is 'Under Maintenance'"
+   ],
+   "answers": [
+    "that on 2026-11-01 haveibeentrained.com and its FAQ URL served a Spawning maintenance page",
+    "that Spawning names a Do-Not-Train registry and invites AI trainers who would respect it to make contact"
+   ],
+   "does_not_answer": [
+    "whether a named work or image is in any training set (no search was served)",
+    "what the Do-Not-Train registry holds, how a work is entered or how trainers apply it",
+    "whether any trainer respects the registry"
+   ],
+   "tll_reading": "The archive reads the served page as the opt-out side of the layer: the Do-Not-Train registry is addressed to 'AI trainers', the machine-side party, and on the day read the readback function the site's name promises was unavailable.",
+   "data_access": "none on 2026-11-01: the site served a maintenance page; contact by email for AI trainers (the address is obscured in the saved text)",
+   "license": "not recorded",
+   "lifecycle": {
+    "state": "paused",
+    "detail": "on 2026-11-01 haveibeentrained.com, its /faq URL and spawning.ai each served a static 'Under Maintenance' page with the Spawning wordmark (the saved HTML is plain markup and states that no JavaScript is used); when the maintenance began, and what the site served before, is not recorded"
+   },
+   "version_and_time": {
+    "maintenance_observed": "2026-11-01",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT readable as a search tool on the day read: it served a maintenance page",
+    "NOT a statement that any trainer honours the Do-Not-Train registry: the page invites trainers 'looking to respect' it to make contact",
+    "NOT a script-rendered page left unread: the saved HTML is a static maintenance notice"
+   ],
+   "evidence": {
+    "maintenance": {
+     "src": "spawning-hibt--home",
+     "basis": "operator",
+     "quote": "Spawning Under Maintenance Hacking the mainframe..."
+    },
+    "registry": {
+     "src": "spawning-hibt--home",
+     "basis": "operator",
+     "quote": "AI trainers looking to respect the Do-Not-Train registry, please reach out to us at"
+    },
+    "faq_same_page": {
+     "src": "spawning-hibt--faq",
+     "basis": "operator",
+     "quote": "Spawning Under Maintenance Hacking the mainframe... AI trainers looking to respect the Do-Not-Train registry"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the site's search and FAQ: on 2026-11-01 both URLs served the maintenance page, so the search, its index, its opt-out procedure and its FAQ text are unread",
+    "spawning.ai (spawning-hibt--spawning): 71 characters of text, below the census's reading threshold and unquoted; its saved HTML is titled 'Source.Plus' and serves the same maintenance notice",
+    "the saved HTML of haveibeentrained.com carries a meta description, 'Data Governance for Generative AI', outside the saved text and so not verbatim-checked here",
+    "the name 'Have I Been Trained?' does not appear in the saved text; it is taken from the domain"
+   ],
+   "sources": {
+    "spawning-hibt--home": {
+     "url": "https://haveibeentrained.com/",
+     "read": "2026-11-01",
+     "sha256": "7268dc13530551ae312987665d353871dfce2fd523432f98fc7d1b58585b9cbb",
+     "http": "200"
+    },
+    "spawning-hibt--faq": {
+     "url": "https://haveibeentrained.com/faq",
+     "read": "2026-11-01",
+     "sha256": "575d850d3349e49e97f3dd78f789bc12550f8bb5d2a766016effa1ebd8fae13f",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "books3-search",
+   "name": "Books3 search (The Atlantic)",
+   "aka": [
+    "Books3"
+   ],
+   "url": "https://www.theatlantic.com/technology/archive/2023/09/books3-database-generative-ai-training-copyright-infringement/675363/",
+   "operator": "not recorded in the saved sources (the saved URL is on theatlantic.com; the page was blocked)",
+   "kind": "not recorded in the saved sources",
+   "areas": [],
+   "evidence_kind": [],
+   "unit": "not recorded",
+   "record_object": "not recorded",
+   "record": {
+    "in_layer": "not recorded",
+    "name": "not recorded",
+    "readback": "not recorded"
+   },
+   "method": "not recorded",
+   "coverage": {
+    "geography": "not recorded",
+    "period": "not recorded (the saved URL's path is dated 2023/09)"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "2026-11-01"
+   },
+   "holdings": [],
+   "stated_limits": [],
+   "answers": [],
+   "does_not_answer": [
+    "every question of this census: neither saved source could be read"
+   ],
+   "tll_reading": "No reading: the resource's pages could not be read on fetch.",
+   "data_access": "not recorded: the Atlantic page returned a security block (HTTP 403) on 2026-11-01",
+   "license": "not recorded",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "the record is an article URL whose path is dated September 2023; whether its search still runs is not recorded (the page was blocked on 2026-11-01)"
+   },
+   "version_and_time": {
+    "url_path_date": "2023-09",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT read: both saved sources failed, and nothing in this row is drawn from the resource itself"
+   ],
+   "evidence": {},
+   "relations": [],
+   "unchecked": [
+    "The Atlantic article and search (books3-search--atlantic): HTTP 403, a Cloudflare security block page, unread and unquoted",
+    "Wikipedia 'Books3' (books3-search--wikipedia): HTTP 404; Wikipedia has no article at that title, so the page is unread and unquoted",
+    "the name, operator, kind, unit, holdings and method of the resource: none could be taken from a saved source; the row's name and the URL date come from the source list and the URL path"
+   ],
+   "sources": {},
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "min-k-prob",
+   "name": "Min-K% Prob",
+   "aka": [
+    "Detecting Pretraining Data from Large Language Models",
+    "WIKIMIA",
+    "detect-pretrain-code"
+   ],
+   "url": "https://arxiv.org/abs/2310.16789",
+   "operator": "the paper's eight authors: Weijia Shi, Anirudh Ajith, Mengzhou Xia, Yangsibo Huang, Daogao Liu, Terra Blevins, Danqi Chen, Luke Zettlemoyer; the code repository (swj0419/detect-pretrain-code) is unread",
+   "kind": "a detection method for pretraining data, introduced in a research paper together with a dynamic benchmark, WIKIMIA",
+   "areas": [
+    "finding"
+   ],
+   "evidence_kind": [
+    "detection method",
+    "research paper"
+   ],
+   "unit": "a piece of text, tested against a large language model with black-box access",
+   "record_object": "whether a large language model was trained on a given text, studied as the pretraining data detection problem; applied to copyrighted books, contaminated downstream examples and machine unlearning",
+   "record": {
+    "in_layer": "the method tests whether a given text is in a model's pretraining data; the paper applies it to 'copyrighted book detection'",
+    "name": "not recorded; the method takes a piece of text, and the saved abstract does not say whether a detected text is linked to its author's name",
+    "readback": "a membership test from outside the model: 'given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text?'; it needs no knowledge of the corpus and no additional training"
+   },
+   "method": "scoring a text by its lowest-probability words under the model, on the hypothesis that an unseen example contains a few outlier words with low probabilities; evaluated on WIKIMIA, a benchmark built from data created before and after model training",
+   "coverage": {
+    "geography": "not recorded",
+    "period": "WIKIMIA uses data created before and after model training"
+   },
+   "count": {
+    "value": "a 7.4% improvement on WIKIMIA over previous methods",
+    "as_of": "arXiv v3, 9 March 2024"
+   },
+   "holdings": [
+    "the Min-K% Prob detection method",
+    "the WIKIMIA benchmark",
+    "a 7.4% improvement on WIKIMIA over previous methods",
+    "three applications: copyrighted book detection, contaminated downstream example detection, privacy auditing of machine unlearning"
+   ],
+   "stated_limits": [
+    "the saved abstract states no limits of the method; it states the method rests on 'a simple hypothesis'",
+    "the abstract's framing: 'we currently have no way to know which data of these types is included or in what proportions'"
+   ],
+   "answers": [
+    "whether a given text was likely in a model's pretraining data, given black-box access to the model",
+    "how the method compares with earlier reference-model methods on WIKIMIA"
+   ],
+   "does_not_answer": [
+    "under whose name a detected text sits in the corpus or the model",
+    "which corpus a detected text came from",
+    "what share of a corpus is copyrighted, personal or benchmark data (the paper's stated open problem)"
+   ],
+   "tll_reading": "A readback instrument held from outside the model: a work can be put to the model and tested for presence in its training without access to the corpus. It answers the census's readback question for a text and leaves the name untested; #186's persistence criterion, placement 'with the metadata that lets it be found and attributed', is outside what the method reads.",
+   "data_access": "the paper on arXiv (PDF, HTML, TeX source); the code repository linked as detect-pretrain-code is unread",
+   "license": "not recorded in the saved sources (the arXiv page links a 'view license' for the paper)",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "a published paper: v1 25 October 2023, v2 3 November 2023, v3 9 March 2024; whether the code is maintained is not recorded"
+   },
+   "founded": "2023 (arXiv v1, 25 October 2023)",
+   "version_and_time": {
+    "paper_v1": "2023-10-25",
+    "paper_v2": "2023-11-03",
+    "paper_v3": "2024-03-09",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a corpus or a search index: it tests a given text against a model",
+    "NOT dependent on the training corpus: it 'can be applied without any knowledge about the pretraining corpus'",
+    "NOT a test of attribution: the saved abstract records presence only"
+   ],
+   "evidence": {
+    "title": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "Detecting Pretraining Data from Large Language Models"
+    },
+    "authors": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "Authors: Weijia Shi , Anirudh Ajith , Mengzhou Xia , Yangsibo Huang , Daogao Liu , Terra Blevins , Danqi Chen , Luke Zettlemoyer"
+    },
+    "problem": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "we study the pretraining data detection problem: given a piece of text and black-box access to an LLM without knowing the pretraining data, can we determine if the model was trained on the provided text?"
+    },
+    "open_problem": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "However, we currently have no way to know which data of these types is included or in what proportions."
+    },
+    "undisclosed": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "the data used to train them is rarely disclosed"
+    },
+    "benchmark": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "we introduce a dynamic benchmark WIKIMIA that uses data created before and after model training to support gold truth detection."
+    },
+    "method": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "We also introduce a new detection method Min-K% Prob based on a simple hypothesis: an unseen example is likely to contain a few outlier words with low probabilities under the LLM, while a seen example is less likely to have words with such low probabilities."
+    },
+    "no_corpus": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "Min-K% Prob can be applied without any knowledge about the pretraining corpus or any additional training, departing from previous detection methods that require training a reference model on data that is similar to the pretraining data."
+    },
+    "count": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "our experiments demonstrate that Min-K% Prob achieves a 7.4% improvement on WIKIMIA over these previous methods."
+    },
+    "applications": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "We apply Min-K% Prob to three real-world scenarios, copyrighted book detection, contaminated downstream example detection and privacy auditing of machine unlearning, and find it a consistently effective solution."
+    },
+    "v1": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "[v1] Wed, 25 Oct 2023 17:21:23 UTC (2,405 KB)"
+    },
+    "v2": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "[v2] Fri, 3 Nov 2023 05:27:37 UTC (2,404 KB)"
+    },
+    "v3": {
+     "src": "min-k-prob--paper",
+     "basis": "operator",
+     "quote": "[v3] Sat, 9 Mar 2024 22:26:06 UTC (2,404 KB)"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "speak-memory",
+     "note": "both test from outside a model whether texts are in it, and both apply the test to copyrighted books (Min-K% Prob's 'copyrighted book detection'; Speak, Memory's name cloze membership inference query)"
+    }
+   ],
+   "unchecked": [
+    "the code repository (min-k-prob--repo): HTTP 403, the saved text is a session access message and holds nothing from GitHub, unread and unquoted",
+    "the paper's full text beyond the abstract: the value of K, the models tested, WIKIMIA's construction and size, and the book-detection results"
+   ],
+   "sources": {
+    "min-k-prob--paper": {
+     "url": "https://arxiv.org/abs/2310.16789",
+     "read": "2026-11-01",
+     "sha256": "52a0746f14659b5d49729a8ec7e09ba627c6024f39d83b662283020b7dff1b3b",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "speak-memory",
+   "name": "Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4",
+   "aka": [
+    "Speak, Memory",
+    "name cloze membership inference"
+   ],
+   "url": "https://arxiv.org/abs/2305.00118",
+   "operator": "the paper's four authors: Kent K. Chang, Mackenzie Cramer, Sandeep Soni, David Bamman",
+   "kind": "research paper: a data archaeology of the books known to ChatGPT and GPT-4",
+   "areas": [
+    "finding"
+   ],
+   "evidence_kind": [
+    "research paper",
+    "detection method"
+   ],
+   "unit": "a book, inferred as known to the model by a name cloze membership inference query",
+   "record_object": "books known to ChatGPT and GPT-4, including a wide collection of copyrighted materials the paper finds memorized",
+   "record": {
+    "in_layer": "the paper finds that OpenAI models have memorized a wide collection of copyrighted materials, and that the degree of memorization is tied to how often passages of those books appear on the web",
+    "name": "not recorded; the method is a 'name cloze' query, and the saved abstract does not say whose names it masks or whether the book's author is recorded",
+    "readback": "a membership inference from outside the model: a name cloze query infers which books the model knows; the paper argues for 'open models whose training data is known'"
+   },
+   "method": "data archaeology by a name cloze membership inference query put to ChatGPT and GPT-4; a comparison of downstream task performance on memorized and non-memorized books",
+   "coverage": {
+    "geography": "not recorded",
+    "period": "not recorded; the models are ChatGPT and GPT-4 as of the paper (v1 28 April 2023, v2 20 October 2023)"
+   },
+   "count": {
+    "value": "not stated in the saved abstract",
+    "as_of": "arXiv v2, 20 October 2023"
+   },
+   "holdings": [
+    "an inferred set of books known to ChatGPT and GPT-4",
+    "the finding that memorization is tied to the frequency of a book's passages on the web",
+    "the finding that the models perform much better on memorized books than on non-memorized books for downstream tasks"
+   ],
+   "stated_limits": [
+    "the books the models memorized are 'an unknown set', which 'complicates assessments of measurement validity for cultural analytics by contaminating test data'"
+   ],
+   "answers": [
+    "whether a book is likely known to ChatGPT or GPT-4, by name cloze membership inference",
+    "whether a book's presence on the web predicts its memorization",
+    "whether memorization inflates downstream performance on a book"
+   ],
+   "does_not_answer": [
+    "which corpus or dataset carried a book into the model",
+    "whether the model attributes a known book to its author",
+    "the training data of the models (the paper argues for open models whose training data is known)"
+   ],
+   "tll_reading": "The archaeology reads the layer from its output: a book counts as in the model when the model can complete it, and memorization follows 'the frequency with which passages of those books appear on the web'. The archive reads this as bearing on #186's persistence criterion, placement 'where the training and retrieval layers actually look'; the name under which a book is carried stays outside the saved abstract.",
+   "data_access": "the paper on arXiv (PDF, HTML, TeX source); any released data or code is not recorded in the saved abstract",
+   "license": "not recorded in the saved sources (the arXiv page links a 'view license' for the paper)",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "a published paper: v1 28 April 2023, v2 20 October 2023, the EMNLP 2023 camera-ready (16 pages, 4 figures)"
+   },
+   "founded": "2023 (arXiv v1, 28 April 2023)",
+   "version_and_time": {
+    "paper_v1": "2023-04-28",
+    "paper_v2": "2023-10-20",
+    "venue": "EMNLP 2023",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a list of training data: the books are inferred from the models' behaviour",
+    "NOT a test of author attribution: the 'name cloze' is its query method, and the saved abstract does not say whose names it masks",
+    "NOT a corpus: it infers what two closed models have read"
+   ],
+   "evidence": {
+    "title": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4"
+    },
+    "authors": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "Authors: Kent K. Chang , Mackenzie Cramer , Sandeep Soni , David Bamman"
+    },
+    "method": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "we carry out a data archaeology to infer books that are known to ChatGPT and GPT-4 using a name cloze membership inference query."
+    },
+    "finding_memorized": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "We find that OpenAI models have memorized a wide collection of copyrighted materials, and that the degree of memorization is tied to the frequency with which passages of those books appear on the web."
+    },
+    "limit": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "The ability of these models to memorize an unknown set of books complicates assessments of measurement validity for cultural analytics by contaminating test data"
+    },
+    "finding_downstream": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "we show that models perform much better on memorized books than on non-memorized books for downstream tasks."
+    },
+    "argument": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "We argue that this supports a case for open models whose training data is known."
+    },
+    "venue": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "EMNLP 2023 camera-ready (16 pages, 4 figures)"
+    },
+    "v1": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "[v1] Fri, 28 Apr 2023 22:35:03 UTC (6,906 KB)"
+    },
+    "v2": {
+     "src": "speak-memory--paper",
+     "basis": "operator",
+     "quote": "[v2] Fri, 20 Oct 2023 21:23:21 UTC (44 KB)"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "min-k-prob",
+     "note": "both test from outside a model whether texts are in it, and both apply the test to copyrighted books"
+    }
+   ],
+   "unchecked": [
+    "the paper's full text beyond the abstract: the list of books, their count, the name cloze construction, and any released data or code"
+   ],
+   "sources": {
+    "speak-memory--paper": {
+     "url": "https://arxiv.org/abs/2305.00118",
+     "read": "2026-11-01",
+     "sha256": "36aa5378b70b55fdf302f70b202dd0bcb91ad5245754468d9c1f521047aa94b4",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "elc",
+   "name": "Electronic Literature Collection",
+   "aka": [
+    "ELC",
+    "ELC1",
+    "ELC2",
+    "ELC3",
+    "ELC4"
+   ],
+   "url": "https://collection.eliterature.org/",
+   "operator": "the Electronic Literature Organization (ELO), c/o Washington State University Vancouver as the collection's mailing address; Wikipedia (third party) states the ELO is currently hosted at York University, Toronto",
+   "kind": "a publication of the Electronic Literature Organization: curated, edited volumes of electronic literature, published on the Web and as a physical version",
+   "areas": [
+    "machine-reader"
+   ],
+   "evidence_kind": [
+    "anthology"
+   ],
+   "unit": "a volume of the collection (four so far), each holding works of electronic literature",
+   "record_object": "works of electronic literature curated and edited by the ELO in four volumes, October 2006 to June 2022; Wikipedia (third party) states that ELC4 holds authors writing in some thirty languages, Mezangelle among them",
+   "record": {
+    "in_layer": "not recorded: the saved home page publishes the volumes on the Web and says nothing of crawling or training",
+    "name": "not recorded on the saved home page, which lists volumes only; Wikipedia (third party) names works in the volumes with their authors (Judd Morrissey's The Jew's Daughter, Michael Joyce's Twelve Blue)",
+    "readback": "not recorded: the saved home page links the four volumes and offers USB copies of volumes 1 and 2 by mail; no search or catalogue is shown"
+   },
+   "method": "curated, edited volumes published by the ELO; Wikipedia (third party) quotes Tim Wright on gathering, archiving and tagging the works for Volume 2",
+   "coverage": {
+    "geography": "international; ELC4 authors write in Afrikaans, Arabic, Chinese, Japanese, isiXhosa, Yoruba and other languages (Wikipedia, third party)",
+    "period": "volumes published October 2006, February 2011, February 2016 and June 2022"
+   },
+   "count": {
+    "value": "4 volumes",
+    "as_of": "2026-11-01 (home page read)"
+   },
+   "holdings": [
+    "Volume 1 (October 2006)",
+    "Volume 2 (February 2011)",
+    "Volume 3 (February 2016)",
+    "Volume 4 (June 2022)",
+    "free USB copies of volumes 1 and 2 by mail for libraries, educators and individuals"
+   ],
+   "stated_limits": [
+    "'The physical publication of the ELC3 is forthcoming.'",
+    "Tim Wright (quoted by Wikipedia, third party): gathering, archiving and tagging the works 'also freezes (necessarily) what may have been otherwise ephemeral or in situ'"
+   ],
+   "answers": [
+    "whether a work was selected for one of the four ELC volumes, and in which volume and year",
+    "when each volume was published"
+   ],
+   "does_not_answer": [
+    "whether any ELC work is in a training corpus or a model",
+    "the full contents of each volume (the saved home page lists none; Wikipedia names a few)",
+    "how works were selected (the saved sources state no editorial procedure)"
+   ],
+   "tll_reading": "The archive reads the ELC as the canonizing anthology of the procedural lineage #186 names (electronic literature, where the machine is method); it holds writing through the machine, and the saved sources say nothing of a machine reader or of training.",
+   "data_access": "free on the Web; USB copies of volumes 1 and 2 by mail on request",
+   "license": "not stated in the saved sources",
+   "lifecycle": {
+    "state": "active",
+    "detail": "four volumes, 2006 to 2022; the home page states the physical ELC3 is still forthcoming; no fifth volume is announced on the saved page"
+   },
+   "founded": "2006 (Volume 1); the ELO itself 1999 (Wikipedia, third party)",
+   "version_and_time": {
+    "volume_1": "2006-10",
+    "volume_2": "2011-02",
+    "volume_3": "2016-02",
+    "volume_4": "2022-06",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT the Electronic Literature Directory, the ELO's separate database of works",
+    "NOT the ELO itself: the collection is one of its publications",
+    "NOT a corpus or dataset for training: the sources describe curated volumes for readers",
+    "NOT writing for the machine reader by its own statement: the sources name no machine addressee"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Electronic Literature Collection A Publication of the Electronic Literature Organization"
+    },
+    "volume_1": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Volume 1 (October 2006)"
+    },
+    "volume_2": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Volume 2 (February 2011)"
+    },
+    "volume_3": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Volume 3 (February 2016)"
+    },
+    "volume_4": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Volume 4 (June 2022)"
+    },
+    "web_and_physical": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Electronic Literature Collection is published on the Web and as a physical version. The physical publication of the ELC3 is forthcoming."
+    },
+    "usb": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "Libraries, educators, and individuals may request a free copy of the volume 1 and 2 USB by mail:"
+    },
+    "operator_address": {
+     "src": "elc--home",
+     "basis": "operator",
+     "quote": "c/o Washington State University Vancouver"
+    },
+    "elo": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "established in 1999 to promote and facilitate the writing, publishing, and reading of electronic literature"
+    },
+    "elo_host": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "The ELO is currently hosted at York University , Toronto, Canada, under the leadership of Caitlin Fisher"
+    },
+    "four_volumes": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "The ELO has curated and edited four volumes of electronic literature."
+    },
+    "names_vol1": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "Most notable among these would be Judd Morrissey ’s The Jew’s Daughter , Michael Joyce ’s Twelve Blue"
+    },
+    "limit_freeze": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "the process of gathering, archiving and tagging the works to make them more easily available to a wider audience, also freezes (necessarily) what may have been otherwise ephemeral or in situ."
+    },
+    "elc4_languages": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "ELC4 presents the largest and most diverse group yet of elit authors writing in Afrikaans"
+    },
+    "mezangelle": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "Korean, Mezangelle , Norwegian"
+    },
+    "directory": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "The Electronic Literature Directory [ 19 ] is a database of works of electronic literature."
+    },
+    "cell_director": {
+     "src": "elc--wikipedia",
+     "basis": "third_party",
+     "quote": "Managing Director of CELL Davin Heckman"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "cell",
+     "note": "Wikipedia (third party) lists Davin Heckman as the ELO's Managing Director of CELL"
+    },
+    {
+     "rel": "neighbour",
+     "target": "elmcip",
+     "note": "the ELMCIP Knowledge Base holds records for Electronic Literature Collection volumes One, Two and Three among its critical writing"
+    },
+    {
+     "rel": "neighbour",
+     "target": "ebr",
+     "note": "electronic book review lists the Electronic Literature Organization among its support and affiliations"
+    }
+   ],
+   "unchecked": [
+    "the four volumes' own pages and their tables of contents (not saved)",
+    "the ELO's own site eliterature.org (not saved); the ELO's history and hosting are known here only from Wikipedia (third party), which places it at York University while the collection page gives a Washington State University Vancouver address",
+    "the licence of the collection and its works"
+   ],
+   "sources": {
+    "elc--home": {
+     "url": "https://collection.eliterature.org/",
+     "read": "2026-11-01",
+     "sha256": "7f2a4e3496731e4842b4c6ab2911c79476766a3c880c8cafba6f9caad7e986cc",
+     "http": "200"
+    },
+    "elc--wikipedia": {
+     "url": "https://en.wikipedia.org/wiki/Electronic_Literature_Organization",
+     "read": "2026-11-01",
+     "sha256": "f94079547b89e37f6d689207e6ef635acc096485b7445eaccd595735809e7232",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "elmcip",
+   "name": "ELMCIP Electronic Literature Knowledge Base",
+   "aka": [
+    "ELMCIP Knowledge Base",
+    "Electronic Literature Knowledge Base",
+    "ELMCIP"
+   ],
+   "url": "https://elmcip.net/",
+   "operator": "the University of Bergen Electronic Literature Research Group, as an outcome of the ELMCIP project; built with a community of international researchers and writers",
+   "kind": "a research resource for electronic literature, now preserved as a frozen archive",
+   "areas": [
+    "machine-reader"
+   ],
+   "evidence_kind": [
+    "knowledge base"
+   ],
+   "unit": "a cross-referenced record: a creative work, a piece of critical writing, an author, a platform or software, a teaching resource, a publisher or journal, an organization, an event, a database or archive, or a research collection",
+   "record_object": "authors, creative works, critical writing, platforms and practices of electronic literature, from Christopher Strachey's M.U.C. Love Letter Generator (1952) and Theo Lutz's Stochastische Texte (1959) to works of the 2010s",
+   "record": {
+    "in_layer": "not recorded: the saved page says nothing of crawling or training",
+    "name": "a creative work record carries its title, author or authors, year and tags (Taroko Gorge, Nick Montfort, 2009); author records carry name, type and date updated",
+    "readback": "the frozen archive 'remains available for browsing and searching'; tags can be listed by frequency or alphabetically"
+   },
+   "method": "community contribution by international researchers and writers into a Drupal 7 database; closed to new contributions",
+   "coverage": {
+    "geography": "international",
+    "period": "records from 1945 (Vannevar Bush, As We May Think) and 1952 onward; the knowledge base itself June 2010 to October 2026"
+   },
+   "count": {
+    "value": "17,073 published records",
+    "as_of": "October 2026 (frozen)"
+   },
+   "holdings": [
+    "17,073 published records",
+    "4,011 creative works",
+    "5,060 critical writing records",
+    "4,826 authors",
+    "325 platform/software records",
+    "99 teaching resources",
+    "975 publishers and journals",
+    "722 organizations",
+    "674 events",
+    "78 databases and archives",
+    "69 research collections (Bot-mimicry and Bots! among them)"
+   ],
+   "stated_limits": [
+    "'is no longer open for new contributions or submissions'",
+    "'certain works referenced herein may be separately licensed'"
+   ],
+   "answers": [
+    "whether a work of electronic literature has a record, with its author, year and tags",
+    "which critical writing, events and platforms are cross-referenced to a work or author",
+    "the knowledge base's own scale at its freeze"
+   ],
+   "does_not_answer": [
+    "anything after October 2026 (frozen)",
+    "whether a work is in a training corpus or a model",
+    "the work itself: records describe works and link to them"
+   ],
+   "tll_reading": "The archive reads ELMCIP as the bibliography of the procedural lineage #186 names: it holds a record of Nick Montfort's Taroko Gorge (2009), the survey's own example, under its author's name, and a research collection on bots; a frozen, named, searchable record of this kind is the attributable layer a work can be found in and read back from.",
+   "data_access": "free browsing and searching of the frozen archive",
+   "license": "'This Work, ELMCIP, is licensed under a Attribution-ShareAlike 4.0 International license , although certain works referenced herein may be separately licensed.'",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "June 2010 to October 2026; preserved as a frozen archive, available for browsing and searching and closed to new contributions; the page states the mission lives on through the Digital Narrative Knowledge Base"
+   },
+   "founded": "June 2010",
+   "version_and_time": {
+    "span": "June 2010 - October 2026",
+    "frozen": "October 2026",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT open for new contributions: frozen since October 2026",
+    "NOT the Digital Narrative Knowledge Base, its stated successor",
+    "NOT a repository of the works: it holds records about them",
+    "NOT a training corpus"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "The ELMCIP Knowledge Base is a research resource for electronic literature, now preserved as a frozen archive. It provides cross-referenced, contextualized information about authors, creative works, critical writing, platforms, and practices."
+    },
+    "span": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Electronic Literature Knowledge Base June 2010 – October 2026"
+    },
+    "readback": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "The archive remains available for browsing and searching, but is no longer open for new contributions or submissions."
+    },
+    "operator": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "It was developed in Drupal 7 by the University of Bergen Electronic Literature Research Group as an outcome of the ELMCIP project."
+    },
+    "method": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "The ELMCIP Knowledge Base was built through the active participation of a community of international researchers and writers working on electronic literature."
+    },
+    "successor": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "The mission lives on through the Digital Narrative Knowledge Base ."
+    },
+    "count": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "17,073 published records preserved."
+    },
+    "tags": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "See all tags used in the Knowledge Base by frequency or alphabetically ."
+    },
+    "creative_works": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Creative Works 4,011 records"
+    },
+    "critical_writing": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Critical Writing 5,060 records"
+    },
+    "authors": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Authors 4,826 records"
+    },
+    "platforms": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Platform/Software 325 records"
+    },
+    "teaching": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Teaching Resources 99 records"
+    },
+    "publishers": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Publishers and Journals 975 records"
+    },
+    "organizations": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Organizations 722 records"
+    },
+    "events": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Events 674 records"
+    },
+    "databases": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Databases and Archives 78 records"
+    },
+    "research_collections": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Research Collections 69 records"
+    },
+    "bots": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Bot-mimicry Bots!"
+    },
+    "taroko": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Taroko Gorge Nick Montfort 2009 text generator , poetry generator , HTML , javascript"
+    },
+    "strachey": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "M.U.C. Love Letter Generator Christopher Strachey 1952"
+    },
+    "lutz": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Stochastische Texte Theo Lutz 1959"
+    },
+    "bush": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "As We May Think Vannevar Bush 1945"
+    },
+    "author_record": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Nick Montfort Person 16/10/2020"
+    },
+    "elc_records": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "Electronic Literature Collection, Volume One 2006"
+    },
+    "adel": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "ADEL (Archive of German Electronic Literature) 23/11/2018"
+    },
+    "license": {
+     "src": "elmcip--root",
+     "basis": "operator",
+     "quote": "This Work, ELMCIP, is licensed under a Attribution-ShareAlike 4.0 International license , although certain works referenced herein may be separately licensed."
+    }
+   },
+   "relations": [
+    {
+     "rel": "used_by",
+     "target": "cell",
+     "note": "CELL lists ELMCIP first among its federated member archives"
+    },
+    {
+     "rel": "neighbour",
+     "target": "elc",
+     "note": "the knowledge base holds records for Electronic Literature Collection volumes One (2006), Two (2011) and Three (2016)"
+    }
+   ],
+   "unchecked": [
+    "elmcip--home (elmcip.net/knowledgebase): saved text is a redirect notice of 87 characters, unread and unquoted",
+    "elmcip--about (elmcip.net/about): http 404, unread",
+    "individual records, the search, and the Digital Narrative Knowledge Base"
+   ],
+   "sources": {
+    "elmcip--root": {
+     "url": "https://elmcip.net/",
+     "read": "2026-11-01",
+     "sha256": "5e814dc0d00822eef09bd4718fa622301963d36c662d8838bafcfe5f89c72e22",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "cell",
+   "name": "CELL Project: Consortium on Electronic Literature",
+   "aka": [
+    "CELL",
+    "The Index of Electronic Literature",
+    "Consortium on Electronic Literature"
+   ],
+   "url": "https://cellproject.net/",
+   "operator": "the Consortium on Electronic Literature (CELL), an international collaboration of member archives",
+   "kind": "an international, open-access collaboration providing centralized access to literary databases, archives, and institutional repositories; its home page is The Index of Electronic Literature",
+   "areas": [
+    "machine-reader",
+    "meta-aggregation"
+   ],
+   "evidence_kind": [
+    "knowledge base",
+    "search tool"
+   ],
+   "unit": "a cataloged creative work, shown with its member archive, author and year",
+   "record_object": "born-digital creative works, kinetic poetry, hypertexts and interactive media cataloged by its member archives (ELMCIP, NT2, PO.EX, ELD, ADEL, Ciberia, DLD)",
+   "record": {
+    "in_layer": "not recorded: the saved page says nothing of training; its metadata is 'Linked with Wikidata' and served through a SPARQL query endpoint",
+    "name": "each recently cataloged work is shown with its title, member archive, author and, where given, year (The File room, Ciberia, Antoni Muntadas, 1994)",
+    "readback": "a Search Works index across the member archives and a SPARQL Query Endpoint"
+   },
+   "method": "federation of member archives' catalogues into a central index",
+   "coverage": {
+    "geography": "international; member archives include ELMCIP, NT2, PO.EX, ELD, ADEL, Ciberia and DLD",
+    "period": "consortium initiated 2009; cataloged works run from Mallarmé's Un Coup de Dés to 2016 on the saved page"
+   },
+   "count": {
+    "value": "7 federated member archives listed; the number of works is not stated",
+    "as_of": "2026-11-01 (home page read)"
+   },
+   "holdings": [
+    "seven federated member archives: ELMCIP, NT2, PO.EX, ELD, ADEL, Ciberia, DLD",
+    "a Search Works index",
+    "a SPARQL Query Endpoint",
+    "metadata licensed CC BY-NC-SA 4.0 and linked with Wikidata"
+   ],
+   "stated_limits": [
+    "the saved home page states none"
+   ],
+   "answers": [
+    "whether a work is cataloged by one of CELL's member archives, and by which",
+    "a work's author and year as the member archive records them"
+   ],
+   "does_not_answer": [
+    "how many works the index holds (not stated)",
+    "whether a work is in a training corpus or a model",
+    "the work itself, held by the member archive or the author"
+   ],
+   "tll_reading": "The archive reads CELL as the meta-aggregator of electronic literature: its metadata is published as linked data (SPARQL, Wikidata) under each work's author, which is the machine-legible, attributed form in which a work can be found and read back; CELL states its aim as keeping works 'discoverable and preserved across generations of computational technology'.",
+   "data_access": "open access; Search Works; SPARQL Query Endpoint; Member Archives Directory",
+   "license": "'Metadata licensed under CC BY-NC-SA 4.0'",
+   "lifecycle": {
+    "state": "active",
+    "detail": "initiated in 2009; the home page shows recently cataloged works and a newsletter and join link"
+   },
+   "founded": "2009",
+   "version_and_time": {
+    "initiated": "2009",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT an archive of the works: it indexes the member archives' catalogues",
+    "NOT ELMCIP, which is one of its member archives",
+    "NOT a training corpus: its open metadata is linked data, and the saved page says nothing of training"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "Initiated in 2009, the Consortium on Electronic Literature (CELL) is an international, open-access collaboration providing centralized access to literary databases, archives, and institutional repositories."
+    },
+    "aim": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "CELL connects distributed collections to ensure born-digital creative works, kinetic poetry, hypertexts, and interactive media remain discoverable and preserved across generations of computational technology."
+    },
+    "index": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "The Index of Electronic Literature Discover creative works across electronic literature archives Search Works"
+    },
+    "members": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "Federated Member Archives ELMCIP NT2 PO.EX ELD ADEL Ciberia DLD"
+    },
+    "record_example": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "The File room Ciberia Antoni Muntadas 1994"
+    },
+    "mallarme": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "Un Coup de Dés Jamais N'Abolira Le Hasard ELD Stéphane Mallarmé"
+    },
+    "latest_year": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "This House Has People in It ELD Alan Resnick, Dina Kelberman, Robby Rackleff 2016"
+    },
+    "sparql": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "SPARQL Query Endpoint"
+    },
+    "manifesto": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "The CELL Open-Access Manifesto"
+    },
+    "license": {
+     "src": "cell--home",
+     "basis": "operator",
+     "quote": "Metadata licensed under CC BY-NC-SA 4.0 · Linked with Wikidata"
+    }
+   },
+   "relations": [
+    {
+     "rel": "uses",
+     "target": "elmcip",
+     "note": "ELMCIP is the first of CELL's federated member archives"
+    },
+    {
+     "rel": "neighbour",
+     "target": "elc",
+     "note": "Wikipedia (third party, on the ELC row's source) lists the ELO's Managing Director of CELL"
+    },
+    {
+     "rel": "neighbour",
+     "target": "ebr",
+     "note": "electronic book review lists the Consortium for Electronic Literature (CELL) among its support and affiliations"
+    }
+   ],
+   "unchecked": [
+    "the About, Members, Member Archives Directory and Open-Access Manifesto pages (not saved)",
+    "the search index and the SPARQL endpoint's live output",
+    "the total number of works indexed"
+   ],
+   "sources": {
+    "cell--home": {
+     "url": "https://cellproject.net/",
+     "read": "2026-11-01",
+     "sha256": "d66ce3f648ca14c6957f4fe531d74e127506e1d567ccec436f581b0cc0dcbbcf",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "ebr",
+   "name": "electronic book review",
+   "aka": [
+    "ebr",
+    "ebr@30"
+   ],
+   "url": "https://electronicbookreview.com/",
+   "operator": "the digital literary network; Editor in Chief Joseph Tabbi (University of Bergen); founding publisher Mark Amerika; supported by the Center for Digital Narrative, University of Bergen, among others",
+   "kind": "a peer-reviewed diamond open access journal of critical writing",
+   "areas": [
+    "machine-reader"
+   ],
+   "evidence_kind": [
+    "journal"
+   ],
+   "unit": "a publication (article, essay, review or interview) filed in a thread such as machine-writing, electropoetics or writing under constraint",
+   "record_object": "critical writing on the digital future of literature, theory, criticism and the arts, in threads from 1996 onward; the current machine-writing thread carries essays on large language models and prompting",
+   "record": {
+    "in_layer": "not recorded as holdings in training; its own essay by Deena Larsen (30 June 2026) argues that electronic literature absent from Wikipedia 'does not exist for AI or search engines either'",
+    "name": "each publication is listed with its author or authors and date; thread editors are credited by name and period",
+    "readback": "a site search; publications listed by thread with the latest post"
+   },
+   "method": "peer-reviewed editorial publication, organised in threads with named thread editors",
+   "coverage": {
+    "geography": "international editorial and advisory boards",
+    "period": "threads launched from 1996 (Writing Postfeminism, fall 1996; Critical Ecologies, winter 1996/97); publications to 1 October 2026"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "2026-11-01"
+   },
+   "holdings": [
+    "threads including machine-writing, electropoetics, writing under constraint, technocapitalism, critical ecologies, first person",
+    "publications dated 1 October 2026 on the home page, among them Davin Heckman, 'AI: A Matter of Significance', and Stuart Moulthrop on the poetics of large language models"
+   ],
+   "stated_limits": [
+    "'ebr does not charge APCs or submission charges.'",
+    "licensed CC BY-ND 4.0: no derivatives"
+   ],
+   "answers": [
+    "what critical writing ebr has published in a thread, by whom and when",
+    "who edits each thread and since when",
+    "what the electronic literature field is writing about AI and LLMs (the machine-writing thread)"
+   ],
+   "does_not_answer": [
+    "whether any ebr text is in a training corpus or a model",
+    "how many publications it holds (not stated)",
+    "the creative works it discusses, held elsewhere"
+   ],
+   "tll_reading": "The journal names the question directly in its own pages: Deena Larsen's 'Electronic Literature and Wikipedia: A Call to Action' holds that 'If electronic literature does not exist in Wikipedia, it does not exist for AI or search engines either', which is #186's persistence criterion stated from within electronic literature; its machine-writing thread (Moulthrop on LLM poetics, Lennon on the prompt) is criticism of machine composition, the wing #1543 names.",
+   "data_access": "free online (diamond open access); site search; newsletter and subscription",
+   "license": "'ebr is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.'",
+   "lifecycle": {
+    "state": "active",
+    "detail": "publications dated 1 October 2026 on the home page; an ebr@30 page in the navigation"
+   },
+   "founded": "not stated; the oldest thread credits run from 1996 (Writing Postfeminism, fall 1996; Critical Ecologies, winter 1996/97)",
+   "version_and_time": {
+    "latest_publications": "2026-10-01",
+    "larsen_essay": "2026-06-30",
+    "earliest_thread": "1996",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a review of e-books: a journal of critical writing on literature, theory, criticism and the arts",
+    "NOT an archive of electronic literature works: it publishes criticism",
+    "NOT a training corpus"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "electronic book review is a peer-reviewed diamond open access journal of critical writing produced and published by the digital literary network."
+    },
+    "scope": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "ebr ’s editors are particularly interested in critically savvy, in-depth work addressing the digital future of literature, theory, criticism, and the arts."
+    },
+    "issn": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "ISSN: 1553-1139"
+    },
+    "editor": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Editor in Chief: Joseph Tabbi ( University of Bergen )"
+    },
+    "founding_publisher": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Founding Publisher: Mark Amerika"
+    },
+    "support_cdn": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Center for Digital Narrative, University of Bergen"
+    },
+    "support_elo": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Electronic Literature Organization Consortium for Electronic Literature (CELL)"
+    },
+    "no_apc": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "ebr does not charge APCs or submission charges."
+    },
+    "thread_ecologies": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Critical Ecologies was launched by Cary Wolfe and Joseph Tabbi in the winter of 1996/97."
+    },
+    "thread_postfeminism": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Writing Postfeminism was guest edited by Elizabeth Joyce and Gay Lynn Crossley in the fall of 1996."
+    },
+    "thread_electropoetics": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "Electropoetics began in the Spring of 1997 with a special issue edited by Joel Felix."
+    },
+    "license": {
+     "src": "ebr--about",
+     "basis": "operator",
+     "quote": "ebr is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License."
+    },
+    "machine_writing": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "AI: A Matter of Significance by Davin Heckman 01-Oct-2026"
+    },
+    "moulthrop": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "In this article, Stuart Moulthrop approaches the poetics of large language models through his lived teaching experience."
+    },
+    "larsen": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "If electronic literature does not exist in Wikipedia, it does not exist for AI or search engines either. Larsen issues an urgent call for writers, scholars, and readers to become Wikipedia editors before the field disappears into algorithmic silence."
+    },
+    "larsen_date": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "Electronic Literature and Wikipedia: A Call to Action by Deena Larsen 30-Jun-2026"
+    },
+    "lennon": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "The word \"prompt\" carries three histories at once: the teacher's assignment, the command line's blinking caret, and the natural-language input to a large language model."
+    },
+    "threads": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "machine-writing fictions present first person technocapitalism writing (post)feminism electropoetics internet nation critical ecologies web arts end construction image + narrative music/sound/noise writing under constraint enfolded"
+    },
+    "ebr30": {
+     "src": "ebr--home",
+     "basis": "operator",
+     "quote": "ebr@30"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "elc",
+     "note": "ebr lists the Electronic Literature Organization, publisher of the ELC, among its support and affiliations"
+    },
+    {
+     "rel": "neighbour",
+     "target": "cell",
+     "note": "ebr lists the Consortium for Electronic Literature (CELL) among its support and affiliations"
+    }
+   ],
+   "unchecked": [
+    "the ebr@30 page, the publications archive and the individual essays (only home-page summaries saved)",
+    "the founding date of the journal itself",
+    "the number of publications"
+   ],
+   "sources": {
+    "ebr--about": {
+     "url": "https://electronicbookreview.com/about/",
+     "read": "2026-11-01",
+     "sha256": "cfbe42b7d020972dff919895374f1216c39e30277cbf2f8ae2f1eea80895688a",
+     "http": "200"
+    },
+    "ebr--home": {
+     "url": "https://electronicbookreview.com/",
+     "read": "2026-11-01",
+     "sha256": "873b45571d236dacf50ecacfbc09d523d734caeb77004b562ed2370382bf9527",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "taper",
+   "name": "Taper",
+   "aka": [
+    "Taper magazine"
+   ],
+   "url": "https://taper.badquar.to/",
+   "operator": "Bad Quarto",
+   "kind": "an online literary magazine for small computational pieces",
+   "areas": [
+    "machine-reader"
+   ],
+   "evidence_kind": [
+    "journal"
+   ],
+   "unit": "an issue (sixteen so far), each with a theme, holding small computational pieces",
+   "record_object": "small computational literary pieces, published twice a year in themed issues from Spring 2018 to Spring 2026",
+   "record": {
+    "in_layer": "not recorded",
+    "name": "not recorded on the saved index page, which lists issues only",
+    "readback": "not recorded beyond the issue list on the index page"
+   },
+   "method": "themed issues assembled from a call for work",
+   "coverage": {
+    "geography": "not recorded",
+    "period": "Spring 2018 to Spring 2026; a call for issue #17 open"
+   },
+   "count": {
+    "value": "16 issues",
+    "as_of": "Spring 2026 (Taper #16)"
+   },
+   "holdings": [
+    "Taper #1: a minimal labyrinth, Spring 2018",
+    "Taper #14: sonnets, Spring 2025",
+    "Taper #16: for good measure, Spring 2026",
+    "a call for work for issue #17"
+   ],
+   "stated_limits": [
+    "the saved index page states none; 'small computational pieces' bounds what it publishes"
+   ],
+   "answers": [
+    "which issues Taper has published, with their themes and seasons",
+    "that a call for issue #17 is open"
+   ],
+   "does_not_answer": [
+    "which pieces and authors each issue holds (not on the saved page)",
+    "the size limit or rules for a piece (the call for work is unsaved)",
+    "whether any piece is in a training corpus or a model"
+   ],
+   "tll_reading": "The archive reads Taper as writing through the machine, the procedural column of #186: computational pieces made with code, with no machine addressee named on the saved page.",
+   "data_access": "free online",
+   "license": "not stated in the saved sources",
+   "lifecycle": {
+    "state": "active",
+    "detail": "two issues a year, Spring 2018 to Spring 2026, with the call for issue #17 available"
+   },
+   "founded": "2018 (Taper #1, Spring 2018)",
+   "version_and_time": {
+    "first_issue": "Spring 2018",
+    "latest_issue": "Spring 2026",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT a generator archive or code repository: a literary magazine of computational pieces",
+    "NOT a training corpus"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "taper--home",
+     "basis": "operator",
+     "quote": "an online literary magazine for small computational pieces, published by Bad Quarto"
+    },
+    "first_issue": {
+     "src": "taper--home",
+     "basis": "operator",
+     "quote": "Taper #1 : a minimal labyrinth, Spring 2018."
+    },
+    "sonnets": {
+     "src": "taper--home",
+     "basis": "operator",
+     "quote": "Taper #14 : sonnets, Spring 2025."
+    },
+    "latest_issue": {
+     "src": "taper--home",
+     "basis": "operator",
+     "quote": "Taper #16 : for good measure, Spring 2026."
+    },
+    "call": {
+     "src": "taper--home",
+     "basis": "operator",
+     "quote": "The call for work for issue #17 is also available!"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the issues themselves, their contents and authors",
+    "the call for work for issue #17 and its rules",
+    "Bad Quarto's own pages"
+   ],
+   "sources": {
+    "taper--home": {
+     "url": "https://taper.badquar.to/",
+     "read": "2026-11-01",
+     "sha256": "453401c16fcc23d15b5ddfff4411ff62150a6c54de655499a89b2581c153c606",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "nanogenmo",
+   "name": "NaNoGenMo",
+   "aka": [
+    "National Novel Generation Month"
+   ],
+   "url": "https://nanogenmo.github.io/",
+   "operator": "its official admins @dariusk and @hugovk; the community is organised in GitHub repositories, one per edition; based on an idea Darius Kazemi tweeted",
+   "kind": "an annual month-long activity: write code that generates a novel of 50k+ words, organised as a community on GitHub",
+   "areas": [
+    "machine-reader"
+   ],
+   "evidence_kind": [
+    "event archive"
+   ],
+   "unit": "a participant's issue on an edition's repository, declaring intent and carrying dev diaries, sample output, at least one generated novel and its source code",
+   "record_object": "code-generated novels of 50,000 words or more and their source code, shared by participants each November since 2013",
+   "record": {
+    "in_layer": "not recorded; the rules allow a 'novel' made from existing text (it 'could literally grab a random novel from Project Gutenberg') and point to corpora, a repository of public domain lists",
+    "name": "a participant declares intent in an issue under their own GitHub account; the saved page states no rule on how a generated novel is credited, and the source code 'does not have to be licensed in a particular way'",
+    "readback": "each edition's repository issues, with a resources issue per edition, 2013 to 2025"
+   },
+   "method": "open participation: a participant opens an issue on the edition's repo, works through November, and shares at least one novel and the source code",
+   "coverage": {
+    "geography": "not recorded (an online community)",
+    "period": "editions 2013 to 2025 listed; each runs 12:01am GMT November 1 to 12:01am GMT December 1"
+   },
+   "count": {
+    "value": "13 editions listed (2013 to 2025)",
+    "as_of": "2026-11-01 (home page read; no 2026 edition listed)"
+   },
+   "holdings": [
+    "editions 2013 to 2025",
+    "a resources issue for each edition (libraries, corpuses, APIs, techniques)",
+    "sister events NaPoGenMo, NaOpGenMo and NaMoGenMo"
+   ],
+   "stated_limits": [
+    "'The only rule is that you share at least one novel and also your source code at the end.'",
+    "'Please try to respect copyright. We're not going to police it'",
+    "the source code need not be licensed in a particular way nor be on GitHub"
+   ],
+   "answers": [
+    "who declared participation in an edition and what novel and code they shared",
+    "what resources participants pooled for each edition"
+   ],
+   "does_not_answer": [
+    "whether any generated novel or its source text is in a training corpus or a model",
+    "the authorship or licence of a generated novel (no rule stated)",
+    "how many participants or novels any edition had (not stated)"
+   ],
+   "tll_reading": "The archive reads NaNoGenMo as machine composition at scale in the procedural column of #186 (writing through the machine): each novel is shared with its code under a participant's account, so the generating program is readable, while the attribution of the generated text and of any source novel it draws on is left to the participant ('ultimately it's on your head').",
+   "data_access": "public GitHub repositories, one per edition; issues readable without restriction",
+   "license": "'The source code does not have to be licensed in a particular way, so long as you share it.'",
+   "lifecycle": {
+    "state": "active",
+    "detail": "editions every November from 2013 to 2025 listed; the saved page, read on 1 November 2026, lists no 2026 edition"
+   },
+   "founded": "2013",
+   "version_and_time": {
+    "first_edition": "2013",
+    "latest_edition_listed": "2025",
+    "read": "2026-11-01"
+   },
+   "negative_tags": [
+    "NOT National Novel Writing Month: it borrows NaNoWriMo's definition of a novel as 50,000 words of fiction",
+    "NOT a curated anthology: the only rule is sharing a novel and its code",
+    "NOT an AI or LLM project by its own statement: the rules name code, with the novel 'defined however you want'",
+    "NOT a copyright authority: it states it will not police copyright"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "National Novel Generation Month - based on an idea Darius Kazemi tweeted on a whim ."
+    },
+    "goal": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "Spend the month of November writing code that generates a novel of 50k+ words. This is in the spirit of National Novel Writing Month 's interesting definition of a novel as 50,000 words of fiction."
+    },
+    "rule": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "The only rule is that you share at least one novel and also your source code at the end."
+    },
+    "code_license": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "The source code does not have to be licensed in a particular way, so long as you share it. The code itself does not need to be on GitHub, either."
+    },
+    "github": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "We're just using this repo as a place to organize the community."
+    },
+    "novel_defined": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "The \"novel\" is defined however you want. It could be 50,000 repetitions of the word \"meow\". It could literally grab a random novel from Project Gutenberg."
+    },
+    "copyright": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "Please try to respect copyright. We're not going to police it, as ultimately it's on your head if you want to just copy/paste a Stephen King novel or whatever"
+    },
+    "period": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "This activity starts at 12:01am GMT on Nov 1st and ends at 12:01am GMT Dec 1st."
+    },
+    "participate": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "Open an issue on the edition's repo and declare your intent to participate."
+    },
+    "diaries": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "Feel free to post dev diaries, sample output, etc."
+    },
+    "admins": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "Official admins for NaNoGenMo are @dariusk and @hugovk."
+    },
+    "resources": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "There's an open issue for each edition where you can add resources (libraries, corpuses, APIs, techniques, etc)."
+    },
+    "corpora": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "You might want to check out corpora , a repository of public domain lists of things"
+    },
+    "editions": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "Editions 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013"
+    },
+    "sister_events": {
+     "src": "nanogenmo--home",
+     "basis": "operator",
+     "quote": "NaPoGenMo : National Poetry Generation Month NaOpGenMo : National Opera Generation Month NaMoGenMo : National Movie Generation Month"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "project-gutenberg",
+     "note": "the rules give grabbing a random novel from Project Gutenberg as an allowed 'novel'"
+    }
+   ],
+   "unchecked": [
+    "nanogenmo--org (github.com/NaNoGenMo): http 403, a refused API path, unread and unquoted",
+    "nanogenmo--wikipedia: http 404, Wikipedia has no article with this name; unread",
+    "the edition repositories and their issues (participants, novels, code)",
+    "whether a 2026 edition repository exists (none listed on the saved page)"
+   ],
+   "sources": {
+    "nanogenmo--home": {
+     "url": "https://nanogenmo.github.io/",
+     "read": "2026-11-01",
+     "sha256": "d831aaf0d1a4efc071e736fd5141bb915d562688d8ce83904c76587ba5d1d11d",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-11-01",
+    "fetch": "read"
+   }
+  }
+ ]
+}
