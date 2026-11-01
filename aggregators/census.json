@@ -82,11 +82,6 @@
    "http": "404",
    "fetched": "2026-11-01T04:07:52Z"
   },
-  "min-k-prob--repo": {
-   "url": "https://github.com/swj0419/detect-pretrain-code",
-   "http": "403",
-   "fetched": "2026-11-01T04:07:52Z"
-  },
   "elmcip--home": {
    "url": "https://elmcip.net/knowledgebase",
    "http": "200",
@@ -116,11 +111,6 @@
    "url": "https://cmsw.mit.edu/output-an-anthology-of-computer-generated-text-1953-2023/",
    "http": "000",
    "fetched": "2026-11-01T05:07:11Z"
-  },
-  "xenotext--bok2011": {
-   "url": "https://www.poetryfoundation.org/blog/uncategorized/60436/the-xenotext-works",
-   "http": "403",
-   "fetched": "2026-11-01T05:07:14Z"
   },
   "the-next--curatorial": {
    "url": "https://the-next.eliterature.org/curatorial-statement",
